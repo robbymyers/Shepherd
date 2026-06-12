@@ -4,7 +4,7 @@
   text-align: left;
   background: var(--surface);
   border: 1px solid var(--hairline);
-  border-radius: 18px;
+  border-radius: 16px;
   padding: 18px;
   margin-bottom: 14px;
   transition: transform 0.12s, border-color 0.18s;
@@ -30,17 +30,19 @@
 .badge {
   flex-shrink: 0;
   font-family: var(--display);
-  font-size: 0.62rem;
+  font-size: 12px;
   letter-spacing: 0.04em;
-  padding: 6px 12px;
-  border-radius: 8px;
-  color: #fff;
+  padding: 4px 10px;
+  border-radius: 4px;
+  color: var(--color-white);
 }
 .badgeCross {
-  background: var(--color-pink-600);
+  background: var(--color-pink-800);
+  border: 1px solid var(--color-pink-600);
 }
 .badgeRun {
-  background: var(--color-blue);
+  background: var(--color-blue-800);
+  border: 1px solid var(--color-blue-600);
 }
 
 .date {

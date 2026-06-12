@@ -1,7 +1,7 @@
 .add {
   width: 48px;
   height: 40px;
-  border-radius: 999px;
+  border-radius: 4px;
   background: var(--color-green-800);
   color: var(--color-green);
   border: 1px solid var(--color-green-600);
@@ -73,7 +73,7 @@
 .session {
   background: var(--surface);
   border: 1px solid var(--hairline);
-  border-radius: 14px;
+  border-radius: 16px;
   overflow: hidden;
 }
 .sessionTop {
@@ -140,7 +140,7 @@
   align-items: center;
   background: var(--surface);
   border: 1px solid var(--hairline);
-  border-radius: 12px;
+  border-radius: 16px;
   overflow: hidden;
 }
 .pctPct {

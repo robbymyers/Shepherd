@@ -236,7 +236,7 @@ a {
 /* ---- shared surfaces ---- */
 .card {
   background: var(--surface);
-  border-radius: 18px;
+  border-radius: 16px;
   border: 1px solid var(--hairline);
 }
 
@@ -251,7 +251,7 @@ a {
 .prog-card {
   background: var(--surface);
   border: 1px solid var(--hairline);
-  border-radius: 18px;
+  border-radius: 16px;
   padding: 18px 54px 16px 18px; /* right room reserved for the drag grip */
   transition: box-shadow 0.2s, border-color 0.2s, transform 0.15s;
 }
@@ -275,7 +275,7 @@ a {
   flex-direction: column;
   align-items: center;
   gap: 4px;
-  color: var(--color-white-700);
+  color: var(--color-white); /* matches icon-*-default exports (#EEEEEE dark) */
   font-size: 11px;
   font-weight: 600;
   transition: color 0.18s;
@@ -290,7 +290,7 @@ a {
   align-items: center;
   justify-content: center;
   gap: 8px;
-  border-radius: 12px;
+  border-radius: 4px;
   font-weight: 700;
   font-size: 1rem;
   padding: 16px;
@@ -301,7 +301,7 @@ a {
 }
 .btn-primary {
   background: var(--color-green-800);
-  color: var(--color-green);
+  color: var(--color-white);
   border: 1px solid var(--color-green-600);
 }
 .btn-pink {
@@ -312,7 +312,7 @@ a {
   background: var(--color-green-800);
   color: var(--color-green);
   border: 1px solid var(--color-green-600);
-  border-radius: 999px;
+  border-radius: 4px;
   padding: 9px 20px;
   font-family: var(--display);
   font-size: 1rem;
@@ -324,7 +324,7 @@ a {
   width: 100%;
   background: var(--field);
   border: 1px solid var(--hairline);
-  border-radius: 12px;
+  border-radius: 4px;
   color: var(--color-white);
   font-size: 15px;
   padding: 15px 16px;
@@ -374,26 +374,25 @@ a {
   gap: 12px;
 }
 .seg button {
-  border-radius: 12px;
+  border-radius: 4px;
   padding: 14px;
   font-family: var(--display);
-  font-size: 1.1rem;
-  letter-spacing: 0.03em;
-  border: 1px solid transparent;
-  background: var(--surface-2);
-  color: var(--color-white-700);
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  background: var(--color-black);
+  border: 1px solid var(--color-black-500);
+  color: var(--color-black-400);
   transition: all 0.16s;
 }
 .seg button.cross.on {
-  background: var(--color-pink-600);
-  color: #fff;
+  background: var(--color-pink-800);
+  border-color: var(--color-pink-600);
+  color: var(--color-white);
 }
 .seg button.run.on {
-  background: var(--color-blue);
-  color: #fff;
-}
-.seg button:not(.on) {
-  opacity: 0.45;
+  background: var(--color-blue-800);
+  border-color: var(--color-blue-600);
+  color: var(--color-white);
 }
 
 /* round Rx / PR toggle chips */

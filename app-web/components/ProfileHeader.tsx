@@ -22,7 +22,8 @@ export default function ProfileHeader({ compact = false }: { compact?: boolean }
         <p className={styles.box}>{box}</p>
         {!compact && (
           <p className={styles.loc}>
-            {location} <LocationArrow width={15} height={15} />
+            {location}{" "}
+            <LocationArrow width={15} height={15} style={{ color: "var(--color-white)" }} />
           </p>
         )}
       </div>

@@ -13,15 +13,17 @@ import styles from "./events.module.css";
 
 export default function EventsPage() {
   const { ready, events } = useStore();
-  const [showCross, setShowCross] = useState(true);
-  const [showRun, setShowRun] = useState(true);
+  // Inactive by default: no filter selected means the full feed shows.
+  const [showCross, setShowCross] = useState(false);
+  const [showRun, setShowRun] = useState(false);
   const [editing, setEditing] = useState<SportEvent | null>(null);
   const [adding, setAdding] = useState(false);
 
   const list = useMemo(() => {
     if (!ready) return [];
+    const all = !showCross && !showRun;
     return [...events]
-      .filter((e) => (e.kind === "workout" ? showCross : showRun))
+      .filter((e) => all || (e.kind === "workout" ? showCross : showRun))
       .sort((a, b) => localDate(b.date).getTime() - localDate(a.date).getTime());
   }, [ready, events, showCross, showRun]);
 
@@ -56,7 +58,7 @@ export default function EventsPage() {
         ))
       )}
 
-      <button className={`btn btn-primary ${styles.log}`} onClick={() => setAdding(true)}>
+      <button className={styles.fab} onClick={() => setAdding(true)}>
         Log Event
       </button>
 

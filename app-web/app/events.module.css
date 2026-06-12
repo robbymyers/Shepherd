@@ -1,36 +1,53 @@
 .toggles {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 12px;
-  margin-bottom: 18px;
+  gap: 8px;
+  margin-bottom: 16px;
 }
 .toggle {
-  padding: 15px;
-  border-radius: 12px;
+  padding: 8px;
+  border-radius: 4px;
   font-family: var(--display);
-  font-size: 1.25rem;
+  font-size: 14px;
   letter-spacing: 0.04em;
-  border: 1px solid transparent;
-  background: var(--surface-2);
-  color: var(--color-white-700);
+  background: var(--color-black);
+  border: 1px solid var(--color-black-500);
+  color: var(--color-black-400);
   transition: all 0.18s;
 }
 .toggle:active {
   transform: scale(0.98);
 }
 .cross.on {
-  background: var(--color-pink-600);
-  color: #fff;
+  background: var(--color-pink-800);
+  border-color: var(--color-pink-600);
+  color: var(--color-white);
 }
 .run.on {
-  background: var(--color-blue);
-  color: #fff;
-}
-.toggle:not(.on) {
-  opacity: 0.4;
+  background: var(--color-blue-800);
+  border-color: var(--color-blue-600);
+  color: var(--color-white);
 }
 
-.log {
-  width: 100%;
-  margin-top: 8px;
+/* floating Log Event button, docked above the tab bar */
+.fab {
+  position: absolute;
+  left: 24px;
+  right: 24px;
+  bottom: 92px;
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 4px;
+  background: var(--color-green-800);
+  border: 1px solid var(--color-green-600);
+  color: var(--color-white);
+  font-weight: 700;
+  font-size: 16px;
+  transition: transform 0.12s, filter 0.18s;
+}
+.fab:active {
+  transform: scale(0.98);
 }
