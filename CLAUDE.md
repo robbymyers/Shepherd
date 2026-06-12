@@ -12,113 +12,128 @@ A personal CrossFit + running performance tracker for **Robby Myers** — design
 **Design authority:** Robby owns the design. Claude Code implements it — don't invent UI. Follow the Figma designs.
 
 ### V1 Scope
-- View all past WOD history (imported from myWOD)
+- Events page: unified, chronological feed of all CrossFit workouts and runs (add/edit/delete any event)
 - View all past lift sessions + PRs by movement
-- Log new completed WODs
+- Log new completed WODs and runs
 - Log new lift sessions
 - Hero WOD reference library (74 workouts)
+- Progress page: calendar showing workout/run days + draggable data widgets (VO2 Max, PR Highlights, Run Highlights)
 
 ### V2 (future)
-- Strava integration (running data)
+- Strava integration (running data via Webhook Events API)
 - AI-powered suggestions / goal setting
 
 ---
 
 ## Design System — Shepherd Color Palette
 
-Use these CSS variable names consistently. Do not use hardcoded hex values in components. All tokens are defined for both dark and light mode.
-
 ### Theme Strategy
-- **Default:** respect `prefers-color-scheme` (follows system setting)
-- **Override:** user can manually toggle in the UI, stored in `localStorage` as `theme: "dark" | "light"`
-- **Implementation:** apply `[data-theme="dark"]` or `[data-theme="light"]` on `<html>`. On load, check `localStorage` first — if no value, fall back to `prefers-color-scheme`. The manual toggle writes to `localStorage` and flips the attribute.
+- Default: `prefers-color-scheme` (system setting)
+- User override: stored in `localStorage`
+- Applied via `data-theme` attribute on `<html>` before first paint (prevents flash)
+- **Black/White ramps invert between dark and light modes**
+- **Green, Pink, Purple, and Blue accent ramps also invert between modes**
 
-```js
-// Theme init — run before paint to avoid flash
-const stored = localStorage.getItem('theme');
-const system = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-document.documentElement.setAttribute('data-theme', stored ?? system);
-```
+### Token Naming Convention
+Use CSS variable names consistently. **Do not use hardcoded hex values in components.**
 
-> The scale values invert between modes for most ramps (e.g. Green-800 is dark in dark mode, light in light mode). Green, Pink, and Purple base colors stay the same across both modes.
-
-### Black
-| Variable | Dark | Light |
-|----------|------|-------|
-| `--color-black` | `#171717` | `#EEEEEE` |
-| `--color-black-600` | `#000000` | `#FFFFFF` |
-| `--color-black-500` | `#303030` | `#FCFCFC` |
-| `--color-black-400` | `#454545` | `#979797` |
-| `--color-black-300` | `#747474` | `#656565` |
-| `--color-black-200` | `#A2A2A2` | `#454545` |
-
-### White
-| Variable | Dark | Light |
-|----------|------|-------|
-| `--color-white` | `#EEEEEE` | `#171717` |
-| `--color-white-offwhite` | `#FAF3E1` | `#171717` |
-| `--color-white-800` | `#656565` | `#454545` |
-| `--color-white-700` | `#979797` | `#747474` |
-| `--color-white-600` | `#CACACA` | `#A2A2A2` |
-
-### Green (primary accent)
-| Variable | Dark | Light |
-|----------|------|-------|
-| `--color-green` | `#BBD87A` | `#BBD87A` |
-| `--color-green-800` | `#4B5631` | `#E4EFCA` |
-| `--color-green-700` | `#708249` | `#D6E8AF` |
-| `--color-green-600` | `#96AD62` | `#C9E095` |
-| `--color-green-400` | `#C9E095` | `#96AD62` |
-| `--color-green-300` | `#D6E8AF` | `#708249` |
-| `--color-green-200` | `#E4EFCA` | `#4B5631` |
-
-### Pink
-| Variable | Dark | Light |
-|----------|------|-------|
-| `--color-pink` | `#DB4E90` | `#DB4E90` |
-| `--color-pink-800` | `#581F3A` | `#F1B8D3` |
-| `--color-pink-700` | `#832F56` | `#E995BC` |
-| `--color-pink-600` | `#AF3E73` | `#E271A6` |
-| `--color-pink-400` | `#E271A6` | `#AF3E73` |
-| `--color-pink-300` | `#E995BC` | `#832F56` |
-| `--color-pink-200` | `#F1B8D3` | `#581F3A` |
-
-### Purple
-| Variable | Dark | Light |
-|----------|------|-------|
-| `--color-purple` | `#7A6AB3` | `#7A6AB3` |
-| `--color-purple-800` | `#312A48` | `#CAC3E1` |
-| `--color-purple-700` | `#49406B` | `#AFA6D1` |
-| `--color-purple-600` | `#62558F` | `#9588C2` |
-| `--color-purple-400` | `#9588C2` | `#62558F` |
-| `--color-purple-300` | `#AFA6D1` | `#49406B` |
-| `--color-purple-200` | `#CAC3E1` | `#312A48` |
+Each token maps to a dark-mode value and a light-mode value. Apply via `data-theme="dark"` / `data-theme="light"` on `<html>`.
 
 ---
 
-## Design System — Typography
+### Black
+| Variable              | Dark Mode  | Light Mode |
+|-----------------------|------------|------------|
+| `--color-black`       | `#171717`  | `#EEEEEE`  |
+| `--color-black-600`   | `#000000`  | `#FFFFFF`  |
+| `--color-black-500`   | `#232524`  | `#FCFCFC`  |
+| `--color-black-400`   | `#454545`  | `#979797`  |
+| `--color-black-300`   | `#747474`  | `#656565`  |
+| `--color-black-200`   | `#A2A2A2`  | `#454545`  |
 
-**Display / Headings:** Futura Condensed Bold  
-**Body / UI:** SF Pro  
-**Base value:** 21px (1.000rem) — **Scale:** 1.375
+### White
+| Variable              | Dark Mode  | Light Mode |
+|-----------------------|------------|------------|
+| `--color-white`       | `#EEEEEE`  | `#171717`  |
+| `--color-white-offwhite` | `#FAF3E1` | `#171717` |
+| `--color-white-800`   | `#656565`  | `#454545`  |
+| `--color-white-700`   | `#979797`  | `#747474`  |
+| `--color-white-600`   | `#CACACA`  | `#A2A2A2`  |
 
-| Step | px | rem |
-|------|----|-----|
-| 9 | 75px | 3.571rem |
-| 8 | 55px | 2.619rem |
-| 7 | 40px | 1.905rem |
-| 6 | 29px | 1.381rem |
-| 5 (base) | 21px | 1.000rem |
-| 4 | 15px | 0.714rem |
-| 3 | 11px | 0.524rem |
-| 2 | 8px | 0.381rem |
-| 1 | 6px | 0.286rem |
+### Green (primary accent)
+| Variable              | Dark Mode  | Light Mode |
+|-----------------------|------------|------------|
+| `--color-green`       | `#BBD87A`  | `#BBD87A`  |
+| `--color-green-800`   | `#4B5631`  | `#E4EFCA`  |
+| `--color-green-700`   | `#708249`  | `#D6E8AF`  |
+| `--color-green-600`   | `#96AD62`  | `#C9E095`  |
+| `--color-green-400`   | `#C9E095`  | `#96AD62`  |
+| `--color-green-300`   | `#D6E8AF`  | `#708249`  |
+| `--color-green-200`   | `#E4EFCA`  | `#4B5631`  |
+| `--color-green-alt`   | `#03E995`  | `#015637`  |
 
-### Usage
-- **Futura Condensed Bold** — hero numbers, WOD names, PR callouts, section headers, anything that needs athletic punch
-- **SF Pro** — body copy, labels, metadata, notes, all UI chrome
+### Pink
+| Variable              | Dark Mode  | Light Mode |
+|-----------------------|------------|------------|
+| `--color-pink`        | `#DB4E90`  | `#DB4E90`  |
+| `--color-pink-800`    | `#581F3A`  | `#F1B8D3`  |
+| `--color-pink-700`    | `#832F56`  | `#E995BC`  |
+| `--color-pink-600`    | `#AF3E73`  | `#E271A6`  |
+| `--color-pink-400`    | `#E271A6`  | `#AF3E73`  |
+| `--color-pink-300`    | `#E995BC`  | `#832F56`  |
+| `--color-pink-200`    | `#F1B8D3`  | `#581F3A`  |
+| `--color-pink-alt`    | `#FD3B60`  | `#A20220`  |
 
-> Futura Condensed Bold is not a Google Font. It must be served as a local or licensed web font. Confirm delivery method before shipping.
+### Purple
+| Variable              | Dark Mode  | Light Mode |
+|-----------------------|------------|------------|
+| `--color-purple`      | `#7A6AB3`  | `#7A6AB3`  |
+| `--color-purple-800`  | `#312A48`  | `#CAC3E1`  |
+| `--color-purple-700`  | `#49406B`  | `#AFA6D1`  |
+| `--color-purple-600`  | `#62558F`  | `#9588C2`  |
+| `--color-purple-400`  | `#9588C2`  | `#62558F`  |
+| `--color-purple-300`  | `#AFA6D1`  | `#49406B`  |
+| `--color-purple-200`  | `#CAC3E1`  | `#312A48`  |
+
+### Blue
+| Variable              | Dark Mode  | Light Mode |
+|-----------------------|------------|------------|
+| `--color-blue`        | `#6A90FF`  | `#6A90FF`  |
+| `--color-blue-800`    | `#2A3A66`  | `#AFBEEB`  |
+| `--color-blue-700`    | `#405699`  | `#98AFF1`  |
+| `--color-blue-600`    | `#5573CC`  | `#819FF8`  |
+| `--color-blue-400`    | `#819FF8`  | `#5573CC`  |
+| `--color-blue-300`    | `#98AFF1`  | `#405699`  |
+| `--color-blue-200`    | `#AFBEEB`  | `#2A3A66`  |
+
+---
+
+## Typography
+
+- **Display / Headers:** Futura Condensed Bold
+- **Body:** SF Pro
+- **Scale:** 1.375 ratio from 21px base
+
+---
+
+## Navigation
+
+Four tabs: **Events**, **Train**, **Progress**, **Account**
+
+- Four tabs was the deliberate choice (three felt unbalanced)
+- **Events** = unified activity log (CrossFit + runs), chronological
+- **Train** = reference tools (Hero WOD library, etc.)
+- **Progress** = calendar + data widgets (VO2 Max, PR Highlights, Run Highlights)
+- **Account** = profile + settings
+- Floating log action for new entries (design TBD in Figma)
+
+### Train Page — Stopwatch Filter
+The Train page has a stopwatch icon that toggles a filtered view. When active, it shows **only the movements and WODs that appear in the athlete's actual log history** — i.e. entries present in `mywod_data.json` (both `MyWODs` and `MovementSessions`).
+
+- **Default state (stopwatch off):** full reference library — all Hero WODs + all tracked movements
+- **Filtered state (stopwatch on):** only logged WODs (e.g. Fran, Murph, Cindy) and only movements the athlete has a session for (e.g. Back Squat, Clean & Jerk) — nothing they've never done
+- The filter is a UI-only toggle, no network request. Derive the logged set at load time by cross-referencing the reference library against the log data
+- Filter state does not need to persist between sessions
 
 ---
 
@@ -130,6 +145,84 @@ Extracted from `data.mywod` (SQLite, exported May 2026):
 - **Box:** Unaffiliated
 - **Units:** Imperial (lbs)
 - **Data range:** January 2020 – May 2026
+
+---
+
+## Data Architecture — Events
+
+The Events page is the **unified chronological feed** of all activity. It combines two distinct activity types:
+
+### Activity Types
+| Type | Source | Display |
+|------|--------|---------|
+| `crossfit` | myWOD (`MyWODs` table) | WOD name, score, PR/Rx flags |
+| `run` | Strava CSV / Strava Webhook (V2) | Distance, duration, pace, route |
+
+### Unified Event Schema
+Each event in the feed, regardless of type, conforms to this shape:
+
+```json
+{
+  "id": "string",
+  "type": "crossfit" | "run",
+  "date": "YYYY-MM-DD",
+  "title": "string",
+  "source": "mywod" | "strava" | "manual",
+
+  // CrossFit-specific (type === "crossfit")
+  "scoreType": "For Time" | "For Rounds" | "For Repetitions",
+  "score": "string",
+  "personalRecord": true | false,
+  "asPrescribed": true | false,
+  "description": "string",
+  "notes": "string",
+
+  // Run-specific (type === "run")
+  "distance_miles": number,
+  "duration_seconds": number,
+  "pace_per_mile": "string",
+  "elevation_gain_ft": number,
+  "route_name": "string",
+  "gpx_file": "string | null"
+}
+```
+
+### CRUD Requirements
+- **Add** new CrossFit events or run events manually
+- **Edit** any event (all fields)
+- **Delete** any event (with confirmation)
+- Events must re-sort by date after any add/edit
+
+---
+
+## Data Architecture — Progress Page
+
+### Calendar
+- Shows all days that have at least one event
+- Crossfit days and run days use distinct visual indicators (colors or icons — TBD in Figma)
+- Calendar day indicators are **derived from the Events feed** — same source of truth, no separate data store
+
+### Draggable Widgets
+The Progress page has three data widgets that can be reordered by the user:
+
+| Widget | Content |
+|--------|---------|
+| VO2 Max | Apple Health VO2 Max data (see import note below) |
+| PR Highlights | Best lifts and benchmark WOD PRs from myWOD |
+| Run Highlights | Key running stats from Strava data |
+
+**Drag behavior:** User can long-press and drag any widget to reorder. Order persists in `localStorage` (key: `progress_widget_order`). Default order: `["vo2max", "pr_highlights", "run_highlights"]`.
+
+Implementation: use a drag-and-drop library (e.g. `@dnd-kit/core`) or native HTML5 drag API. The other two widgets should fluidly reflow when one is dragged.
+
+### VO2 Max Data Source
+VO2 Max is exported from Apple Health. Until Supabase is wired up, this is loaded from a static JSON file (`vo2max_data.json`). Format:
+
+```json
+[
+  { "date": "YYYY-MM-DD", "value": 52.4, "source": "iPhone" }
+]
+```
 
 ---
 
@@ -270,78 +363,21 @@ All entries from myWOD, newest first:
 | `crossfit-hero-wods.json` | 74 Hero WODs from crossfit.com |
 | `crossfit-hero-wods-alpha.md` | Same 74 Hero WODs in markdown |
 | `Shepherd-color-variables.md` | Full color token reference |
+| `vo2max_data.json` | Apple Health VO2 Max export (static until Supabase) |
 
 ---
 
-## Strava Data
+## Upcoming Integrations
 
-**Source:** `strava_activities.json` (exported May 2026, cleaned from Strava bulk export)  
-**Date range:** August 2024 – May 2026  
-**Total activities:** 108 — Runs (88), CrossFit/HIIT Workouts (17), Walks (3)
+### Strava (V2)
+- Running data (trail runs + road runs)
+- Planned: Strava Webhook Events API for auto-syncing new activities
+- GPX/FIT files from bulk export needed for route map visualization
+- Primary shoe: Altra Lone Peak 7
 
-### Activity Feed — Train Section
-Activities display as a scrollable feed sorted **oldest → newest** (earliest at top). Each card surfaces:
-
-| Field | Notes |
-|-------|-------|
-| `Activity Date` | Display date + time |
-| `Activity Name` | User-entered title (e.g. "Lunch Trail Run") |
-| `Activity Type` | `Run`, `Workout`, `Walk` — determines card style |
-| `Activity Description` | Free-text notes from Strava |
-| `Moving Time` | Seconds — convert to `HH:MM:SS` for display |
-| `Distance` | Miles (already imperial) |
-| `Elevation Gain` | Feet |
-| `Average Heart Rate` | bpm, not always present |
-| `Max Heart Rate` | bpm, not always present |
-| `Calories` | kcal |
-| `Relative Effort` | Strava's effort score, not always present |
-| `Activity Gear` | Shoe/gear name (e.g. "Altra Lone Peak 7") |
-| `Dirt Distance` | Miles of trail/unpaved surface |
-| `Grade Adjusted Distance` | Strava's effort-adjusted mileage |
-| `Media` | Photo filename if attached |
-| `Activity Private Note` | Private notes — display only to athlete |
-
-### Gear on File
-| Shoe | Activities |
-|------|-----------|
-| Altra Lone Peak 7 | 64 runs |
-| Altra Timp 5 | 7 runs |
-
-### Data Notes
-- Workouts (CrossFit/HIIT) logged via Strava have no distance — they carry `Moving Time`, `Average Heart Rate`, and `Calories`
-- Heart rate data is sparse — don't assume it's present
-- Distance is in miles (imperial) — consistent with myWOD data
-- `Media` field contains a relative filename when a photo was attached to the activity
-- Strava's `Activity Description` field often contains WOD details typed by Robby (e.g. Murph breakdown, EMOM structure) — worth surfacing prominently on workout cards
-
-### V2 — Live Strava Integration
-- Replace static JSON export with Strava API OAuth connection
-- Pull new activities automatically on login
-- Planned: pace/distance trends, mileage calendar, overlay with WOD training load
-
----
-
-## Navigation Structure
-
-| Tab | Contents |
-|-----|----------|
-| **Train** | Activity feed (WODs + Runs + Lifts, oldest first). Tabs for CrossFit / Run. Hero WOD library lives inside Train. |
-| **Progress** | PR charts, lift progression over time, workout frequency, training load trends. V2: AI-assisted training suggestions. |
-| **Me** | Athlete profile card, pinned PRs, box affiliation, stats (hours logged, movements completed), theme toggle, settings. |
-
-**Logging:** Floating action button (or equivalent) accessible from any screen. Prompts: WOD / Lift / Run.
-
----
-
-## Data Files
-
-| File | Description |
-|------|-------------|
-| `mywod_data.json` | Cleaned export of all myWOD data — WODs + lift sessions |
-| `strava_activities.json` | Cleaned Strava export — 108 activities, Aug 2024–May 2026 |
-| `crossfit-hero-wods.json` | 74 Hero WODs from crossfit.com |
-| `crossfit-hero-wods-alpha.md` | Same 74 Hero WODs in markdown |
-| `Shepherd-color-variables.md` | Full color token reference |
+### Supabase (backend)
+- Planned backend to replace static JSON
+- Will support live logging + Strava webhook sync
 
 ---
 
@@ -349,12 +385,11 @@ Activities display as a scrollable feed sorted **oldest → newest** (earliest a
 
 - **Don't design — implement.** UI decisions belong to Robby. Follow Figma specs.
 - **Use the Shepherd color palette** via CSS variables. No raw hex values in components.
-- **Theme toggle:** default to `prefers-color-scheme`, user override stored in `localStorage` as `theme`. Set `data-theme` on `<html>` before first paint to avoid flash. See Theme Strategy above.
+- **Respect dark/light mode token inversion** — accent ramps flip. Use the theme-aware variables, not hardcoded light or dark values.
 - **Join MovementSessions correctly** — both `foreignMovementClientID` AND `foreignMovementRecordID` required.
 - **Score types vary** — "For Time" scores are `MM:SS`, "For Rounds" are `N+reps`, "For Repetitions" are integers. Handle all three display formats.
 - **PR and Rx are separate flags** — display independently.
-- **Data is imperial** (lbs, miles). No unit conversion needed for V1.
-- **Activity feed sorted oldest → newest** — earliest entry at top.
-- **Strava Workout type ≠ CrossFit WOD** — Strava "Workout" activities are gym/HIIT sessions logged via the Strava app. They overlap with but are separate from the myWOD log. Don't conflate the two datasets without matching on date + name.
-- **Heart rate and effort data are sparse** — always null-check before displaying.
-- Architecture should accommodate V2 live Strava API replacing the static JSON export.
+- **Data is imperial** (lbs). No unit conversion needed for V1.
+- **Events feed is the single source of truth** for both the Events list and the Progress calendar. Don't maintain separate data stores for each.
+- **Widget order persists** in `localStorage` under key `progress_widget_order`.
+- Keep Strava hooks in mind architecturally — the data model must accommodate future `run` activity types beyond CrossFit WODs.
