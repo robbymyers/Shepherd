@@ -46,6 +46,9 @@
   /* run accent (Figma Blue) */
   --color-blue: #5573cc;
   --color-blue-800: #2a3a66;
+  --color-blue-600: #5573cc;
+
+  --color-pink-alt: #fd3b60;
 
   --bg: var(--color-black);
   --surface: var(--color-black-500);
@@ -86,6 +89,9 @@
 
   --color-blue: #5573cc;
   --color-blue-800: #c3cef0;
+  --color-blue-600: #819ff8;
+
+  --color-pink-alt: #a20220;
 
   --bg: #eeeeee;
   --surface: #ffffff;

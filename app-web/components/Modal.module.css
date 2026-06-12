@@ -55,6 +55,25 @@
   to { transform: none; }
 }
 
+/* full-screen page variant (event form) */
+.fullSheet {
+  height: 100%;
+  max-height: 100%;
+  border-radius: 0;
+  border-top: none;
+  background: var(--surface);
+  display: flex;
+  flex-direction: column;
+  padding: 14px 16px calc(16px + env(safe-area-inset-bottom));
+}
+@media (min-width: 480px) {
+  .fullSheet {
+    border-radius: 16px;
+    margin: 0;
+    max-height: 100%;
+  }
+}
+
 .grabber {
   width: 38px;
   height: 5px;

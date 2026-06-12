@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { useStore } from "@/lib/store";
 import { localDate, MONTHS, YYYYMMDD } from "@/lib/format";
-import { Back, Chevron } from "./Icons";
+import { Back, Chevron, ShoeIcon, StopwatchIcon } from "./Icons";
 import styles from "./Calendar.module.css";
 
 const DOW = ["S", "M", "T", "W", "T", "F", "S"];
@@ -89,9 +89,20 @@ export default function Calendar() {
               ? styles.workout
               : styles.run
             : "";
+          const label = mk
+            ? `${MONTHS[mo]} ${day}: ${[mk.workout && "workout", mk.run && "run"].filter(Boolean).join(" + ")}`
+            : undefined;
           return (
-            <span key={i} className={`${styles.day} ${cls}`}>
-              {day}
+            <span key={i} className={`${styles.day} ${cls}`} aria-label={label}>
+              {mk ? (
+                mk.workout ? (
+                  <StopwatchIcon width={16} height={18} />
+                ) : (
+                  <ShoeIcon width={18} height={16} />
+                )
+              ) : (
+                day
+              )}
             </span>
           );
         })}

@@ -1,5 +1,12 @@
 export type EventKind = "run" | "workout" | "walk";
 
+export interface RunSplit {
+  mile: number;
+  seconds: number; // pace seconds for this mile (normalized for partials)
+  pace: string; // "10:17"
+  partial?: number; // trailing partial mile, e.g. 0.67
+}
+
 export interface SportEvent {
   id: string;
   source: "strava" | "manual";
@@ -17,6 +24,14 @@ export interface SportEvent {
   avgHeartRate?: number | null;
   maxHeartRate?: number | null;
   pace?: string | null; // "9:59/mi"
+  // crossfit scoring
+  scoreType?: string | null; // "For Time" | "For Rounds" | "For Repetitions"
+  score?: string | null;
+  pr?: boolean;
+  rx?: boolean;
+  // run route (from GPX)
+  route?: [number, number][];
+  splits?: RunSplit[];
 }
 
 export interface MovementSession {

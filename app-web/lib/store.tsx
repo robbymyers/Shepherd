@@ -8,7 +8,9 @@ import type {
   ProgressCardId,
 } from "./types";
 
-const DATA_KEY = "shepherd:data:v1";
+// v2: events gained scoreType/score/pr/rx + GPX route/splits — older
+// persisted copies lack them, so a stale key must not shadow the new seed.
+const DATA_KEY = "shepherd:data:v2";
 const ORDER_KEY = "shepherd:progressOrder:v1";
 const THEME_KEY = "theme";
 

@@ -60,6 +60,8 @@ export const Plus = maskIcon("/icons/icon-plus-white.svg");
 
 export const LocationArrow = maskIcon("/icons/icon-location-white.svg");
 
+export const ShoeIcon = maskIcon("/icons/icon-shoe-default.svg");
+
 /* No exported assets for these two — still drawn inline. */
 
 export const Dots = (p: P) => (

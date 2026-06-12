@@ -1,31 +1,142 @@
 .form {
-  padding-bottom: 8px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
+
+/* ---- header ---- */
 .topbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 4px 0 16px;
+  margin-bottom: 14px;
 }
-.heading {
-  font-size: 1.7rem;
-  margin: 0;
-  color: var(--color-white);
-}
-.close {
+.back {
   width: 34px;
   height: 34px;
-  border-radius: 50%;
-  background: var(--surface-2);
-  color: var(--color-white-700);
-  font-size: 15px;
+  margin-left: -8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-white);
 }
-.seg {
-  margin-bottom: 4px;
+.menuWrap {
+  position: relative;
+}
+.dots {
+  width: 34px;
+  height: 34px;
+  margin-right: -6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-white);
+}
+.menu {
+  position: absolute;
+  right: 0;
+  top: 36px;
+  z-index: 10;
+  background: var(--color-black);
+  border: 1px solid var(--hairline);
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.45);
+}
+.menuDelete {
+  padding: 12px 22px;
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--color-pink-alt);
+  white-space: nowrap;
+}
+
+/* ---- kind toggles + PR/Rx flags ---- */
+.kindRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+.kinds {
+  display: flex;
+  gap: 8px;
+}
+.kbadge {
+  font-family: var(--display);
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  padding: 4px 12px;
+  border-radius: 4px;
+  background: var(--color-black);
+  border: 1px solid var(--color-black-500);
+  color: var(--color-black-400);
+  transition: all 0.16s;
+}
+.kCross.kOn {
+  background: var(--color-pink-800);
+  border-color: var(--color-pink-600);
+  color: var(--color-white);
+}
+.kRun.kOn {
+  background: var(--color-blue-800);
+  border-color: var(--color-blue-600);
+  color: var(--color-white);
+}
+
+.flags {
+  display: flex;
+  gap: 8px;
+}
+.flag {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--color-black-450);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  transition: transform 0.12s;
+}
+.flag:active {
+  transform: scale(0.94);
+}
+.flag img {
+  display: block;
+}
+
+/* ---- fields: transparent boxes with visible borders ---- */
+.bare {
+  background: transparent;
+  border-color: var(--color-black-400);
+}
+
+.nameInput {
+  margin-bottom: 8px;
+}
+
+.dateLine {
+  position: relative;
+  font-size: 11px;
+  color: var(--color-white-700);
+  margin: 0 2px 14px;
+}
+.dateLine input {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  opacity: 0;
+  cursor: pointer;
 }
 
 .locWrap {
   position: relative;
+  margin-bottom: 14px;
+}
+.locInput {
+  font-size: 0.85rem;
+  padding-right: 46px;
 }
 .locIcon {
   position: absolute;
@@ -36,17 +147,74 @@
   pointer-events: none;
 }
 
-.save {
-  width: 100%;
-  margin-top: 8px;
-}
-.delete {
-  width: 100%;
-  margin-top: 12px;
-  padding: 14px;
+/* ---- crossfit score row: one bordered container, split in two ---- */
+.scoreRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid var(--color-black-400);
   border-radius: 4px;
-  color: var(--color-pink);
-  background: var(--color-pink-800);
+  margin-bottom: 14px;
+}
+.scoreType,
+.scoreInput {
+  appearance: none;
+  -webkit-appearance: none;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-family: var(--body);
   font-weight: 700;
-  font-size: 0.95rem;
+  font-size: 15px;
+  text-align: center;
+  text-align-last: center;
+  color: var(--color-white-700);
+  padding: 13px 10px;
+}
+.scoreInput {
+  border-left: 1px solid var(--color-black-400);
+}
+.scoreInput::placeholder {
+  color: var(--color-white-800);
+}
+.scoreInput:disabled {
+  color: var(--color-white-800);
+}
+
+.desc {
+  min-height: 88px;
+}
+
+/* ---- run edit extras ---- */
+.mapBlock {
+  margin-top: 16px;
+}
+
+/* ---- footer ---- */
+.footer {
+  margin-top: auto;
+  padding-top: 18px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.footer:has(.update) {
+  grid-template-columns: 1fr;
+}
+.update,
+.saveBtn {
+  width: 100%;
+  padding: 13px;
+  font-size: 16px;
+}
+.strava {
+  border-radius: 4px;
+  padding: 13px;
+  font-weight: 700;
+  font-size: 16px;
+  background: var(--color-pink-600);
+  color: var(--color-pink-200);
+  transition: transform 0.12s;
+}
+.strava:active {
+  transform: scale(0.98);
 }

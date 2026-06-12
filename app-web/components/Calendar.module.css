@@ -54,12 +54,18 @@
   position: relative;
   isolation: isolate;
 }
-/* marker discs */
+/* marker discs — icon badges replace the day number */
 .run,
 .workout,
 .both {
-  color: #fff;
   font-weight: 700;
+}
+.workout,
+.both {
+  color: var(--color-white); /* stopwatch glyph */
+}
+.run {
+  color: var(--color-green-800); /* shoe glyph */
 }
 .run::before,
 .workout::before,
@@ -78,14 +84,10 @@
   background: var(--color-green-600);
 }
 .workout::before {
-  background: var(--color-purple);
-}
-.both {
-  color: #fff;
-  font-weight: 600;
+  background: var(--color-purple-400);
 }
 .both::before {
-  background: var(--color-purple);
+  background: var(--color-purple-400);
   box-shadow: 0 0 0 2px var(--color-green);
 }
 
@@ -114,5 +116,5 @@
   background: var(--color-green-600);
 }
 .legWork::before {
-  background: var(--color-purple);
+  background: var(--color-purple-400);
 }

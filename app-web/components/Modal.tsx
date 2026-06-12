@@ -8,10 +8,13 @@ export default function Modal({
   open,
   onClose,
   children,
+  full = false,
 }: {
   open: boolean;
   onClose: () => void;
   children: React.ReactNode;
+  /** Cover the whole phone frame (full-screen form pages). */
+  full?: boolean;
 }) {
   const [mounted, setMounted] = useState(false);
   useEffect(() => setMounted(true), []);
@@ -28,7 +31,10 @@ export default function Modal({
   return createPortal(
     <div className={styles.backdrop} onClick={onClose}>
       <div className={styles.column}>
-        <div className={styles.sheet} onClick={(e) => e.stopPropagation()}>
+        <div
+          className={`${styles.sheet} ${full ? styles.fullSheet : ""}`}
+          onClick={(e) => e.stopPropagation()}
+        >
           {children}
         </div>
       </div>

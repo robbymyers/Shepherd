@@ -3,23 +3,22 @@
 import { useState } from "react";
 import type { SportEvent, EventKind } from "@/lib/types";
 import { useStore } from "@/lib/store";
-import { LocationArrow } from "./Icons";
+import { longDateTime } from "@/lib/format";
+import { Back, Dots, LocationArrow } from "./Icons";
+import RouteMap from "./RouteMap";
+import Splits from "./Splits";
 import styles from "./EventForm.module.css";
+
+const SCORE_TYPES = ["For Time", "For Rounds", "For Repetitions"] as const;
+const SCORE_HINT: Record<string, string> = {
+  "For Time": "4:16",
+  "For Rounds": "19+11",
+  "For Repetitions": "220",
+};
 
 function toLocalInput(iso: string): string {
   // ISO -> "YYYY-MM-DDTHH:mm" for datetime-local
   return iso.slice(0, 16);
-}
-function secsFromClock(v: string): number | null {
-  const parts = v.split(":").map((n) => parseInt(n, 10));
-  if (parts.some(isNaN) || !parts.length) return null;
-  return parts.reduce((acc, n) => acc * 60 + n, 0);
-}
-function clock(seconds: number): string {
-  const h = Math.floor(seconds / 3600);
-  const m = Math.floor((seconds % 3600) / 60);
-  const s = seconds % 60;
-  return h ? `${h}:${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}` : `${m}:${String(s).padStart(2, "0")}`;
 }
 
 export default function EventForm({
@@ -39,40 +38,27 @@ export default function EventForm({
   );
   const [location, setLocation] = useState(initial?.location ?? "");
   const [description, setDescription] = useState(initial?.description ?? "");
-  const [distance, setDistance] = useState(
-    initial?.distance != null ? String(initial.distance) : ""
-  );
-  const [time, setTime] = useState(initial?.movingTime ?? "");
-  const [calories, setCalories] = useState(
-    initial?.calories != null ? String(initial.calories) : ""
-  );
+  const [scoreType, setScoreType] = useState(initial?.scoreType ?? "");
+  const [score, setScore] = useState(initial?.score ?? "");
+  const [pr, setPr] = useState(initial?.pr ?? false);
+  const [rx, setRx] = useState(initial?.rx ?? false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
-  const isRun = kind === "run";
+  const isRun = kind === "run" || kind === "walk";
 
   function save() {
     if (!name.trim()) return;
-    const movingSeconds = time ? secsFromClock(time) : null;
-    const dist = distance ? parseFloat(distance) : null;
     const patch: Omit<SportEvent, "id" | "source"> = {
+      ...initial,
       kind,
       name: name.trim(),
-      date: new Date(date).toISOString(),
+      date,
       location: location.trim() || null,
       description: description.trim() || null,
-      movingTime: movingSeconds != null ? clock(movingSeconds) : null,
-      movingSeconds,
-      distance: dist,
-      calories: calories ? parseInt(calories, 10) : null,
-      elevationGain: initial?.elevationGain ?? null,
-      avgHeartRate: initial?.avgHeartRate ?? null,
-      maxHeartRate: initial?.maxHeartRate ?? null,
-      gear: initial?.gear ?? null,
-      pace:
-        isRun && dist && movingSeconds
-          ? `${Math.floor(movingSeconds / dist / 60)}:${String(
-              Math.round((movingSeconds / dist) % 60)
-            ).padStart(2, "0")}/mi`
-          : null,
+      scoreType: !isRun ? scoreType || null : null,
+      score: !isRun ? score.trim() || null : null,
+      pr: !isRun ? pr : undefined,
+      rx: !isRun ? rx : undefined,
     };
     if (editing && initial) updateEvent(initial.id, patch);
     else addEvent(patch);
@@ -86,117 +72,178 @@ export default function EventForm({
 
   return (
     <div className={styles.form}>
+      {/* ---- header: back + overflow menu ---- */}
       <div className={styles.topbar}>
-        <h2 className={`display ${styles.heading}`}>
-          {editing ? "Edit Event" : "Log Event"}
-        </h2>
-        <button className={styles.close} onClick={onDone} aria-label="Close">✕</button>
-      </div>
-
-      <div className={`seg ${styles.seg}`}>
-        <button
-          className={`cross ${kind === "workout" ? "on" : ""}`}
-          onClick={() => setKind("workout")}
-        >
-          CROSSFIT
+        <button className={styles.back} onClick={onDone} aria-label="Back">
+          <Back width={11} height={19} />
         </button>
-        <button
-          className={`run ${isRun ? "on" : ""}`}
-          onClick={() => setKind("run")}
-        >
-          RUN
-        </button>
+        <div className={styles.menuWrap}>
+          <button
+            className={styles.dots}
+            onClick={() => editing && setMenuOpen((v) => !v)}
+            aria-label="More options"
+            aria-expanded={menuOpen}
+          >
+            <Dots width={22} height={22} />
+          </button>
+          {menuOpen && editing && (
+            <div className={styles.menu}>
+              <button className={styles.menuDelete} onClick={remove}>
+                Delete Event
+              </button>
+            </div>
+          )}
+        </div>
       </div>
 
-      <div className="field" style={{ marginTop: 16 }}>
-        <input
-          className="input input-display"
-          placeholder={isRun ? "TRAIL RUN" : "CROSSFIT"}
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-        />
-      </div>
+      {/* ---- add mode: kind toggles + PR/Rx chips ---- */}
+      {!editing && (
+        <div className={styles.kindRow}>
+          <div className={styles.kinds}>
+            <button
+              className={`${styles.kbadge} ${styles.kCross} ${!isRun ? styles.kOn : ""}`}
+              onClick={() => setKind("workout")}
+            >
+              CROSSFIT
+            </button>
+            <button
+              className={`${styles.kbadge} ${styles.kRun} ${isRun ? styles.kOn : ""}`}
+              onClick={() => setKind("run")}
+            >
+              RUN
+            </button>
+          </div>
+          {!isRun && (
+            <div className={styles.flags}>
+              <button
+                className={styles.flag}
+                onClick={() => setPr((v) => !v)}
+                aria-pressed={pr}
+                aria-label="Personal record"
+              >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={pr ? "/icons/icon-PR-active.svg" : "/icons/icon-PR-default.svg"}
+                  alt=""
+                  width={pr ? 36 : 20}
+                  height={pr ? 36 : 16}
+                />
+              </button>
+              <button
+                className={styles.flag}
+                onClick={() => setRx((v) => !v)}
+                aria-pressed={rx}
+                aria-label="As prescribed"
+              >
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={rx ? "/icons/icon-Rx-active.svg" : "/icons/icon-Rx-default.svg"}
+                  alt=""
+                  width={rx ? 36 : 18}
+                  height={rx ? 36 : 18}
+                />
+              </button>
+            </div>
+          )}
+        </div>
+      )}
 
-      <div className="field">
-        <label className="field-label">Date</label>
-        <input
-          className="input"
-          type="datetime-local"
-          value={date}
-          onChange={(e) => setDate(e.target.value)}
-        />
-      </div>
+      {/* ---- name ---- */}
+      <input
+        className={`input input-display ${styles.bare} ${styles.nameInput}`}
+        placeholder={isRun ? "TRAIL RUN" : "CROSSFIT"}
+        value={name}
+        onChange={(e) => setName(e.target.value)}
+      />
 
-      <div className="field">
-        <label className="field-label">Location</label>
+      {/* ---- date (add mode): plain text, taps open the native picker ---- */}
+      {!editing && (
+        <div className={styles.dateLine}>
+          <span>{longDateTime(date)}</span>
+          <input
+            type="datetime-local"
+            value={date}
+            onChange={(e) => e.target.value && setDate(e.target.value)}
+            aria-label="Date and time"
+          />
+        </div>
+      )}
+
+      {/* ---- location (not on run edit, per design) ---- */}
+      {(!editing || !isRun) && (
         <div className={styles.locWrap}>
           <input
-            className="input"
-            placeholder={isRun ? "Craighead Forest Park" : "CrossFit Ridge City"}
+            className={`input input-display ${styles.bare} ${styles.locInput}`}
+            placeholder={isRun ? "CRAIGHEAD FOREST PARK" : "CROSSFIT RIDGE CITY"}
             value={location}
             onChange={(e) => setLocation(e.target.value)}
           />
           <LocationArrow className={styles.locIcon} width={18} height={18} />
         </div>
-      </div>
+      )}
 
-      <div className="field-row">
-        {isRun && (
-          <div className="field">
-            <label className="field-label">Distance (mi)</label>
-            <input
-              className="input"
-              inputMode="decimal"
-              placeholder="2.65"
-              value={distance}
-              onChange={(e) => setDistance(e.target.value)}
-            />
-          </div>
-        )}
-        <div className="field">
-          <label className="field-label">Time (mm:ss)</label>
+      {/* ---- crossfit scoring (add mode) ---- */}
+      {!editing && !isRun && (
+        <div className={styles.scoreRow}>
+          <select
+            className={styles.scoreType}
+            value={scoreType}
+            onChange={(e) => setScoreType(e.target.value)}
+            aria-label="Score type"
+          >
+            <option value="">Score Type</option>
+            {SCORE_TYPES.map((t) => (
+              <option key={t} value={t}>{t}</option>
+            ))}
+          </select>
           <input
-            className="input"
-            placeholder="26:27"
-            value={time}
-            onChange={(e) => setTime(e.target.value)}
+            className={styles.scoreInput}
+            placeholder={scoreType ? SCORE_HINT[scoreType] : "Set Type First"}
+            disabled={!scoreType}
+            value={score}
+            onChange={(e) => setScore(e.target.value)}
+            aria-label="Score"
           />
         </div>
-        {!isRun && (
-          <div className="field">
-            <label className="field-label">Calories</label>
-            <input
-              className="input"
-              inputMode="numeric"
-              placeholder="263"
-              value={calories}
-              onChange={(e) => setCalories(e.target.value)}
-            />
-          </div>
+      )}
+
+      {/* ---- description ---- */}
+      <textarea
+        className={`textarea ${styles.bare} ${styles.desc}`}
+        placeholder={isRun ? "How'd it go today?" : "Enter WOD Description"}
+        value={description}
+        onChange={(e) => setDescription(e.target.value)}
+      />
+
+      {/* ---- run edit: route + splits ---- */}
+      {editing && isRun && initial?.route && (
+        <div className={styles.mapBlock}>
+          <RouteMap route={initial.route} />
+        </div>
+      )}
+      {editing && isRun && initial?.splits && <Splits splits={initial.splits} />}
+
+      {/* ---- footer ---- */}
+      <div className={styles.footer}>
+        {editing ? (
+          <button className={`btn btn-primary ${styles.update}`} onClick={save}>
+            Update Event
+          </button>
+        ) : (
+          <>
+            <button
+              className={styles.strava}
+              title="Strava sync arrives with V2"
+              onClick={() => {}}
+            >
+              Upload from Strava
+            </button>
+            <button className={`btn btn-primary ${styles.saveBtn}`} onClick={save}>
+              Save Event
+            </button>
+          </>
         )}
       </div>
-
-      <div className="field">
-        <label className="field-label">
-          {isRun ? "How'd it go today?" : "WOD Description"}
-        </label>
-        <textarea
-          className="textarea"
-          placeholder={isRun ? "How'd it go today?" : "Enter WOD description"}
-          value={description}
-          onChange={(e) => setDescription(e.target.value)}
-        />
-      </div>
-
-      <button className={`btn btn-primary ${styles.save}`} onClick={save}>
-        {editing ? "Update Event" : "Save Event"}
-      </button>
-
-      {editing && (
-        <button className={styles.delete} onClick={remove}>
-          Delete Event
-        </button>
-      )}
     </div>
   );
 }

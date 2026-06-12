@@ -8,7 +8,8 @@ Sources:
 
 Run from the project root:  python3 scripts/extract.py
 """
-import csv, json, sqlite3, os, sys
+import csv, json, math, sqlite3, os, sys
+import xml.etree.ElementTree as ET
 from datetime import datetime
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -16,6 +17,8 @@ DATA = os.path.join(ROOT, "Data")
 OUT_DIR = os.path.join(ROOT, "app-web", "public", "data")
 M_PER_MILE = 1609.34
 M_TO_FT = 3.28084
+GPX_NS = "{http://www.topografix.com/GPX/1/1}"
+MAX_ROUTE_POINTS = 150
 
 # ---- helpers ---------------------------------------------------------------
 
@@ -36,6 +39,77 @@ def clock(seconds):
     h, rem = divmod(seconds, 3600)
     m, s = divmod(rem, 60)
     return f"{h}:{m:02d}:{s:02d}" if h else f"{m}:{s:02d}"
+
+# ---- GPX -> route polyline + mile splits -----------------------------------
+
+def parse_gpx_points(path):
+    """[(lat, lon, epoch_seconds|None), ...] from a GPX track."""
+    try:
+        root = ET.parse(path).getroot()
+    except (ET.ParseError, OSError):
+        return []
+    pts = []
+    for tp in root.iter(GPX_NS + "trkpt"):
+        try:
+            lat, lon = float(tp.get("lat")), float(tp.get("lon"))
+        except (TypeError, ValueError):
+            continue
+        ts = None
+        t = tp.find(GPX_NS + "time")
+        if t is not None and t.text:
+            try:
+                ts = datetime.strptime(t.text.strip(), "%Y-%m-%dT%H:%M:%SZ").timestamp()
+            except ValueError:
+                pass
+        pts.append((lat, lon, ts))
+    return pts
+
+
+def haversine_miles(a, b):
+    la1, lo1, la2, lo2 = map(math.radians, (a[0], a[1], b[0], b[1]))
+    h = (math.sin((la2 - la1) / 2) ** 2
+         + math.cos(la1) * math.cos(la2) * math.sin((lo2 - lo1) / 2) ** 2)
+    return 2 * 3958.8 * math.asin(math.sqrt(h))
+
+
+def route_and_splits(path):
+    """Downsampled [lat,lng] polyline + per-mile splits (elapsed-time pace)."""
+    pts = parse_gpx_points(path)
+    if len(pts) < 2:
+        return None, None
+
+    stride = max(1, len(pts) // MAX_ROUTE_POINTS)
+    route = [[round(p[0], 5), round(p[1], 5)] for p in pts[::stride]]
+    tail = [round(pts[-1][0], 5), round(pts[-1][1], 5)]
+    if route[-1] != tail:
+        route.append(tail)
+
+    splits = []
+    cum = 0.0
+    mile = 1
+    mile_start_t = pts[0][2]
+    for i in range(1, len(pts)):
+        prev, cur = pts[i - 1], pts[i]
+        cum_prev = cum
+        cum += haversine_miles(prev, cur)
+        if cur[2] is None or mile_start_t is None:
+            continue
+        if cum >= mile and cum > cum_prev:
+            frac = (mile - cum_prev) / (cum - cum_prev)
+            t_prev = prev[2] if prev[2] is not None else cur[2]
+            boundary_t = t_prev + (cur[2] - t_prev) * frac
+            splits.append({"mile": mile, "seconds": int(boundary_t - mile_start_t)})
+            mile_start_t = boundary_t
+            mile += 1
+    partial = cum - (mile - 1)
+    if partial >= 0.2 and pts[-1][2] is not None and mile_start_t is not None:
+        secs = pts[-1][2] - mile_start_t
+        if secs > 0:
+            splits.append({"mile": mile, "seconds": int(secs / partial),
+                           "partial": round(partial, 2)})
+    for s in splits:
+        s["pace"] = clock(s["seconds"])
+    return route, (splits or None)
 
 # ---- Strava activities -> events ------------------------------------------
 
@@ -77,6 +151,16 @@ def extract_events():
         if kind == "run" and miles and moving:
             pace = moving / miles  # sec per mile
             ev["pace"] = f"{int(pace)//60}:{int(pace)%60:02d}/mi"
+        if kind == "run":
+            gpx_rel = (r[12] or "").strip()
+            if gpx_rel.endswith(".gpx"):
+                gpx_path = os.path.join(DATA, "StravaData", gpx_rel)
+                if os.path.exists(gpx_path):
+                    route, splits = route_and_splits(gpx_path)
+                    if route:
+                        ev["route"] = route
+                    if splits:
+                        ev["splits"] = splits
         events.append(ev)
     events.sort(key=lambda e: e["date"])
     return events

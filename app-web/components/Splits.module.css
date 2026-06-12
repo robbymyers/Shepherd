@@ -1,0 +1,64 @@
+.title {
+  font-size: 1.05rem;
+  color: var(--color-white);
+  margin: 18px 0 8px;
+}
+
+.panel {
+  border: 1px solid var(--hairline);
+  border-radius: 4px;
+  background: var(--color-black);
+  padding: 8px 10px 10px;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  color: var(--color-white-700);
+  padding: 2px 2px 6px;
+  border-bottom: 1px solid var(--hairline);
+  margin-bottom: 8px;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 22px 1fr 44px;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.row:last-child {
+  margin-bottom: 0;
+}
+
+.mile {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-white);
+}
+
+/* filled pace bar; the remainder of the track is hatched */
+.track {
+  height: 14px;
+  border-radius: 4px;
+  overflow: hidden;
+  display: block;
+  background: repeating-linear-gradient(
+    90deg,
+    var(--color-black-400) 0 2px,
+    transparent 2px 7px
+  );
+}
+.bar {
+  display: block;
+  height: 100%;
+  border-radius: 4px;
+  background: var(--color-pink-alt);
+}
+
+.pace {
+  font-size: 12px;
+  color: var(--color-white-600);
+  text-align: right;
+}

@@ -62,10 +62,10 @@ export default function EventsPage() {
         Log Event
       </button>
 
-      <Modal open={adding} onClose={() => setAdding(false)}>
+      <Modal full open={adding} onClose={() => setAdding(false)}>
         <EventForm onDone={() => setAdding(false)} />
       </Modal>
-      <Modal open={!!editing} onClose={() => setEditing(null)}>
+      <Modal full open={!!editing} onClose={() => setEditing(null)}>
         {editing && (
           <EventForm initial={editing} onDone={() => setEditing(null)} />
         )}
