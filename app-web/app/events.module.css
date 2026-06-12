@@ -1,0 +1,36 @@
+.toggles {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+.toggle {
+  padding: 15px;
+  border-radius: 12px;
+  font-family: var(--display);
+  font-size: 1.25rem;
+  letter-spacing: 0.04em;
+  border: 1px solid transparent;
+  background: var(--surface-2);
+  color: var(--color-white-700);
+  transition: all 0.18s;
+}
+.toggle:active {
+  transform: scale(0.98);
+}
+.cross.on {
+  background: var(--color-pink-600);
+  color: #fff;
+}
+.run.on {
+  background: var(--color-blue);
+  color: #fff;
+}
+.toggle:not(.on) {
+  opacity: 0.4;
+}
+
+.log {
+  width: 100%;
+  margin-top: 8px;
+}

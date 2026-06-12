@@ -1,0 +1,36 @@
+.bar {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 8px 0 16px;
+  min-height: 52px;
+}
+.back {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.back:active {
+  transform: scale(0.94);
+}
+.title {
+  font-size: 1.9rem;
+  line-height: 1;
+  margin: 0;
+  color: var(--color-white);
+  text-transform: uppercase;
+  flex: 1;
+}
+.right {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

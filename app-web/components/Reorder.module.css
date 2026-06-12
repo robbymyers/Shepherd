@@ -1,0 +1,39 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.item {
+  position: relative;
+  touch-action: pan-y;
+}
+.item.dragging {
+  z-index: 20;
+  position: relative;
+}
+.item.dragging > :global(.prog-card) {
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.5);
+  border-color: var(--color-green-600);
+  transform: scale(1.012);
+}
+
+.grip {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 5;
+  width: 34px;
+  height: 34px;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-white-700);
+  background: var(--surface-2);
+  touch-action: none;
+  cursor: grab;
+}
+.grip:active {
+  cursor: grabbing;
+  color: var(--color-green);
+}

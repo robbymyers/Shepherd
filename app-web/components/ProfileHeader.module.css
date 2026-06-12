@@ -1,0 +1,83 @@
+.card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  border-radius: 20px;
+  padding: 14px;
+  margin: 12px 0 16px;
+}
+
+.avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 14px;
+  overflow: hidden;
+  flex-shrink: 0;
+  background: var(--color-blue-800);
+}
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.meta {
+  flex: 1;
+  min-width: 0;
+}
+.name {
+  font-family: var(--display);
+  font-size: 1.45rem;
+  line-height: 1;
+  margin: 0 0 5px;
+  color: var(--color-white);
+  white-space: nowrap;
+}
+.box,
+.loc {
+  font-size: 12px;
+  color: var(--color-white-700);
+  margin: 2px 0;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  white-space: nowrap;
+}
+
+.count {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  flex-shrink: 0;
+}
+.countNum {
+  font-size: 2.6rem;
+  line-height: 0.85;
+  color: var(--color-offwhite);
+}
+.countLabel {
+  font-size: 9px;
+  letter-spacing: 0.04em;
+  color: var(--color-white-700);
+  margin-top: 4px;
+}
+
+/* compact (Progress page) */
+.compact {
+  padding: 12px 14px;
+  margin: 10px 0 12px;
+}
+.compact .avatar {
+  width: 56px;
+  height: 56px;
+  border-radius: 12px;
+}
+.compact .name {
+  font-size: 1.25rem;
+}
+.compact .countNum {
+  font-size: 2.2rem;
+}

@@ -1,0 +1,52 @@
+.form {
+  padding-bottom: 8px;
+}
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 4px 0 16px;
+}
+.heading {
+  font-size: 1.7rem;
+  margin: 0;
+  color: var(--color-white);
+}
+.close {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--surface-2);
+  color: var(--color-white-700);
+  font-size: 15px;
+}
+.seg {
+  margin-bottom: 4px;
+}
+
+.locWrap {
+  position: relative;
+}
+.locIcon {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--color-white-700);
+  pointer-events: none;
+}
+
+.save {
+  width: 100%;
+  margin-top: 8px;
+}
+.delete {
+  width: 100%;
+  margin-top: 12px;
+  padding: 14px;
+  border-radius: 12px;
+  color: var(--color-pink);
+  background: var(--color-pink-800);
+  font-weight: 700;
+  font-size: 0.95rem;
+}

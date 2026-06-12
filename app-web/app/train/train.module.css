@@ -1,0 +1,90 @@
+.controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 14px;
+}
+.seg {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: var(--surface-2);
+  border-radius: 12px;
+  padding: 4px;
+  gap: 4px;
+}
+.seg button {
+  padding: 11px;
+  border-radius: 9px;
+  font-family: var(--display);
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  color: var(--color-white-700);
+  transition: all 0.16s;
+}
+.seg button.on {
+  background: var(--color-pink-600);
+  color: #fff;
+}
+
+.stopwatch {
+  width: 46px;
+  height: 46px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: var(--surface-2);
+  color: var(--color-white-700);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.18s;
+}
+.swOn {
+  background: var(--color-green-800);
+  color: var(--color-green);
+  border: 1px solid var(--color-green-600);
+}
+
+.filterNote {
+  font-size: 12px;
+  color: var(--color-green);
+  margin: -4px 0 12px 2px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--surface);
+  border: 1px solid var(--hairline);
+  border-radius: 14px;
+  padding: 18px 18px;
+  transition: transform 0.12s, border-color 0.18s;
+}
+.row:active {
+  transform: scale(0.99);
+  border-color: var(--color-white-800);
+}
+.rowLabel {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--color-white);
+}
+.rowRight {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.rowMeta {
+  font-family: var(--display);
+  font-size: 1.1rem;
+  color: var(--color-offwhite);
+}
+.chev {
+  color: var(--color-white-700);
+}

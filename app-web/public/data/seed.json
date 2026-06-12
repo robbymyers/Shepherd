@@ -1,0 +1,4846 @@
+{
+  "athlete": {
+    "name": "Rob Myers",
+    "box": "CrossFit Ridge City",
+    "location": "Jonesboro, AR",
+    "loggedEvents": 108
+  },
+  "events": [
+    {
+      "id": "strava-12217457154",
+      "source": "strava",
+      "kind": "run",
+      "name": "Afternoon Trail Run",
+      "date": "2024-08-22T21:16:48",
+      "description": null,
+      "gear": null,
+      "movingTime": "1:12:17",
+      "movingSeconds": 4337,
+      "distance": 3.78,
+      "elevationGain": 280,
+      "calories": null,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "19:07/mi"
+    },
+    {
+      "id": "strava-12291125190",
+      "source": "strava",
+      "kind": "run",
+      "name": "Lunch Trail Run",
+      "date": "2024-08-31T15:16:29",
+      "description": null,
+      "gear": null,
+      "movingTime": "54:24",
+      "movingSeconds": 3264,
+      "distance": 4.07,
+      "elevationGain": 385,
+      "calories": 666,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "13:21/mi"
+    },
+    {
+      "id": "strava-12328116109",
+      "source": "strava",
+      "kind": "run",
+      "name": "Afternoon Trail Run",
+      "date": "2024-09-04T21:16:42",
+      "description": null,
+      "gear": null,
+      "movingTime": "44:29",
+      "movingSeconds": 2669,
+      "distance": 3.65,
+      "elevationGain": 255,
+      "calories": null,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "12:11/mi"
+    },
+    {
+      "id": "strava-12378734852",
+      "source": "strava",
+      "kind": "run",
+      "name": "Afternoon Trail Run",
+      "date": "2024-09-10T20:55:56",
+      "description": null,
+      "gear": null,
+      "movingTime": "1:00:20",
+      "movingSeconds": 3620,
+      "distance": 4.82,
+      "elevationGain": 378,
+      "calories": 744,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "12:31/mi"
+    },
+    {
+      "id": "strava-12454306065",
+      "source": "strava",
+      "kind": "run",
+      "name": "Afternoon Trail Run",
+      "date": "2024-09-19T21:43:06",
+      "description": null,
+      "gear": null,
+      "movingTime": "36:39",
+      "movingSeconds": 2199,
+      "distance": 3.08,
+      "elevationGain": 277,
+      "calories": 484,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "11:53/mi"
+    },
+    {
+      "id": "strava-12504054698",
+      "source": "strava",
+      "kind": "run",
+      "name": "Afternoon Trail Run",
+      "date": "2024-09-25T20:49:00",
+      "description": null,
+      "gear": null,
+      "movingTime": "45:40",
+      "movingSeconds": 2740,
+      "distance": 3.74,
+      "elevationGain": 275,
+      "calories": 578,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "12:12/mi"
+    },
+    {
+      "id": "strava-12558915793",
+      "source": "strava",
+      "kind": "run",
+      "name": "Afternoon Trail Run",
+      "date": "2024-10-02T18:03:33",
+      "description": "Slightly faster pace than race day",
+      "gear": null,
+      "movingTime": "30:15",
+      "movingSeconds": 1815,
+      "distance": 2.72,
+      "elevationGain": 250,
+      "calories": 419,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "11:07/mi"
+    },
+    {
+      "id": "strava-12581520703",
+      "source": "strava",
+      "kind": "run",
+      "name": "Morning Trail Run",
+      "date": "2024-10-05T14:00:06",
+      "description": "10K complete. Mile 5 on trashed me. Gotta improve that later portion.",
+      "gear": null,
+      "movingTime": "1:15:24",
+      "movingSeconds": 4524,
+      "distance": 6.21,
+      "elevationGain": 479,
+      "calories": 956,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "12:08/mi"
+    },
+    {
+      "id": "strava-12653263969",
+      "source": "strava",
+      "kind": "run",
+      "name": "Morning Trail Run",
+      "date": "2024-10-14T13:31:32",
+      "description": "Goal achieved: 5K under 40 minutes",
+      "gear": null,
+      "movingTime": "39:24",
+      "movingSeconds": 2364,
+      "distance": 3.55,
+      "elevationGain": 241,
+      "calories": 546,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "11:05/mi"
+    },
+    {
+      "id": "strava-12655191538",
+      "source": "strava",
+      "kind": "run",
+      "name": "Morning Run",
+      "date": "2024-10-14T13:31:48",
+      "description": null,
+      "gear": null,
+      "movingTime": "40:54",
+      "movingSeconds": 2454,
+      "distance": 3.38,
+      "elevationGain": null,
+      "calories": 427,
+      "avgHeartRate": 172,
+      "maxHeartRate": 190,
+      "pace": "12:06/mi"
+    },
+    {
+      "id": "strava-12671563266",
+      "source": "strava",
+      "kind": "run",
+      "name": "Lunch Trail Run",
+      "date": "2024-10-16T17:06:19",
+      "description": "I went full pin-wheel (all the way around the park. (Farris Wheel + Zippin Pippin)",
+      "gear": null,
+      "movingTime": "49:10",
+      "movingSeconds": 2950,
+      "distance": 4.32,
+      "elevationGain": 337,
+      "calories": 670,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "11:22/mi"
+    },
+    {
+      "id": "strava-12719406291",
+      "source": "strava",
+      "kind": "run",
+      "name": "Afternoon Trail Run",
+      "date": "2024-10-22T17:19:13",
+      "description": null,
+      "gear": null,
+      "movingTime": "47:49",
+      "movingSeconds": 2869,
+      "distance": 3.97,
+      "elevationGain": 275,
+      "calories": 603,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "12:02/mi"
+    },
+    {
+      "id": "strava-12737462382",
+      "source": "strava",
+      "kind": "run",
+      "name": "Evening Trail Run",
+      "date": "2024-10-24T21:36:55",
+      "description": "Slower pace means longer runs\u2026 amiright\u2026? On the upside mile 5 felt great. Not so much the last .5",
+      "gear": null,
+      "movingTime": "1:19:08",
+      "movingSeconds": 4748,
+      "distance": 6.51,
+      "elevationGain": 445,
+      "calories": 1012,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "12:09/mi"
+    },
+    {
+      "id": "strava-12776995406",
+      "source": "strava",
+      "kind": "run",
+      "name": "Afternoon Trail Run",
+      "date": "2024-10-29T21:07:18",
+      "description": "Old School to the back side of Ferris Wheel. I think I found my new route to test out elevation changes.",
+      "gear": null,
+      "movingTime": "54:13",
+      "movingSeconds": 3253,
+      "distance": 4.67,
+      "elevationGain": 296,
+      "calories": 716,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "11:36/mi"
+    },
+    {
+      "id": "strava-12909619044",
+      "source": "strava",
+      "kind": "run",
+      "name": "Afternoon Trail Run",
+      "date": "2024-11-15T22:37:12",
+      "description": "First time back after 2 weeks. New shoes felt great!",
+      "gear": null,
+      "movingTime": "42:21",
+      "movingSeconds": 2541,
+      "distance": 3.81,
+      "elevationGain": 315,
+      "calories": 592,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "11:06/mi"
+    },
+    {
+      "id": "strava-12940081372",
+      "source": "strava",
+      "kind": "run",
+      "name": "Afternoon Run",
+      "date": "2024-11-19T22:23:25",
+      "description": "Nope. I still don\u2019t like running on the road",
+      "gear": null,
+      "movingTime": "25:11",
+      "movingSeconds": 1511,
+      "distance": 2.34,
+      "elevationGain": 128,
+      "calories": 354,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "10:45/mi"
+    },
+    {
+      "id": "strava-12946332984",
+      "source": "strava",
+      "kind": "run",
+      "name": "Afternoon Run",
+      "date": "2024-11-20T18:27:09",
+      "description": "Cooler weather feels great",
+      "gear": null,
+      "movingTime": "39:51",
+      "movingSeconds": 2391,
+      "distance": 3.58,
+      "elevationGain": 252,
+      "calories": 547,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "11:07/mi"
+    },
+    {
+      "id": "strava-13002917223",
+      "source": "strava",
+      "kind": "run",
+      "name": "Morning Run",
+      "date": "2024-11-28T15:12:13",
+      "description": "Boooooo",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "48:38",
+      "movingSeconds": 2918,
+      "distance": 3.78,
+      "elevationGain": 249,
+      "calories": 578,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "12:51/mi"
+    },
+    {
+      "id": "strava-15595936788",
+      "source": "strava",
+      "kind": "run",
+      "name": "Lunch time 5K",
+      "date": "2025-08-26T17:38:10",
+      "description": "First run of 2025. Not too bad. Saw a nope rope about 1.5 marker. Onward and Upward",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "41:48",
+      "movingSeconds": 2508,
+      "distance": 3.85,
+      "elevationGain": 290,
+      "calories": 596,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "10:51/mi"
+    },
+    {
+      "id": "strava-15676391355",
+      "source": "strava",
+      "kind": "run",
+      "name": "Afternoon Trail Run",
+      "date": "2025-09-02T21:26:10",
+      "description": null,
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "49:36",
+      "movingSeconds": 2976,
+      "distance": 4.18,
+      "elevationGain": 224,
+      "calories": 639,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "11:51/mi"
+    },
+    {
+      "id": "strava-15699747714",
+      "source": "strava",
+      "kind": "run",
+      "name": "Afternoon Trail Run",
+      "date": "2025-09-04T21:29:42",
+      "description": "Honestly\u2026 I\u2019m pretty upset at that time split. Wish I could have gone longer and faster. Almost hurled for the first time at around 3.7. Thanks for the push at the beginning [strava://athletes/2167477/13]Casey Spencer",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "54:03",
+      "movingSeconds": 3243,
+      "distance": 4.32,
+      "elevationGain": 277,
+      "calories": 669,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "12:30/mi"
+    },
+    {
+      "id": "strava-15719603596",
+      "source": "strava",
+      "kind": "run",
+      "name": "Game Day 10K",
+      "date": "2025-09-06T15:16:04",
+      "description": "Aka Redemption from Thursday. \nProbably the most fun I\u2019ve had on the trail. Rain, muddy shoes were heavy\u2026 but seriously probably the most fun. Feel like I had another 2 or 3 miles in me.",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "1:28:16",
+      "movingSeconds": 5296,
+      "distance": 7.12,
+      "elevationGain": 471,
+      "calories": 1109,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "12:23/mi"
+    },
+    {
+      "id": "strava-15745223159",
+      "source": "strava",
+      "kind": "walk",
+      "name": "Walking the dog",
+      "date": "2025-09-08T21:55:30",
+      "description": null,
+      "gear": null,
+      "movingTime": "18:12",
+      "movingSeconds": 1092,
+      "distance": 0.96,
+      "elevationGain": 117,
+      "calories": 142,
+      "avgHeartRate": null,
+      "maxHeartRate": null
+    },
+    {
+      "id": "strava-15798173564",
+      "source": "strava",
+      "kind": "run",
+      "name": "Quick 2 miler with a faster pace than my 5K and 10K. Even with injured toes.",
+      "date": "2025-09-13T14:27:33",
+      "description": null,
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "22:44",
+      "movingSeconds": 1364,
+      "distance": 2.05,
+      "elevationGain": 161,
+      "calories": 327,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "11:05/mi"
+    },
+    {
+      "id": "strava-15824875349",
+      "source": "strava",
+      "kind": "run",
+      "name": "Evening trail run.",
+      "date": "2025-09-15T22:54:34",
+      "description": "Rolling rocks kickin roots, legs felt a little heavy in the heat but glad I got a little bit in.",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "22:23",
+      "movingSeconds": 1343,
+      "distance": 2.02,
+      "elevationGain": 127,
+      "calories": 316,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "11:04/mi"
+    },
+    {
+      "id": "strava-15945234878",
+      "source": "strava",
+      "kind": "walk",
+      "name": "Post flu recovery walk",
+      "date": "2025-09-26T18:01:59",
+      "description": "Legs felt good, lungs\u2026 not so much",
+      "gear": null,
+      "movingTime": "30:47",
+      "movingSeconds": 1847,
+      "distance": 1.79,
+      "elevationGain": 133,
+      "calories": 264,
+      "avgHeartRate": null,
+      "maxHeartRate": null
+    },
+    {
+      "id": "strava-15969066599",
+      "source": "strava",
+      "kind": "run",
+      "name": "Afternoon Trail Run",
+      "date": "2025-09-28T18:12:35",
+      "description": "Since I couldn\u2019t/can\u2019t wake up early when it feels good outside, this is what I get. Still\u2026 any day on the trail is better than a day not on the trail.",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "46:15",
+      "movingSeconds": 2775,
+      "distance": 3.92,
+      "elevationGain": 265,
+      "calories": 611,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "11:47/mi"
+    },
+    {
+      "id": "strava-16014462899",
+      "source": "strava",
+      "kind": "run",
+      "name": "Afternoon Trail Run",
+      "date": "2025-10-02T21:21:18",
+      "description": null,
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "53:10",
+      "movingSeconds": 3190,
+      "distance": 4.5,
+      "elevationGain": 323,
+      "calories": 705,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "11:48/mi"
+    },
+    {
+      "id": "strava-16032003558",
+      "source": "strava",
+      "kind": "run",
+      "name": "Morning Trail Run",
+      "date": "2025-10-04T13:59:12",
+      "description": "Lungs felt great for once. Gonna need something for cramps if (once) I go any longer",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "1:35:57",
+      "movingSeconds": 5757,
+      "distance": 8.04,
+      "elevationGain": 548,
+      "calories": 1256,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "11:56/mi"
+    },
+    {
+      "id": "strava-16068074168",
+      "source": "strava",
+      "kind": "run",
+      "name": "400 meter flat sprints at CFRC (x6)",
+      "date": "2025-10-07T21:18:22",
+      "description": "1.) 1:55\n2.) 2:15\n3.) 2:00\n4.) 2:05\n5.) 2:00\n6.) 2:10",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "12:12",
+      "movingSeconds": 732,
+      "distance": 1.48,
+      "elevationGain": null,
+      "calories": 220,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "8:14/mi"
+    },
+    {
+      "id": "strava-16090143485",
+      "source": "strava",
+      "kind": "run",
+      "name": "Afternoon Trail Run",
+      "date": "2025-10-09T21:28:40",
+      "description": "With Judd. Slow pace but moving. Good times.",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "48:49",
+      "movingSeconds": 2929,
+      "distance": 4.02,
+      "elevationGain": 253,
+      "calories": 626,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "12:08/mi"
+    },
+    {
+      "id": "strava-16108494526",
+      "source": "strava",
+      "kind": "run",
+      "name": "Afternoon Trail Run",
+      "date": "2025-10-11T16:19:39",
+      "description": "Short and sweet. Just trying to get the legs moving.",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "40:25",
+      "movingSeconds": 2425,
+      "distance": 3.64,
+      "elevationGain": 258,
+      "calories": 568,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "11:06/mi"
+    },
+    {
+      "id": "strava-16142726237",
+      "source": "strava",
+      "kind": "run",
+      "name": "Afternoon Trail Run",
+      "date": "2025-10-14T21:14:04",
+      "description": "Felt good. Just trying to connect these shorter runs.",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "48:46",
+      "movingSeconds": 2926,
+      "distance": 4.42,
+      "elevationGain": 251,
+      "calories": 688,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "11:01/mi"
+    },
+    {
+      "id": "strava-16172507767",
+      "source": "strava",
+      "kind": "run",
+      "name": "Lunch Time Trail Run",
+      "date": "2025-10-17T17:12:13",
+      "description": null,
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "54:39",
+      "movingSeconds": 3279,
+      "distance": 5.02,
+      "elevationGain": 352,
+      "calories": 762,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "10:53/mi"
+    },
+    {
+      "id": "strava-16204547157",
+      "source": "strava",
+      "kind": "run",
+      "name": "Afternoon Trail Run",
+      "date": "2025-10-20T20:04:51",
+      "description": "Thanks for pushing the pace [strava://athletes/2167477/13]Casey Spencer",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "39:16",
+      "movingSeconds": 2356,
+      "distance": 3.68,
+      "elevationGain": 253,
+      "calories": 557,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "10:40/mi"
+    },
+    {
+      "id": "strava-16240539520",
+      "source": "strava",
+      "kind": "run",
+      "name": "Morning Trail Run",
+      "date": "2025-10-24T10:23:25",
+      "description": "There\u2019s a first time for everything\u2026\nReflections:\n1) All the more power to early risers. Maybe I\u2019ll become one\n2) Not being able to see and just trusting your headlamp won\u2019t die is key\n3) Still felt great",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "48:31",
+      "movingSeconds": 2911,
+      "distance": 4.36,
+      "elevationGain": 301,
+      "calories": 652,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "11:07/mi"
+    },
+    {
+      "id": "strava-16280268001",
+      "source": "strava",
+      "kind": "run",
+      "name": "Morning Run",
+      "date": "2025-10-28T10:21:37",
+      "description": "When the trails are caked\u2026 run the road. \nFaster than what I\u2019m use to but worth it",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "54:53",
+      "movingSeconds": 3293,
+      "distance": 5.4,
+      "elevationGain": 229,
+      "calories": 785,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "10:09/mi"
+    },
+    {
+      "id": "strava-16306708583",
+      "source": "strava",
+      "kind": "run",
+      "name": "Afternoon Trail Run",
+      "date": "2025-10-30T20:45:19",
+      "description": "Shout out to Strava-less Judd for keeping me company on the first half. \nYou\u2019re alive my friend! You\u2019re alive!",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "1:22:10",
+      "movingSeconds": 4930,
+      "distance": 7.33,
+      "elevationGain": 506,
+      "calories": 1107,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "11:12/mi"
+    },
+    {
+      "id": "strava-16323820551",
+      "source": "strava",
+      "kind": "run",
+      "name": "Afternoon Trail Run",
+      "date": "2025-11-01T16:36:38",
+      "description": "Short and sweet. Legs left heavy from Thursday",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "37:26",
+      "movingSeconds": 2246,
+      "distance": 3.73,
+      "elevationGain": 289,
+      "calories": 563,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "10:02/mi"
+    },
+    {
+      "id": "strava-16357754798",
+      "source": "strava",
+      "kind": "run",
+      "name": "Afternoon trail run",
+      "date": "2025-11-04T22:12:21",
+      "description": "Had to cut it short but still a good time.",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "1:02:07",
+      "movingSeconds": 3727,
+      "distance": 5.7,
+      "elevationGain": 385,
+      "calories": 859,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "10:53/mi"
+    },
+    {
+      "id": "strava-16378939785",
+      "source": "strava",
+      "kind": "run",
+      "name": "Afternoon Trail Run",
+      "date": "2025-11-06T22:23:44",
+      "description": "Maybe 5 miles without water wasn\u2019t a smart plan\u2026 but it was a plan.",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "59:30",
+      "movingSeconds": 3570,
+      "distance": 5.53,
+      "elevationGain": 434,
+      "calories": 843,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "10:45/mi"
+    },
+    {
+      "id": "strava-16438656329",
+      "source": "strava",
+      "kind": "run",
+      "name": "Lunch Time Trail Run",
+      "date": "2025-11-12T18:47:00",
+      "description": "Feels good to get back in the saddle after a cold snap.",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "37:07",
+      "movingSeconds": 2227,
+      "distance": 3.7,
+      "elevationGain": 249,
+      "calories": 559,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "10:01/mi"
+    },
+    {
+      "id": "strava-16458170420",
+      "source": "strava",
+      "kind": "run",
+      "name": "Afternoon Trail Run",
+      "date": "2025-11-14T18:31:20",
+      "description": null,
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "1:05:31",
+      "movingSeconds": 3931,
+      "distance": 6.2,
+      "elevationGain": 476,
+      "calories": 934,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "10:34/mi"
+    },
+    {
+      "id": "strava-16483779090",
+      "source": "strava",
+      "kind": "run",
+      "name": "Morning Trail Run",
+      "date": "2025-11-17T11:21:25",
+      "description": "Definitely wasn\u2019t feeling it this morning. A little bit of work is better than no work.",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "38:00",
+      "movingSeconds": 2280,
+      "distance": 3.58,
+      "elevationGain": 266,
+      "calories": 541,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "10:36/mi"
+    },
+    {
+      "id": "strava-16497851665",
+      "source": "strava",
+      "kind": "run",
+      "name": "Lunch Time Trail Run",
+      "date": "2025-11-18T18:31:05",
+      "description": "Can we call it a taper if we have nothing to taper for? Asking for a friend. \nLegs felt like jello. Couldn\u2019t get into a rhythm. Walked sections I haven\u2019t walked in weeks. \u2026but did I run? Yes.\nAlso, never meet your heroes. But I did run into [strava://athletes/35207347/13]David Terrell",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "45:25",
+      "movingSeconds": 2725,
+      "distance": 4.42,
+      "elevationGain": 332,
+      "calories": 672,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "10:16/mi"
+    },
+    {
+      "id": "strava-16575217081",
+      "source": "strava",
+      "kind": "run",
+      "name": "Lunch Trail Run",
+      "date": "2025-11-26T18:19:08",
+      "description": "After a week of kid\u2019s after school activities and rainy weather, that felt okay.",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "52:11",
+      "movingSeconds": 3131,
+      "distance": 5.16,
+      "elevationGain": 406,
+      "calories": 786,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "10:06/mi"
+    },
+    {
+      "id": "strava-16583113043",
+      "source": "strava",
+      "kind": "run",
+      "name": "GHO Turkey Trot",
+      "date": "2025-11-27T15:10:09",
+      "description": "Goal accomplished! Stayed in the front of the peloton with [strava://athletes/66185895/14]Jason  Arnold",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "37:43",
+      "movingSeconds": 2263,
+      "distance": 3.98,
+      "elevationGain": 206,
+      "calories": 588,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "9:28/mi"
+    },
+    {
+      "id": "strava-16613845602",
+      "source": "strava",
+      "kind": "run",
+      "name": "Afternoon Trail Run",
+      "date": "2025-11-30T20:12:25",
+      "description": "Just chasing sun light this week",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "36:40",
+      "movingSeconds": 2200,
+      "distance": 3.72,
+      "elevationGain": 265,
+      "calories": 558,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "9:51/mi"
+    },
+    {
+      "id": "strava-16641464683",
+      "source": "strava",
+      "kind": "run",
+      "name": "Lunch Trail Run",
+      "date": "2025-12-03T18:27:49",
+      "description": "Lunch fun run with Judd",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "41:06",
+      "movingSeconds": 2466,
+      "distance": 3.77,
+      "elevationGain": 263,
+      "calories": 565,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "10:54/mi"
+    },
+    {
+      "id": "strava-16650401668",
+      "source": "strava",
+      "kind": "workout",
+      "name": "Lunch HIIT",
+      "date": "2025-12-04T18:05:03",
+      "description": "2:00 sets (6 sets)\n15 air squats\n50 Double Under\u2019s\n15 air squats",
+      "gear": null,
+      "movingTime": "39:33",
+      "movingSeconds": 2373,
+      "distance": null,
+      "elevationGain": null,
+      "calories": 316,
+      "avgHeartRate": 140,
+      "maxHeartRate": 182
+    },
+    {
+      "id": "strava-16688921088",
+      "source": "strava",
+      "kind": "workout",
+      "name": "Afternoon HIIT",
+      "date": "2025-12-08T22:09:34",
+      "description": "20:00\n25 cal row\n25 chest to bar\n200 m run\n25 hang power cleans 75#lbs\n2 rnds (do the 2nd round at 10:00",
+      "gear": null,
+      "movingTime": "46:31",
+      "movingSeconds": 2791,
+      "distance": null,
+      "elevationGain": null,
+      "calories": 337,
+      "avgHeartRate": 131,
+      "maxHeartRate": 187
+    },
+    {
+      "id": "strava-16698222383",
+      "source": "strava",
+      "kind": "run",
+      "name": "Afternoon Trail Run",
+      "date": "2025-12-09T21:30:04",
+      "description": "Simple, not Easy",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "42:55",
+      "movingSeconds": 2575,
+      "distance": 4.28,
+      "elevationGain": 248,
+      "calories": 640,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "10:01/mi"
+    },
+    {
+      "id": "strava-16717441100",
+      "source": "strava",
+      "kind": "run",
+      "name": "Afternoon Trail Run",
+      "date": "2025-12-11T21:29:04",
+      "description": "I didn\u2019t plan on 8 miles but\u2026 when the flow state\u2019s flowin\u2026\nNot sure if I have toes anymore.",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "1:24:21",
+      "movingSeconds": 5061,
+      "distance": 8.15,
+      "elevationGain": 436,
+      "calories": 1214,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "10:20/mi"
+    },
+    {
+      "id": "strava-16786991344",
+      "source": "strava",
+      "kind": "workout",
+      "name": "Lunch HIIT",
+      "date": "2025-12-19T18:12:40",
+      "description": "5x1 (ugly) squat snatch at 75% (135#)\nThen:\n21-15-9\nPower Snatch (95#)\nLateral burpees over the bar",
+      "gear": null,
+      "movingTime": "35:19",
+      "movingSeconds": 2119,
+      "distance": null,
+      "elevationGain": null,
+      "calories": 325,
+      "avgHeartRate": 141,
+      "maxHeartRate": 193
+    },
+    {
+      "id": "strava-16824227391",
+      "source": "strava",
+      "kind": "run",
+      "name": "Afternoon Trail Run",
+      "date": "2025-12-23T21:22:04",
+      "description": "That felt pretty terrible after a week and a half out of the trails. It\u2019s humid like it\u2019s summer at Christmas. Lungs didn\u2019t want to work. Excuses. Just glad to finally be back out here.",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "1:04:36",
+      "movingSeconds": 3876,
+      "distance": 6.0,
+      "elevationGain": 418,
+      "calories": 891,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "10:46/mi"
+    },
+    {
+      "id": "strava-16857653581",
+      "source": "strava",
+      "kind": "run",
+      "name": "Afternoon Trail Run",
+      "date": "2025-12-27T19:03:03",
+      "description": "Trail thoughts: I\u2019m finding out I\u2019m at that stage of life where priorities of family come first. Running, while a priority, is definitely a \u201cfit it in when you can.\u201d\nA quick 3.5 in the mist, mosquitos, and fog felt great. Another PR for the 5K (on the trail)\nIf you don\u2019t charge your watch and you put your phone in an inconvenient place, then you can\u2019t check your pace.",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "35:05",
+      "movingSeconds": 2105,
+      "distance": 3.64,
+      "elevationGain": 240,
+      "calories": 541,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "9:38/mi"
+    },
+    {
+      "id": "strava-16878492625",
+      "source": "strava",
+      "kind": "workout",
+      "name": "Afternoon HIIT",
+      "date": "2025-12-29T22:16:17",
+      "description": "3:00 shuttle runs\n1:00 power cleans @ 95#\n3:00 shuttle runs\n2:00 power cleans @ 135#\n3:00 shuttle runs\n3:00 power cleans @ 135#\n3:00 shuttle runs",
+      "gear": null,
+      "movingTime": "33:45",
+      "movingSeconds": 2025,
+      "distance": null,
+      "elevationGain": null,
+      "calories": 317,
+      "avgHeartRate": 150,
+      "maxHeartRate": 188
+    },
+    {
+      "id": "strava-16907168257",
+      "source": "strava",
+      "kind": "run",
+      "name": "Afternoon Trail Run",
+      "date": "2026-01-01T21:45:06",
+      "description": "Hey Chat, how do you slow down?\nGood kick-off to the new year. Good little Z2 work\u2026 or whatever",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "36:33",
+      "movingSeconds": 2193,
+      "distance": 3.69,
+      "elevationGain": 240,
+      "calories": 548,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "9:54/mi"
+    },
+    {
+      "id": "strava-16939226310",
+      "source": "strava",
+      "kind": "run",
+      "name": "Afternoon Trail Run",
+      "date": "2026-01-04T19:52:37",
+      "description": "Conversational pace\u2026 or something like it.",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "1:11:54",
+      "movingSeconds": 4314,
+      "distance": 6.6,
+      "elevationGain": 436,
+      "calories": 976,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "10:53/mi"
+    },
+    {
+      "id": "strava-16946618820",
+      "source": "strava",
+      "kind": "run",
+      "name": "Morning Trail Run",
+      "date": "2026-01-05T15:52:10",
+      "description": "Good little pump sesh with Strava-less Judd",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "41:40",
+      "movingSeconds": 2500,
+      "distance": 3.85,
+      "elevationGain": 260,
+      "calories": 565,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "10:49/mi"
+    },
+    {
+      "id": "strava-16970842349",
+      "source": "strava",
+      "kind": "run",
+      "name": "Lunch Trail Run",
+      "date": "2026-01-07T17:56:50",
+      "description": "Something short and sweet. Something repeatable half a dozen times. \nMan-cold and short on lung capacity.",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "37:49",
+      "movingSeconds": 2269,
+      "distance": 3.71,
+      "elevationGain": 242,
+      "calories": 551,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "10:11/mi"
+    },
+    {
+      "id": "strava-17038265446",
+      "source": "strava",
+      "kind": "run",
+      "name": "Lunch Trail Run",
+      "date": "2026-01-13T18:39:57",
+      "description": "Man-cold really messed me up over the weekend. Time to reestablish a baseline. Beat the literal snot out of me. Intended effect. Almost threw up for the first time. Get back out there.",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "37:10",
+      "movingSeconds": 2230,
+      "distance": 3.7,
+      "elevationGain": 183,
+      "calories": 539,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "10:02/mi"
+    },
+    {
+      "id": "strava-17109310228",
+      "source": "strava",
+      "kind": "workout",
+      "name": "Afternoon HIIT",
+      "date": "2026-01-19T22:17:07",
+      "description": null,
+      "gear": null,
+      "movingTime": "21:32",
+      "movingSeconds": 1292,
+      "distance": null,
+      "elevationGain": null,
+      "calories": 201,
+      "avgHeartRate": 160,
+      "maxHeartRate": 181
+    },
+    {
+      "id": "strava-17130606121",
+      "source": "strava",
+      "kind": "run",
+      "name": "Lunch Run",
+      "date": "2026-01-21T18:18:31",
+      "description": "With Judd. Getting ready for the cold",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "35:26",
+      "movingSeconds": 2126,
+      "distance": 3.15,
+      "elevationGain": 214,
+      "calories": 462,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "11:14/mi"
+    },
+    {
+      "id": "strava-17144092723",
+      "source": "strava",
+      "kind": "run",
+      "name": "Afternoon Trail Run",
+      "date": "2026-01-22T21:15:50",
+      "description": "Repeatable. Unsure how the weather is going to affect next week. \n3.3 mi, rest 20 min, repeat 3.3",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "1:10:24",
+      "movingSeconds": 4224,
+      "distance": 6.67,
+      "elevationGain": 404,
+      "calories": 992,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "10:33/mi"
+    },
+    {
+      "id": "strava-17152664479",
+      "source": "strava",
+      "kind": "workout",
+      "name": "Lunch HIIT",
+      "date": "2026-01-23T18:29:24",
+      "description": "Fran, my lady\u2026 you got me this time. Since focusing on running I haven\u2019t been in the gym near as much. Fran got me today. Til next time my sweet lady, til next time.",
+      "gear": null,
+      "movingTime": "22:06",
+      "movingSeconds": 1326,
+      "distance": null,
+      "elevationGain": null,
+      "calories": 187,
+      "avgHeartRate": 141,
+      "maxHeartRate": 182
+    },
+    {
+      "id": "strava-17277524335",
+      "source": "strava",
+      "kind": "workout",
+      "name": "Afternoon HIIT",
+      "date": "2026-02-03T22:18:27",
+      "description": "10-1\nDeadlifts\nPush ups\nToes to bar",
+      "gear": null,
+      "movingTime": "31:07",
+      "movingSeconds": 1867,
+      "distance": null,
+      "elevationGain": null,
+      "calories": 221,
+      "avgHeartRate": 131,
+      "maxHeartRate": 186
+    },
+    {
+      "id": "strava-17342072486",
+      "source": "strava",
+      "kind": "run",
+      "name": "Lunch Trail Run",
+      "date": "2026-02-09T17:39:20",
+      "description": null,
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "56:18",
+      "movingSeconds": 3378,
+      "distance": 5.13,
+      "elevationGain": 379,
+      "calories": 764,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "10:58/mi"
+    },
+    {
+      "id": "strava-17388460813",
+      "source": "strava",
+      "kind": "run",
+      "name": "Afternoon Trail Run",
+      "date": "2026-02-13T21:42:56",
+      "description": null,
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "50:43",
+      "movingSeconds": 3043,
+      "distance": 4.62,
+      "elevationGain": 255,
+      "calories": 678,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "10:58/mi"
+    },
+    {
+      "id": "strava-17431005415",
+      "source": "strava",
+      "kind": "run",
+      "name": "Lunch Trail Run",
+      "date": "2026-02-17T18:15:12",
+      "description": "Just trying to feel good about myself",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "35:58",
+      "movingSeconds": 2158,
+      "distance": 3.61,
+      "elevationGain": 242,
+      "calories": 531,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "9:57/mi"
+    },
+    {
+      "id": "strava-17455597101",
+      "source": "strava",
+      "kind": "run",
+      "name": "Afternoon Run\u2026",
+      "date": "2026-02-19T22:33:51",
+      "description": "\u2026then walking the dog",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "28:45",
+      "movingSeconds": 1725,
+      "distance": 2.74,
+      "elevationGain": 213,
+      "calories": 403,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "10:29/mi"
+    },
+    {
+      "id": "strava-17464181428",
+      "source": "strava",
+      "kind": "run",
+      "name": "Lunch Trail Run",
+      "date": "2026-02-20T18:28:44",
+      "description": null,
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "43:34",
+      "movingSeconds": 2614,
+      "distance": 4.37,
+      "elevationGain": 341,
+      "calories": 651,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "9:58/mi"
+    },
+    {
+      "id": "strava-17524088213",
+      "source": "strava",
+      "kind": "run",
+      "name": "Afternoon Trail Run",
+      "date": "2026-02-25T21:55:30",
+      "description": null,
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "53:51",
+      "movingSeconds": 3231,
+      "distance": 5.09,
+      "elevationGain": 382,
+      "calories": 760,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "10:34/mi"
+    },
+    {
+      "id": "strava-17544556535",
+      "source": "strava",
+      "kind": "run",
+      "name": "Lunch Trail Run",
+      "date": "2026-02-27T18:26:32",
+      "description": "Z2 work",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "36:41",
+      "movingSeconds": 2201,
+      "distance": 3.64,
+      "elevationGain": 240,
+      "calories": 542,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "10:04/mi"
+    },
+    {
+      "id": "strava-17591954438",
+      "source": "strava",
+      "kind": "run",
+      "name": "Lunch Trail Run",
+      "date": "2026-03-03T18:17:47",
+      "description": "Allergies/ManCold 2.0 hit me hard over the weekend. Maybe that\u2019s the culprit. Felt horrible. Couldn\u2019t breathe through my nose. Got dizzy a few times. I quickly just wanted to get back to my truck. Until next time.",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "43:21",
+      "movingSeconds": 2601,
+      "distance": 4.01,
+      "elevationGain": 274,
+      "calories": 596,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "10:48/mi"
+    },
+    {
+      "id": "strava-17653561868",
+      "source": "strava",
+      "kind": "run",
+      "name": "Afternoon Trail Run",
+      "date": "2026-03-08T19:13:48",
+      "description": "Lost at first. And legs didn\u2019t want to work at first. Mid run felt great",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "1:04:30",
+      "movingSeconds": 3870,
+      "distance": 5.76,
+      "elevationGain": 456,
+      "calories": 866,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "11:11/mi"
+    },
+    {
+      "id": "strava-17702399823",
+      "source": "strava",
+      "kind": "run",
+      "name": "Afternoon Trail Run",
+      "date": "2026-03-12T21:18:59",
+      "description": "Weather was great. Despite the electrolytes the legs started cramping on the second half",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "1:16:34",
+      "movingSeconds": 4594,
+      "distance": 7.35,
+      "elevationGain": 473,
+      "calories": 1091,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "10:25/mi"
+    },
+    {
+      "id": "strava-17710558368",
+      "source": "strava",
+      "kind": "workout",
+      "name": "Lunch HIIT 26.3",
+      "date": "2026-03-13T17:25:46",
+      "description": null,
+      "gear": null,
+      "movingTime": "22:42",
+      "movingSeconds": 1362,
+      "distance": null,
+      "elevationGain": null,
+      "calories": 236,
+      "avgHeartRate": 153,
+      "maxHeartRate": 182
+    },
+    {
+      "id": "strava-17723652015",
+      "source": "strava",
+      "kind": "run",
+      "name": "Afternoon Trail Run",
+      "date": "2026-03-14T19:29:22",
+      "description": "Jog and walk with Clint",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "41:43",
+      "movingSeconds": 2503,
+      "distance": 3.42,
+      "elevationGain": 128,
+      "calories": 496,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "12:11/mi"
+    },
+    {
+      "id": "strava-17771854927",
+      "source": "strava",
+      "kind": "run",
+      "name": "That. Felt. Terrible.",
+      "date": "2026-03-18T20:23:27",
+      "description": "Oh running\u2026 you never cease to amaze me.",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "34:40",
+      "movingSeconds": 2080,
+      "distance": 3.2,
+      "elevationGain": 205,
+      "calories": 476,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "10:50/mi"
+    },
+    {
+      "id": "strava-17781929460",
+      "source": "strava",
+      "kind": "run",
+      "name": "Lunch Trail Run",
+      "date": "2026-03-19T17:13:25",
+      "description": "Much better. A change in playlist may have been what I needed. LIHC X Incendiary #PowerProcess",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "35:27",
+      "movingSeconds": 2127,
+      "distance": 3.66,
+      "elevationGain": 242,
+      "calories": 544,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "9:41/mi"
+    },
+    {
+      "id": "strava-17793812229",
+      "source": "strava",
+      "kind": "run",
+      "name": "Lunch Trail Run",
+      "date": "2026-03-20T17:10:27",
+      "description": "\ud83d\udd34 That was easy",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "35:20",
+      "movingSeconds": 2120,
+      "distance": 3.63,
+      "elevationGain": 233,
+      "calories": 539,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "9:44/mi"
+    },
+    {
+      "id": "strava-17815269018",
+      "source": "strava",
+      "kind": "run",
+      "name": "Sunday Morning Dirt Service",
+      "date": "2026-03-22T11:11:41",
+      "description": null,
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "1:20:48",
+      "movingSeconds": 4848,
+      "distance": 7.5,
+      "elevationGain": 486,
+      "calories": 1108,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "10:46/mi"
+    },
+    {
+      "id": "strava-17843585779",
+      "source": "strava",
+      "kind": "run",
+      "name": "Lunch Trail Run\u2026",
+      "date": "2026-03-24T17:28:11",
+      "description": "\u2026and 20 burpees to finish",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "36:02",
+      "movingSeconds": 2162,
+      "distance": 3.67,
+      "elevationGain": 244,
+      "calories": 545,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "9:49/mi"
+    },
+    {
+      "id": "strava-17855892042",
+      "source": "strava",
+      "kind": "run",
+      "name": "Lunch Trail Run",
+      "date": "2026-03-25T17:03:19",
+      "description": null,
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "39:25",
+      "movingSeconds": 2365,
+      "distance": 3.94,
+      "elevationGain": 268,
+      "calories": 579,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "10:00/mi"
+    },
+    {
+      "id": "strava-17889054032",
+      "source": "strava",
+      "kind": "run",
+      "name": "Morning Run",
+      "date": "2026-03-28T12:03:21",
+      "description": "7 Trail, 3 Chat. Race Day Ready",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "1:48:49",
+      "movingSeconds": 6529,
+      "distance": 10.08,
+      "elevationGain": 604,
+      "calories": 1475,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "10:47/mi"
+    },
+    {
+      "id": "strava-17910604972",
+      "source": "strava",
+      "kind": "run",
+      "name": "Taper Week",
+      "date": "2026-03-30T10:16:51",
+      "description": "Just an old dirtbag trying to find his Way in the woods",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "36:06",
+      "movingSeconds": 2166,
+      "distance": 3.63,
+      "elevationGain": 236,
+      "calories": 531,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "9:56/mi"
+    },
+    {
+      "id": "strava-17952999556",
+      "source": "strava",
+      "kind": "run",
+      "name": "Lunch Jog",
+      "date": "2026-04-02T17:18:29",
+      "description": "Just a short jog and walk before the real work starts.",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "33:04",
+      "movingSeconds": 1984,
+      "distance": 3.0,
+      "elevationGain": 205,
+      "calories": 441,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "11:01/mi"
+    },
+    {
+      "id": "strava-17973291083",
+      "source": "strava",
+      "kind": "run",
+      "name": "Morning Trail Run",
+      "date": "2026-04-04T10:33:44",
+      "description": null,
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "28:23",
+      "movingSeconds": 1703,
+      "distance": 2.66,
+      "elevationGain": 232,
+      "calories": 410,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "10:40/mi"
+    },
+    {
+      "id": "strava-17978285190",
+      "source": "strava",
+      "kind": "run",
+      "name": "Ridge City Grind",
+      "date": "2026-04-04T11:40:28",
+      "description": "Strava is off. Forgot to record some. 15.6 is more accurate. Muddy, leg cramps, but a lot of fun",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "3:03:08",
+      "movingSeconds": 10988,
+      "distance": 13.22,
+      "elevationGain": 1150,
+      "calories": 2039,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "13:51/mi"
+    },
+    {
+      "id": "strava-18016672645",
+      "source": "strava",
+      "kind": "workout",
+      "name": "Lunch HIIT",
+      "date": "2026-04-07T17:12:47",
+      "description": null,
+      "gear": null,
+      "movingTime": "42:05",
+      "movingSeconds": 2525,
+      "distance": null,
+      "elevationGain": null,
+      "calories": 419,
+      "avgHeartRate": 142,
+      "maxHeartRate": 166
+    },
+    {
+      "id": "strava-18044293703",
+      "source": "strava",
+      "kind": "workout",
+      "name": "Lunch HIIT",
+      "date": "2026-04-09T17:36:48",
+      "description": null,
+      "gear": null,
+      "movingTime": "16:20",
+      "movingSeconds": 980,
+      "distance": null,
+      "elevationGain": null,
+      "calories": 172,
+      "avgHeartRate": 160,
+      "maxHeartRate": 179
+    },
+    {
+      "id": "strava-18089525740",
+      "source": "strava",
+      "kind": "workout",
+      "name": "Morning HIIT",
+      "date": "2026-04-13T10:20:39",
+      "description": "Half Murph with the 5am crew: 21:56\n\u2014a little bit of warm up to begin with.",
+      "gear": null,
+      "movingTime": "26:01",
+      "movingSeconds": 1561,
+      "distance": null,
+      "elevationGain": null,
+      "calories": 246,
+      "avgHeartRate": 156,
+      "maxHeartRate": 182
+    },
+    {
+      "id": "strava-18161823097",
+      "source": "strava",
+      "kind": "run",
+      "name": "Lunch Trail Run",
+      "date": "2026-04-18T16:46:03",
+      "description": "Good re-introductory run in Bentonville. Esther\u2019s 4 mile Loop. Shin felt fine. Cheering on Casey Spencer in the O50 miler!",
+      "gear": "Altra Lone Peak 7",
+      "movingTime": "40:40",
+      "movingSeconds": 2440,
+      "distance": 4.11,
+      "elevationGain": 291,
+      "calories": 606,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "9:53/mi"
+    },
+    {
+      "id": "strava-18200669822",
+      "source": "strava",
+      "kind": "run",
+      "name": "Lunch Trail Run",
+      "date": "2026-04-21T16:35:58",
+      "description": "Hello old friend\nNew shoes, who dis? Trying out the Altra Timp 5 for a change\nShin felt\u2026 only slightly uncomfortable",
+      "gear": "Altra Timp 5",
+      "movingTime": "35:01",
+      "movingSeconds": 2101,
+      "distance": 3.54,
+      "elevationGain": 218,
+      "calories": 526,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "9:53/mi"
+    },
+    {
+      "id": "strava-18205650588",
+      "source": "strava",
+      "kind": "walk",
+      "name": "Evening walk with the fam",
+      "date": "2026-04-21T23:52:22",
+      "description": null,
+      "gear": null,
+      "movingTime": "24:22",
+      "movingSeconds": 1462,
+      "distance": 1.05,
+      "elevationGain": 54,
+      "calories": 151,
+      "avgHeartRate": null,
+      "maxHeartRate": null
+    },
+    {
+      "id": "strava-18229198643",
+      "source": "strava",
+      "kind": "workout",
+      "name": "Lunch HIIT",
+      "date": "2026-04-23T17:17:58",
+      "description": "10 sets:\n2:00 AMRAP\n10 box step overs (24\u201d)\nMax calorie row\n-2:00 rest\n\n\u2014219 calories",
+      "gear": null,
+      "movingTime": "39:56",
+      "movingSeconds": 2396,
+      "distance": null,
+      "elevationGain": null,
+      "calories": 433,
+      "avgHeartRate": 153,
+      "maxHeartRate": 185
+    },
+    {
+      "id": "strava-18251527671",
+      "source": "strava",
+      "kind": "run",
+      "name": "Morning Trail Run",
+      "date": "2026-04-25T11:10:53",
+      "description": "New route. Shins didn\u2019t bother. Success!",
+      "gear": "Altra Timp 5",
+      "movingTime": "1:24:42",
+      "movingSeconds": 5082,
+      "distance": 7.89,
+      "elevationGain": 565,
+      "calories": 1176,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "10:44/mi"
+    },
+    {
+      "id": "strava-18375194075",
+      "source": "strava",
+      "kind": "run",
+      "name": "Lunch Trail Run",
+      "date": "2026-05-04T17:07:35",
+      "description": "Cheering on Joliffe and Browning in Cocodona 250. Let\u2019s Go!!",
+      "gear": "Altra Timp 5",
+      "movingTime": "39:21",
+      "movingSeconds": 2361,
+      "distance": 4.01,
+      "elevationGain": 278,
+      "calories": 590,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "9:48/mi"
+    },
+    {
+      "id": "strava-18388920869",
+      "source": "strava",
+      "kind": "workout",
+      "name": "Lunch HIIT",
+      "date": "2026-05-05T17:21:36",
+      "description": "20 minutes, max cals on the bike. \n196 cals (4 short of 200)",
+      "gear": null,
+      "movingTime": "34:19",
+      "movingSeconds": 2059,
+      "distance": null,
+      "elevationGain": null,
+      "calories": 307,
+      "avgHeartRate": 149,
+      "maxHeartRate": 182
+    },
+    {
+      "id": "strava-18402759714",
+      "source": "strava",
+      "kind": "run",
+      "name": "Lunch Trail Run",
+      "date": "2026-05-06T17:27:41",
+      "description": null,
+      "gear": "Altra Timp 5",
+      "movingTime": "46:12",
+      "movingSeconds": 2772,
+      "distance": 4.73,
+      "elevationGain": 272,
+      "calories": 695,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "9:46/mi"
+    },
+    {
+      "id": "strava-18428503026",
+      "source": "strava",
+      "kind": "workout",
+      "name": "Lunch HIIT",
+      "date": "2026-05-08T17:22:23",
+      "description": "20 min AMRAP\n200 m run, 2 rope climbs\n-10 rounds",
+      "gear": null,
+      "movingTime": "20:37",
+      "movingSeconds": 1237,
+      "distance": null,
+      "elevationGain": null,
+      "calories": 276,
+      "avgHeartRate": 180,
+      "maxHeartRate": 189
+    },
+    {
+      "id": "strava-18467241195",
+      "source": "strava",
+      "kind": "run",
+      "name": "Lunch Trail Run",
+      "date": "2026-05-11T17:32:04",
+      "description": "Hitting Yancy at the beginning meant going ahead and getting it out of the way. It also caused minor breathing problems later on. Oh well, more Blue route work needed.",
+      "gear": "Altra Timp 5",
+      "movingTime": "43:22",
+      "movingSeconds": 2602,
+      "distance": 4.36,
+      "elevationGain": 255,
+      "calories": 638,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "9:56/mi"
+    },
+    {
+      "id": "strava-18480813522",
+      "source": "strava",
+      "kind": "workout",
+      "name": "Lunch HIIT",
+      "date": "2026-05-12T17:31:24",
+      "description": "18:00 time cap\n15 wall balls\n3 wall walks\n\u2014 9 rounds, 5 reps",
+      "gear": null,
+      "movingTime": "28:05",
+      "movingSeconds": 1685,
+      "distance": null,
+      "elevationGain": null,
+      "calories": 286,
+      "avgHeartRate": 161,
+      "maxHeartRate": 185
+    },
+    {
+      "id": "strava-18507630379",
+      "source": "strava",
+      "kind": "run",
+      "name": "Lunch Trail Run",
+      "date": "2026-05-14T17:18:33",
+      "description": "Zen and the Art of Trail Running.\nDebated on getting another mile in on ZP but, I guess I\u2019ll live to fight another day.",
+      "gear": "Altra Timp 5",
+      "movingTime": "52:31",
+      "movingSeconds": 3151,
+      "distance": 5.18,
+      "elevationGain": 370,
+      "calories": 768,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "10:08/mi"
+    },
+    {
+      "id": "strava-18519495119",
+      "source": "strava",
+      "kind": "run",
+      "name": "Lunch Trail Run",
+      "date": "2026-05-15T17:02:44",
+      "description": "Small birthday run. Just trying to make peace with an addiction. Shin splint and osgood schlatter knee need to rest.",
+      "gear": "Altra Timp 5",
+      "movingTime": "26:27",
+      "movingSeconds": 1587,
+      "distance": 2.65,
+      "elevationGain": 130,
+      "calories": 391,
+      "avgHeartRate": null,
+      "maxHeartRate": null,
+      "pace": "9:58/mi"
+    },
+    {
+      "id": "strava-18621716798",
+      "source": "strava",
+      "kind": "workout",
+      "name": "Morning HIIT - MURPH",
+      "date": "2026-05-23T12:43:02",
+      "description": "1 mile run\n5, 10, 15 \u2013 20 rounds\nPull ups, Push ups, Air squats\n1 mile run\n48:21 - not a PR but I did the work\n\ud83e\udee1\ud83c\uddfa\ud83c\uddf8",
+      "gear": null,
+      "movingTime": "48:21",
+      "movingSeconds": 2901,
+      "distance": null,
+      "elevationGain": null,
+      "calories": 546,
+      "avgHeartRate": 173,
+      "maxHeartRate": 188
+    },
+    {
+      "id": "strava-18664419057",
+      "source": "strava",
+      "kind": "workout",
+      "name": "Lunch HIIT",
+      "date": "2026-05-26T17:35:21",
+      "description": "20 min EMOM\nOdd: 15 cals on rower\nEven: 15 ab mat sit ups\n-this was sneaky",
+      "gear": null,
+      "movingTime": "22:30",
+      "movingSeconds": 1350,
+      "distance": null,
+      "elevationGain": null,
+      "calories": 263,
+      "avgHeartRate": 160,
+      "maxHeartRate": 176
+    }
+  ],
+  "movements": [
+    {
+      "id": "mv-100-step-ups",
+      "name": "100 Step Ups",
+      "sessions": [
+        {
+          "date": "2022-04-11",
+          "weight": 100.0,
+          "reps": "5:04",
+          "sets": "1",
+          "notes": null
+        }
+      ],
+      "best": 100.0,
+      "bestDate": "2022-04-11"
+    },
+    {
+      "id": "mv-back-squat",
+      "name": "Back Squat",
+      "sessions": [
+        {
+          "date": "2024-07-17",
+          "weight": 125.0,
+          "reps": "5",
+          "sets": "3",
+          "notes": null
+        },
+        {
+          "date": "2023-11-24",
+          "weight": 285.0,
+          "reps": "10",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2023-05-01",
+          "weight": 355.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2023-03-09",
+          "weight": 335.0,
+          "reps": "2",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2022-04-11",
+          "weight": 335.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2021-09-21",
+          "weight": 310.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2021-08-24",
+          "weight": 250.0,
+          "reps": "2",
+          "sets": "6",
+          "notes": null
+        }
+      ],
+      "best": 355.0,
+      "bestDate": "2023-05-01"
+    },
+    {
+      "id": "mv-bench-press",
+      "name": "Bench Press",
+      "sessions": [
+        {
+          "date": "2023-07-13",
+          "weight": 175.0,
+          "reps": "2",
+          "sets": "5",
+          "notes": null
+        },
+        {
+          "date": "2023-06-06",
+          "weight": 220.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2022-04-15",
+          "weight": 210.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2020-12-17",
+          "weight": 180.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2020-07-06",
+          "weight": 175.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2020-06-25",
+          "weight": 145.0,
+          "reps": "3",
+          "sets": "3",
+          "notes": null
+        },
+        {
+          "date": "2020-06-16",
+          "weight": 140.0,
+          "reps": "4",
+          "sets": "4",
+          "notes": null
+        },
+        {
+          "date": "2020-06-09",
+          "weight": 130.0,
+          "reps": "5",
+          "sets": "5",
+          "notes": null
+        },
+        {
+          "date": "2020-06-04",
+          "weight": 125.0,
+          "reps": "6",
+          "sets": "6",
+          "notes": null
+        },
+        {
+          "date": "2020-05-21",
+          "weight": 125.0,
+          "reps": "4",
+          "sets": "6",
+          "notes": null
+        },
+        {
+          "date": "2020-03-19",
+          "weight": 165.0,
+          "reps": "2",
+          "sets": "2",
+          "notes": null
+        },
+        {
+          "date": "2020-03-10",
+          "weight": 145.0,
+          "reps": "3",
+          "sets": "3",
+          "notes": null
+        },
+        {
+          "date": "2020-03-10",
+          "weight": 145.0,
+          "reps": "3",
+          "sets": "3",
+          "notes": null
+        },
+        {
+          "date": "2020-02-19",
+          "weight": 125.0,
+          "reps": "3",
+          "sets": "3",
+          "notes": null
+        },
+        {
+          "date": "2020-01-28",
+          "weight": 155.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        }
+      ],
+      "best": 220.0,
+      "bestDate": "2023-06-06"
+    },
+    {
+      "id": "mv-clean",
+      "name": "Clean",
+      "sessions": [
+        {
+          "date": "2024-06-03",
+          "weight": 260.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2024-05-14",
+          "weight": 255.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2023-03-06",
+          "weight": 240.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2022-05-16",
+          "weight": 235.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2022-03-01",
+          "weight": 230.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2022-01-13",
+          "weight": 200.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2021-03-30",
+          "weight": 185.0,
+          "reps": "3",
+          "sets": "3",
+          "notes": null
+        },
+        {
+          "date": "2021-03-08",
+          "weight": 195.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2020-09-17",
+          "weight": 195.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        }
+      ],
+      "best": 260.0,
+      "bestDate": "2024-06-03"
+    },
+    {
+      "id": "mv-clean---jerk",
+      "name": "Clean & Jerk",
+      "sessions": [
+        {
+          "date": "2024-02-06",
+          "weight": 245.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2023-08-10",
+          "weight": 240.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2023-03-06",
+          "weight": 235.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2023-01-19",
+          "weight": 225.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2022-11-16",
+          "weight": 215.0,
+          "reps": "2",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2022-05-23",
+          "weight": 215.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2022-01-07",
+          "weight": 205.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2021-10-18",
+          "weight": 155.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": "E2MOM 6 rounds"
+        }
+      ],
+      "best": 245.0,
+      "bestDate": "2024-02-06"
+    },
+    {
+      "id": "mv-cluster",
+      "name": "Cluster",
+      "sessions": [
+        {
+          "date": "2024-07-17",
+          "weight": 205.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2022-09-19",
+          "weight": 200.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        }
+      ],
+      "best": 205.0,
+      "bestDate": "2024-07-17"
+    },
+    {
+      "id": "mv-dead-lift",
+      "name": "Dead Lift",
+      "sessions": [
+        {
+          "date": "2025-05-30",
+          "weight": 365.0,
+          "reps": "3",
+          "sets": "3",
+          "notes": null
+        },
+        {
+          "date": "2025-04-08",
+          "weight": 335.0,
+          "reps": "5",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2024-01-10",
+          "weight": 405.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2023-09-13",
+          "weight": 325.0,
+          "reps": "3",
+          "sets": "5",
+          "notes": null
+        },
+        {
+          "date": "2023-08-24",
+          "weight": 335.0,
+          "reps": "3",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2023-07-28",
+          "weight": 400.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2022-04-13",
+          "weight": 385.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2021-03-30",
+          "weight": 325.0,
+          "reps": "3",
+          "sets": "3",
+          "notes": null
+        },
+        {
+          "date": "2021-03-08",
+          "weight": 360.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2020-08-13",
+          "weight": 355.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2020-07-07",
+          "weight": 350.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2020-07-02",
+          "weight": 330.0,
+          "reps": "2",
+          "sets": "2",
+          "notes": null
+        },
+        {
+          "date": "2020-06-23",
+          "weight": 315.0,
+          "reps": "3",
+          "sets": "3",
+          "notes": null
+        },
+        {
+          "date": "2020-06-19",
+          "weight": 295.0,
+          "reps": "4",
+          "sets": "4",
+          "notes": null
+        },
+        {
+          "date": "2020-06-11",
+          "weight": 285.0,
+          "reps": "5",
+          "sets": "5",
+          "notes": null
+        },
+        {
+          "date": "2020-06-02",
+          "weight": 270.0,
+          "reps": "6",
+          "sets": "6",
+          "notes": null
+        },
+        {
+          "date": "2020-05-28",
+          "weight": 275.0,
+          "reps": "5",
+          "sets": "6",
+          "notes": null
+        },
+        {
+          "date": "2020-05-19",
+          "weight": 265.0,
+          "reps": "4",
+          "sets": "6",
+          "notes": null
+        },
+        {
+          "date": "2020-05-14",
+          "weight": 265.0,
+          "reps": "3",
+          "sets": "6",
+          "notes": null
+        },
+        {
+          "date": "2020-05-05",
+          "weight": 280.0,
+          "reps": "2",
+          "sets": "6",
+          "notes": null
+        },
+        {
+          "date": "2020-04-21",
+          "weight": 330.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2020-03-17",
+          "weight": 325.0,
+          "reps": "2",
+          "sets": "2",
+          "notes": null
+        },
+        {
+          "date": "2020-02-27",
+          "weight": 145.0,
+          "reps": "5",
+          "sets": "5",
+          "notes": null
+        },
+        {
+          "date": "2020-02-06",
+          "weight": 315.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2016-10-05",
+          "weight": 365.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        }
+      ],
+      "best": 405.0,
+      "bestDate": "2024-01-10"
+    },
+    {
+      "id": "mv-front-squat",
+      "name": "Front Squat",
+      "sessions": [
+        {
+          "date": "2025-02-10",
+          "weight": 265.0,
+          "reps": "3",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2024-03-19",
+          "weight": 270.0,
+          "reps": "5",
+          "sets": "1",
+          "notes": "1) 235\n2) 235\n3) 245\n4) 260\n5) 270"
+        },
+        {
+          "date": "2023-04-24",
+          "weight": 335.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2022-08-22",
+          "weight": 325.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2022-05-16",
+          "weight": 320.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2021-06-29",
+          "weight": 295.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2021-03-11",
+          "weight": 315.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2020-09-15",
+          "weight": 275.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2020-07-23",
+          "weight": 265.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2020-07-06",
+          "weight": 275.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2020-07-02",
+          "weight": 215.0,
+          "reps": "2",
+          "sets": "2",
+          "notes": null
+        },
+        {
+          "date": "2020-06-25",
+          "weight": 205.0,
+          "reps": "3",
+          "sets": "3",
+          "notes": null
+        },
+        {
+          "date": "2020-06-16",
+          "weight": 195.0,
+          "reps": "4",
+          "sets": "4",
+          "notes": null
+        },
+        {
+          "date": "2020-06-09",
+          "weight": 187.0,
+          "reps": "5",
+          "sets": "5",
+          "notes": null
+        },
+        {
+          "date": "2020-06-04",
+          "weight": 175.0,
+          "reps": "6",
+          "sets": "6",
+          "notes": null
+        },
+        {
+          "date": "2020-05-26",
+          "weight": 180.0,
+          "reps": "5",
+          "sets": "6",
+          "notes": null
+        },
+        {
+          "date": "2020-05-21",
+          "weight": 185.0,
+          "reps": "4",
+          "sets": "6",
+          "notes": null
+        },
+        {
+          "date": "2020-05-12",
+          "weight": 170.0,
+          "reps": "3",
+          "sets": "6",
+          "notes": null
+        },
+        {
+          "date": "2020-03-19",
+          "weight": 215.0,
+          "reps": "2",
+          "sets": "2",
+          "notes": null
+        },
+        {
+          "date": "2020-03-10",
+          "weight": 185.0,
+          "reps": "3",
+          "sets": "3",
+          "notes": null
+        },
+        {
+          "date": "2020-02-19",
+          "weight": 175.0,
+          "reps": "6",
+          "sets": "6",
+          "notes": null
+        },
+        {
+          "date": "2020-01-28",
+          "weight": 215.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        }
+      ],
+      "best": 335.0,
+      "bestDate": "2023-04-24"
+    },
+    {
+      "id": "mv-hang-power-snatch",
+      "name": "Hang Power Snatch",
+      "sessions": [
+        {
+          "date": "2023-10-20",
+          "weight": 160.0,
+          "reps": "3",
+          "sets": "3",
+          "notes": null
+        },
+        {
+          "date": "2023-10-20",
+          "weight": 165.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        }
+      ],
+      "best": 165.0,
+      "bestDate": "2023-10-20"
+    },
+    {
+      "id": "mv-hang-squat-clean",
+      "name": "Hang Squat Clean",
+      "sessions": [
+        {
+          "date": "2024-07-26",
+          "weight": 235.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2022-08-22",
+          "weight": 205.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2021-12-20",
+          "weight": 170.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2021-09-23",
+          "weight": 200.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        }
+      ],
+      "best": 235.0,
+      "bestDate": "2024-07-26"
+    },
+    {
+      "id": "mv-jerk",
+      "name": "Jerk",
+      "sessions": [
+        {
+          "date": "2022-04-19",
+          "weight": 200.0,
+          "reps": "3",
+          "sets": "1",
+          "notes": null
+        }
+      ],
+      "best": 200.0,
+      "bestDate": "2022-04-19"
+    },
+    {
+      "id": "mv-joshua",
+      "name": "Joshua",
+      "sessions": [
+        {
+          "date": "2021-05-20",
+          "weight": 83.0,
+          "reps": "0:00",
+          "sets": "4",
+          "notes": null
+        }
+      ],
+      "best": 83.0,
+      "bestDate": "2021-05-20"
+    },
+    {
+      "id": "mv-judges",
+      "name": "Judges",
+      "sessions": [
+        {
+          "date": "2021-05-20",
+          "weight": 205.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": "Max Load\n3 DL\n1 hang clean\n2 front squats"
+        }
+      ],
+      "best": 205.0,
+      "bestDate": "2021-05-20"
+    },
+    {
+      "id": "mv-overhead-squat",
+      "name": "Overhead Squat",
+      "sessions": [
+        {
+          "date": "2023-12-05",
+          "weight": 185.0,
+          "reps": "3",
+          "sets": "3",
+          "notes": null
+        },
+        {
+          "date": "2022-01-10",
+          "weight": 135.0,
+          "reps": "4",
+          "sets": "1",
+          "notes": null
+        }
+      ],
+      "best": 185.0,
+      "bestDate": "2023-12-05"
+    },
+    {
+      "id": "mv-press",
+      "name": "Press",
+      "sessions": [
+        {
+          "date": "2023-04-27",
+          "weight": 145.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2022-09-15",
+          "weight": 145.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2021-01-19",
+          "weight": 130.0,
+          "reps": "4",
+          "sets": "6",
+          "notes": null
+        }
+      ],
+      "best": 145.0,
+      "bestDate": "2023-04-27"
+    },
+    {
+      "id": "mv-push-jerk",
+      "name": "Push Jerk",
+      "sessions": [
+        {
+          "date": "2024-12-03",
+          "weight": 215.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2022-04-14",
+          "weight": 220.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2021-03-11",
+          "weight": 195.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        }
+      ],
+      "best": 220.0,
+      "bestDate": "2022-04-14"
+    },
+    {
+      "id": "mv-push-press",
+      "name": "Push Press",
+      "sessions": [
+        {
+          "date": "2024-12-03",
+          "weight": 195.0,
+          "reps": "2",
+          "sets": "2",
+          "notes": null
+        },
+        {
+          "date": "2024-09-30",
+          "weight": 225.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2023-11-29",
+          "weight": 195.0,
+          "reps": "5",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2023-04-27",
+          "weight": 205.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2023-01-12",
+          "weight": 185.0,
+          "reps": "4",
+          "sets": "2",
+          "notes": null
+        },
+        {
+          "date": "2022-03-02",
+          "weight": 185.0,
+          "reps": "3",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2021-03-11",
+          "weight": 185.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        }
+      ],
+      "best": 225.0,
+      "bestDate": "2024-09-30"
+    },
+    {
+      "id": "mv-shoulder-press",
+      "name": "Shoulder Press",
+      "sessions": [
+        {
+          "date": "2024-12-03",
+          "weight": 130.0,
+          "reps": "3",
+          "sets": "3",
+          "notes": null
+        },
+        {
+          "date": "2021-09-21",
+          "weight": 135.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2021-08-03",
+          "weight": 115.0,
+          "reps": "2",
+          "sets": "6",
+          "notes": null
+        },
+        {
+          "date": "2021-06-29",
+          "weight": 135.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2020-07-07",
+          "weight": 125.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2020-06-23",
+          "weight": 125.0,
+          "reps": "3",
+          "sets": "3",
+          "notes": null
+        },
+        {
+          "date": "2020-06-19",
+          "weight": 115.0,
+          "reps": "4",
+          "sets": "4",
+          "notes": null
+        },
+        {
+          "date": "2020-06-11",
+          "weight": 105.0,
+          "reps": "5",
+          "sets": "5",
+          "notes": null
+        },
+        {
+          "date": "2020-06-02",
+          "weight": 100.0,
+          "reps": "5",
+          "sets": "6",
+          "notes": null
+        },
+        {
+          "date": "2020-05-28",
+          "weight": 100.0,
+          "reps": "5",
+          "sets": "6",
+          "notes": null
+        },
+        {
+          "date": "2020-05-19",
+          "weight": 100.0,
+          "reps": "4",
+          "sets": "6",
+          "notes": null
+        },
+        {
+          "date": "2020-05-14",
+          "weight": 105.0,
+          "reps": "3",
+          "sets": "6",
+          "notes": null
+        },
+        {
+          "date": "2020-05-05",
+          "weight": 105.0,
+          "reps": "2",
+          "sets": "6",
+          "notes": null
+        },
+        {
+          "date": "2020-04-21",
+          "weight": 125.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2020-03-17",
+          "weight": 105.0,
+          "reps": "2",
+          "sets": "2",
+          "notes": null
+        },
+        {
+          "date": "2020-02-27",
+          "weight": 95.0,
+          "reps": "5",
+          "sets": "5",
+          "notes": null
+        },
+        {
+          "date": "2020-02-06",
+          "weight": 125.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        }
+      ],
+      "best": 135.0,
+      "bestDate": "2021-09-21"
+    },
+    {
+      "id": "mv-snatch",
+      "name": "Snatch",
+      "sessions": [
+        {
+          "date": "2024-03-27",
+          "weight": 185.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2024-02-22",
+          "weight": 175.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2023-09-27",
+          "weight": 175.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2023-06-23",
+          "weight": 170.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2023-04-28",
+          "weight": 165.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2023-01-20",
+          "weight": 155.0,
+          "reps": "3",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2022-08-26",
+          "weight": 160.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2022-05-04",
+          "weight": 150.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        },
+        {
+          "date": "2022-01-17",
+          "weight": 135.0,
+          "reps": "2",
+          "sets": "1",
+          "notes": null
+        }
+      ],
+      "best": 185.0,
+      "bestDate": "2024-03-27"
+    },
+    {
+      "id": "mv-squat-snatch",
+      "name": "Squat Snatch",
+      "sessions": [
+        {
+          "date": "2021-09-30",
+          "weight": 140.0,
+          "reps": "1",
+          "sets": "1",
+          "notes": null
+        }
+      ],
+      "best": 140.0,
+      "bestDate": "2021-09-30"
+    },
+    {
+      "id": "mv-sumo-deadlift-high-pull",
+      "name": "Sumo Deadlift High Pull",
+      "sessions": [],
+      "best": null,
+      "bestDate": null
+    },
+    {
+      "id": "mv-tabata-situps",
+      "name": "Tabata Situps",
+      "sessions": [
+        {
+          "date": "2022-04-11",
+          "weight": 92.0,
+          "reps": "0:00",
+          "sets": "1",
+          "notes": null
+        }
+      ],
+      "best": 92.0,
+      "bestDate": "2022-04-11"
+    },
+    {
+      "id": "mv-thruster",
+      "name": "Thruster",
+      "sessions": [],
+      "best": null,
+      "bestDate": null
+    }
+  ],
+  "wods": [
+    {
+      "id": "wod-10-18-22-bike-rkbs",
+      "title": "10.18.22 Bike RKBS",
+      "type": "For Time",
+      "category": "benchmark",
+      "description": "5 rft\n10 kbs\n15 cals",
+      "weight": null,
+      "scores": [
+        {
+          "date": "2022-10-18",
+          "score": "11:20",
+          "scoreType": "For Time:",
+          "pr": false,
+          "rx": false,
+          "notes": null
+        }
+      ],
+      "logged": true
+    },
+    {
+      "id": "wod-100-burpees",
+      "title": "100 Burpees",
+      "type": "For Time",
+      "category": "benchmark",
+      "description": "3:01 for 50",
+      "weight": null,
+      "scores": [
+        {
+          "date": "2023-04-10",
+          "score": "3:01",
+          "scoreType": "For Time:",
+          "pr": false,
+          "rx": false,
+          "notes": null
+        }
+      ],
+      "logged": true
+    },
+    {
+      "id": "wod-21-15-9-breather",
+      "title": "21-15-9 Breather",
+      "type": "For Time",
+      "category": "benchmark",
+      "description": "21-15-9\nPush press\nKbs\n\nDeadlift\nSit-up\n\nPushups\nHang Cleans",
+      "weight": null,
+      "scores": [
+        {
+          "date": "2020-05-28",
+          "score": "11:48",
+          "scoreType": "For Time:",
+          "pr": false,
+          "rx": false,
+          "notes": null
+        }
+      ],
+      "logged": true
+    },
+    {
+      "id": "wod-21-15-9-suckrun",
+      "title": "21-15-9 Suckrun",
+      "type": "For Time",
+      "category": "benchmark",
+      "description": "21-15-9\nWB, Burpees\n1/4 run before, after, in-between rounds",
+      "weight": null,
+      "scores": [
+        {
+          "date": "2020-06-09",
+          "score": "19:01",
+          "scoreType": "For Time:",
+          "pr": false,
+          "rx": false,
+          "notes": null
+        }
+      ],
+      "logged": true
+    },
+    {
+      "id": "wod-2k-row",
+      "title": "2K Row",
+      "type": "For Time",
+      "category": "benchmark",
+      "description": "2000 meter row, for time",
+      "weight": null,
+      "scores": [
+        {
+          "date": "2025-02-17",
+          "score": "8:19",
+          "scoreType": "For Time:",
+          "pr": false,
+          "rx": false,
+          "notes": null
+        },
+        {
+          "date": "2024-05-13",
+          "score": "8:11",
+          "scoreType": "For Time:",
+          "pr": true,
+          "rx": false,
+          "notes": null
+        }
+      ],
+      "logged": true
+    },
+    {
+      "id": "wod-abbate",
+      "title": "Abbate",
+      "type": "For Time",
+      "category": "hero",
+      "description": "1-mile run\n21 clean and jerks\n800-meter run\n21 clean and jerks\n1-mile run",
+      "weight": "155 lb",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-adambrown",
+      "title": "Adambrown",
+      "type": "For Time",
+      "category": "hero",
+      "description": "2 rounds:\n24 deadlifts\n24 box jumps\n24 wall-ball shots\n24 bench presses\n24 box jumps\n24 wall-ball shots\n24 cleans",
+      "weight": "295-lb DL, 24-in box, 20-lb ball, 195-lb bench, 145-lb clean",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-arnie",
+      "title": "Arnie",
+      "type": "For Time",
+      "category": "hero",
+      "description": "21 Turkish get-ups, right arm\n50 kettlebell swings\n21 overhead squats, left arm\n50 kettlebell swings\n21 overhead squats, right arm\n50 kettlebell swings\n21 Turkish get-ups, left arm",
+      "weight": "70 lb",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-badger",
+      "title": "Badger",
+      "type": "For Time",
+      "category": "hero",
+      "description": "3 rounds:\n30 squat cleans\n30 pull-ups\nRun 800 meters",
+      "weight": "95 lb",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-blake",
+      "title": "Blake",
+      "type": "For Time",
+      "category": "hero",
+      "description": "4 rounds:\n100-foot overhead walking lunge\n30 box jumps\n20 wall-ball shots\n10 handstand push-ups",
+      "weight": "45-lb plate, 24-in box, 20-lb med ball",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-bradley",
+      "title": "Bradley",
+      "type": "For Time",
+      "category": "hero",
+      "description": "10 rounds:\nSprint 100 meters\n10 pull-ups\nSprint 100 meters\n10 burpees\nRest 30 seconds",
+      "weight": null,
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-bradshaw",
+      "title": "Bradshaw",
+      "type": "For Time",
+      "category": "hero",
+      "description": "10 rounds:\n3 handstand push-ups\n6 deadlifts\n12 pull-ups\n24 double-unders",
+      "weight": "225 lb",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-brenton",
+      "title": "Brenton",
+      "type": "For Time",
+      "category": "hero",
+      "description": "5 rounds:\n100-foot bear crawl\n100-foot standing broad jump",
+      "weight": null,
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-bulger",
+      "title": "Bulger",
+      "type": "For Time",
+      "category": "hero",
+      "description": "10 rounds:\n150-meter run\n7 chest-to-bar pull-ups\n7 front squats\n7 handstand push-ups",
+      "weight": "135 lb",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-bull",
+      "title": "Bull",
+      "type": "For Time",
+      "category": "hero",
+      "description": "2 rounds:\n200 double-unders\n50 overhead squats\n50 pull-ups\n1-mile run",
+      "weight": "135 lb",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-carse",
+      "title": "Carse",
+      "type": "For Time",
+      "category": "hero",
+      "description": "21-18-15-12-9-6-3 reps:\nSquat cleans\nDouble-unders\nDeadlifts\nBox jumps",
+      "weight": "135-lb squat clean, 185-lb DL, 24-in box",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-cindy",
+      "title": "Cindy",
+      "type": "For Rounds",
+      "category": "benchmark",
+      "description": "20 min AMRAP:\n5 Pull-ups,\n10 Push-ups,\n15 Squats.",
+      "weight": null,
+      "scores": [
+        {
+          "date": "2025-05-09",
+          "score": "19+11",
+          "scoreType": "For Rounds:",
+          "pr": true,
+          "rx": true,
+          "notes": null
+        },
+        {
+          "date": "2024-05-06",
+          "score": "18+12",
+          "scoreType": "For Rounds:",
+          "pr": false,
+          "rx": true,
+          "notes": null
+        }
+      ],
+      "logged": true
+    },
+    {
+      "id": "wod-coe",
+      "title": "Coe",
+      "type": "For Time",
+      "category": "hero",
+      "description": "10 rounds:\n10 thrusters\n10 ring push-ups",
+      "weight": "95 lb",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-collin",
+      "title": "Collin",
+      "type": "For Time",
+      "category": "hero",
+      "description": "6 rounds:\n400-meter sandbag carry\n12 push presses\n12 box jumps\n12 sumo deadlift high pulls",
+      "weight": "50-lb sandbag, 115-lb PP, 24-in box, 95-lb SDHP",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-dae-han",
+      "title": "Dae Han",
+      "type": "For Time",
+      "category": "hero",
+      "description": "3 rounds:\nRun 800 meters with an empty barbell\n3 rope climbs\n12 thrusters",
+      "weight": "15-foot rope, 135-lb thrusters",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-daniel",
+      "title": "Daniel",
+      "type": "For Time",
+      "category": "hero",
+      "description": "50 pull-ups\n400-meter run\n21 thrusters\n800-meter run\n21 thrusters\n400-meter run\n50 pull-ups",
+      "weight": "95 lb",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-danny",
+      "title": "Danny",
+      "type": "AMRAP 20",
+      "category": "hero",
+      "description": "30 box jumps\n20 push presses\n30 pull-ups",
+      "weight": "115-lb barbell, 24-inch box",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-desforges",
+      "title": "Desforges",
+      "type": "For Time",
+      "category": "hero",
+      "description": "5 rounds:\n12 deadlifts\n20 pull-ups\n12 clean and jerks\n20 knees-to-elbows",
+      "weight": "225-lb DL, 135-lb C&J",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-dt",
+      "title": "DT",
+      "type": "For Time",
+      "category": "hero",
+      "description": "5 rounds:\n12 deadlifts\n9 hang power cleans\n6 push jerks",
+      "weight": "155 lb",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-elizabeth",
+      "title": "Elizabeth",
+      "type": "For Time",
+      "category": "benchmark",
+      "description": "21-15-9 reps:\nClean @135/95LBS,\nRing dips.",
+      "weight": null,
+      "scores": [
+        {
+          "date": "2025-05-29",
+          "score": "08:51",
+          "scoreType": "For Time:",
+          "pr": true,
+          "rx": true,
+          "notes": null
+        }
+      ],
+      "logged": true
+    },
+    {
+      "id": "wod-erin",
+      "title": "Erin",
+      "type": "For Time",
+      "category": "hero",
+      "description": "5 rounds:\n15 dumbbell split cleans\n21 pull-ups",
+      "weight": "40 lb",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-exodus",
+      "title": "Exodus",
+      "type": "For Rounds",
+      "category": "benchmark",
+      "description": "15 MIN AMRAP\n175 reps\n\n21 deadlift\n5 BFB\n15 HC\n5 BFB\n9 S2OH\n5 BFB",
+      "weight": null,
+      "scores": [
+        {
+          "date": "2021-04-20",
+          "score": "2+~",
+          "scoreType": "For Rounds:",
+          "pr": false,
+          "rx": false,
+          "notes": null
+        }
+      ],
+      "logged": true
+    },
+    {
+      "id": "wod-fight-gone-bad",
+      "title": "Fight Gone Bad",
+      "type": "For Repetitions",
+      "category": "benchmark",
+      "description": "3 or 5 rounds, rotating ea. min:\nwall-ball shots @20/14LBS,\nSumo deadlift high-pull @75/55LBS,\nBox-jumps @20\",\nPush-press @75/55LBS,\nRows,\n1 minute rest between rounds",
+      "weight": null,
+      "scores": [
+        {
+          "date": "2025-04-24",
+          "score": "220",
+          "scoreType": "For Repetitions:",
+          "pr": false,
+          "rx": true,
+          "notes": null
+        },
+        {
+          "date": "2023-12-15",
+          "score": "230",
+          "scoreType": "For Repetitions:",
+          "pr": false,
+          "rx": false,
+          "notes": null
+        }
+      ],
+      "logged": true
+    },
+    {
+      "id": "wod-forrest",
+      "title": "Forrest",
+      "type": "For Time",
+      "category": "hero",
+      "description": "3 rounds:\n20 L pull-ups\n30 toes-to-bars\n40 burpees\nRun 800 meters",
+      "weight": null,
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-fran",
+      "title": "Fran",
+      "type": "For Time",
+      "category": "benchmark",
+      "description": "21-15-9 reps:\nThruster @95/65LBS,\nPull-ups.",
+      "weight": null,
+      "scores": [
+        {
+          "date": "2025-03-24",
+          "score": "04:16",
+          "scoreType": "For Time:",
+          "pr": true,
+          "rx": true,
+          "notes": null
+        },
+        {
+          "date": "2023-04-20",
+          "score": "4:56",
+          "scoreType": "For Time:",
+          "pr": false,
+          "rx": true,
+          "notes": null
+        },
+        {
+          "date": "2021-03-18",
+          "score": "07:14",
+          "scoreType": "For Time:",
+          "pr": false,
+          "rx": false,
+          "notes": null
+        }
+      ],
+      "logged": true
+    },
+    {
+      "id": "wod-garrett",
+      "title": "Garrett",
+      "type": "For Time",
+      "category": "hero",
+      "description": "3 rounds:\n75 squats\n25 ring handstand push-ups\n25 L pull-ups",
+      "weight": null,
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-gator",
+      "title": "Gator",
+      "type": "For Time",
+      "category": "hero",
+      "description": "8 rounds:\n5 front squats\n26 ring push-ups",
+      "weight": "185 lb",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-grace",
+      "title": "Grace",
+      "type": "For Time",
+      "category": "benchmark",
+      "description": "30 reps:\nClean and Jerk @135/95LBS.",
+      "weight": null,
+      "scores": [
+        {
+          "date": "2025-02-20",
+          "score": "4:20",
+          "scoreType": "For Time:",
+          "pr": false,
+          "rx": true,
+          "notes": null
+        },
+        {
+          "date": "2023-09-05",
+          "score": "3:40",
+          "scoreType": "For Time:",
+          "pr": true,
+          "rx": true,
+          "notes": null
+        },
+        {
+          "date": "2022-01-21",
+          "score": "03:55",
+          "scoreType": "For Time:",
+          "pr": false,
+          "rx": true,
+          "notes": null
+        }
+      ],
+      "logged": true
+    },
+    {
+      "id": "wod-griff",
+      "title": "Griff",
+      "type": "For Time",
+      "category": "hero",
+      "description": "Run 800 meters\nRun 400 meters backwards\nRun 800 meters\nRun 400 meters backwards",
+      "weight": null,
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-hammer",
+      "title": "Hammer",
+      "type": "For Time",
+      "category": "hero",
+      "description": "5 rounds, each for time:\n5 power cleans\n10 front squats\n5 jerks\n20 pull-ups",
+      "weight": "135 lb",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-hangy",
+      "title": "Hangy",
+      "type": "Total Score",
+      "category": "benchmark",
+      "description": "15 EMOM\n12-15 Cals\nHold 62-65 rpm\u2019s",
+      "weight": null,
+      "scores": [
+        {
+          "date": "2023-06-09",
+          "score": "0",
+          "scoreType": "Total Score:",
+          "pr": false,
+          "rx": false,
+          "notes": null
+        }
+      ],
+      "logged": true
+    },
+    {
+      "id": "wod-hansen",
+      "title": "Hansen",
+      "type": "For Time",
+      "category": "hero",
+      "description": "5 rounds:\n30 kettlebell swings\n30 burpees\n30 GHD sit-ups",
+      "weight": "70 lb",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-helen",
+      "title": "Helen",
+      "type": "For Time",
+      "category": "benchmark",
+      "description": "3 rounds:\n400 meter run,\n21 1.5-pood Kettlebell swings,\n12 Pull-ups.",
+      "weight": null,
+      "scores": [
+        {
+          "date": "2023-08-17",
+          "score": "10:48",
+          "scoreType": "For Time:",
+          "pr": true,
+          "rx": true,
+          "notes": null
+        },
+        {
+          "date": "2021-07-27",
+          "score": "14:07",
+          "scoreType": "For Time:",
+          "pr": false,
+          "rx": false,
+          "notes": null
+        }
+      ],
+      "logged": true
+    },
+    {
+      "id": "wod-helton",
+      "title": "Helton",
+      "type": "For Time",
+      "category": "hero",
+      "description": "3 rounds:\nRun 800 meters\n30 dumbbell squat cleans\n30 burpees",
+      "weight": "50-lb DBs",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-hidalgo",
+      "title": "Hidalgo",
+      "type": "For Time",
+      "category": "hero",
+      "description": "Run 2 miles\nRest 2 minutes\n20 squat cleans\n20 box jumps\n20 overhead walking lunges\n20 box jumps\n20 squat cleans\nRest 2 minutes\nRun 2 miles",
+      "weight": "135-lb barbell, 24-in box, 45-lb plate",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-holbrook",
+      "title": "Holbrook",
+      "type": "For Time",
+      "category": "hero",
+      "description": "10 rounds, each for time:\n5 thrusters\n10 pull-ups\n100-meter sprint",
+      "weight": "115 lb",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-jack",
+      "title": "Jack",
+      "type": "AMRAP 20",
+      "category": "hero",
+      "description": "10 push presses\n10 kettlebell swings\n10 box jumps",
+      "weight": "115-lb barbell, 53-lb KB, 24-inch box",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-jackie",
+      "title": "Jackie",
+      "type": "For Time",
+      "category": "benchmark",
+      "description": "1000 meter row,\n50 thrusters @45/30LBS,\n30 Pull-ups.",
+      "weight": null,
+      "scores": [
+        {
+          "date": "2024-03-25",
+          "score": "07:43",
+          "scoreType": "For Time:",
+          "pr": true,
+          "rx": true,
+          "notes": null
+        },
+        {
+          "date": "2021-11-19",
+          "score": "8:50",
+          "scoreType": "For Time:",
+          "pr": false,
+          "rx": false,
+          "notes": null
+        }
+      ],
+      "logged": true
+    },
+    {
+      "id": "wod-jason",
+      "title": "Jason",
+      "type": "For Time",
+      "category": "hero",
+      "description": "100 squats\n5 muscle-ups\n75 squats\n10 muscle-ups\n50 squats\n15 muscle-ups\n25 squats\n20 muscle-ups",
+      "weight": null,
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-jerry",
+      "title": "Jerry",
+      "type": "For Time",
+      "category": "hero",
+      "description": "Run 1 mile\nRow 2K\nRun 1 mile",
+      "weight": null,
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-johnson",
+      "title": "Johnson",
+      "type": "AMRAP 20",
+      "category": "hero",
+      "description": "9 deadlifts\n8 muscle-ups\n9 squat cleans",
+      "weight": "245-lb DL, 155-lb squat cleans",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-josh",
+      "title": "Josh",
+      "type": "For Time",
+      "category": "hero",
+      "description": "21 overhead squats\n42 pull-ups\n15 overhead squats\n30 pull-ups\n9 overhead squats\n18 pull-ups",
+      "weight": "95 lb",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-joshie",
+      "title": "Joshie",
+      "type": "For Time",
+      "category": "hero",
+      "description": "3 rounds:\n21 dumbbell snatches, right arm\n21 L pull-ups\n21 dumbbell snatches, left arm\n21 L pull-ups",
+      "weight": "40 lb",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-jt",
+      "title": "JT",
+      "type": "For Time",
+      "category": "hero",
+      "description": "21-15-9 reps:\nHandstand push-ups\nRing dips\nPush-ups",
+      "weight": null,
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-ledesma",
+      "title": "Ledesma",
+      "type": "AMRAP 20",
+      "category": "hero",
+      "description": "5 parallette handstand push-ups\n10 toes-to-rings\n15 medicine-ball cleans",
+      "weight": "20-lb ball",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-leviticus",
+      "title": "Leviticus",
+      "type": "For Repetitions",
+      "category": "benchmark",
+      "description": "1 min Sit ups\n1 min pull ups\n1 min push ups\n1 min squats\n1 min rest\n3 rds",
+      "weight": null,
+      "scores": [
+        {
+          "date": "2021-05-13",
+          "score": "323",
+          "scoreType": "For Repetitions:",
+          "pr": false,
+          "rx": false,
+          "notes": null
+        }
+      ],
+      "logged": true
+    },
+    {
+      "id": "wod-luce",
+      "title": "Luce",
+      "type": "For Time",
+      "category": "hero",
+      "description": "3 rounds:\n1K run\n10 muscle-ups\n100 squats",
+      "weight": "20-lb vest",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-lumberjack-20",
+      "title": "Lumberjack 20",
+      "type": "For Time",
+      "category": "hero",
+      "description": "20 deadlifts\nRun 400 meters\n20 kettlebell swings\nRun 400 meters\n20 overhead squats\nRun 400 meters\n20 burpees\nRun 400 meters\n20 chest-to-bar pull-ups\nRun 400 meters\n20 box jumps\nRun 400 meters\n20 dumbbell squat cleans\nRun 400 meters",
+      "weight": "275-lb DL, 70-lb KB, 115-lb OHS, 24-in box, 45-lb DBs",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-manion",
+      "title": "Manion",
+      "type": "For Time",
+      "category": "hero",
+      "description": "7 rounds:\nRun 400 meters\n29 back squats",
+      "weight": "135 lb",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-mccluskey",
+      "title": "McCluskey",
+      "type": "For Time",
+      "category": "hero",
+      "description": "3 rounds:\n9 muscle-ups\n15 burpee pull-ups\n21 pull-ups\nRun 800 meters",
+      "weight": null,
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-mcghee",
+      "title": "McGhee",
+      "type": "AMRAP 30",
+      "category": "hero",
+      "description": "5 deadlifts\n13 push-ups\n9 box jumps",
+      "weight": "275-lb barbell, 24-inch box",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-meadows",
+      "title": "Meadows",
+      "type": "For Time",
+      "category": "hero",
+      "description": "20 muscle-ups\n25 lowers from an inverted hang on rings (slow, straight body and arms)\n30 ring handstand push-ups\n35 ring rows\n40 ring push-ups",
+      "weight": null,
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-michael",
+      "title": "Michael",
+      "type": "For Time",
+      "category": "hero",
+      "description": "3 rounds:\nRun 800 meters\n50 back extensions\n50 sit-ups",
+      "weight": null,
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-moon",
+      "title": "Moon",
+      "type": "For Time",
+      "category": "hero",
+      "description": "7 rounds:\n10 dumbbell hang split snatches, right arm\n1 rope climb to 15 feet\n10 dumbbell hang split snatches, left arm\n1 rope climb to 15 feet",
+      "weight": "40-lb DB",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-moore",
+      "title": "Moore",
+      "type": "AMRAP 20",
+      "category": "hero",
+      "description": "1 rope climb to 15 feet\nRun 400 meters\nMax-rep handstand push-ups",
+      "weight": null,
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-morrison",
+      "title": "Morrison",
+      "type": "For Time",
+      "category": "hero",
+      "description": "50-40-30-20-10 reps:\nWall-ball shots\nBox jumps\nKettlebell swings",
+      "weight": "20-lb ball, 24-in box, 53-lb KB",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-mr--joshua",
+      "title": "Mr. Joshua",
+      "type": "For Time",
+      "category": "hero",
+      "description": "5 rounds:\nRun 400 meters\n30 GHD sit-ups\n15 deadlifts",
+      "weight": "250 lb",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-murph",
+      "title": "Murph",
+      "type": "For Time",
+      "category": "hero",
+      "description": "1-mile run\n100 pull-ups\n200 push-ups\n300 squats\n1-mile run",
+      "weight": null,
+      "scores": [
+        {
+          "date": "2026-05-23",
+          "score": "48:21",
+          "scoreType": "For Time:",
+          "pr": false,
+          "rx": false,
+          "notes": null
+        },
+        {
+          "date": "2025-05-24",
+          "score": "43:38",
+          "scoreType": "For Time:",
+          "pr": true,
+          "rx": false,
+          "notes": null
+        }
+      ],
+      "logged": true
+    },
+    {
+      "id": "wod-nate",
+      "title": "Nate",
+      "type": "AMRAP 20",
+      "category": "hero",
+      "description": "2 muscle-ups\n4 handstand push-ups\n8 kettlebell swings",
+      "weight": "70 lb",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-numbers",
+      "title": "Numbers",
+      "type": "For Time",
+      "category": "benchmark",
+      "description": "1 mile run\n50 burpees",
+      "weight": null,
+      "scores": [
+        {
+          "date": "2021-05-13",
+          "score": "13:00",
+          "scoreType": "For Time:",
+          "pr": false,
+          "rx": false,
+          "notes": null
+        }
+      ],
+      "logged": true
+    },
+    {
+      "id": "wod-nutts",
+      "title": "Nutts",
+      "type": "For Time",
+      "category": "hero",
+      "description": "10 handstand push-ups\n15 deadlifts\n25 box jumps\n50 pull-ups\n100 wall-ball shots\n200 double-unders\nRun 400 meters with a plate",
+      "weight": "250-lb DL, 30-in box, 20-lb ball to 10 ft, 45-lb plate",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-omar",
+      "title": "Omar",
+      "type": "For Time",
+      "category": "benchmark",
+      "description": "10 barbell thrusters @95/65LBS, \n15 bar-facing burpees, \n20 barbell thrusters @95/65LBS, \n25 bar-facing burpees, \n30 barbell thrusters @95/65LBS, \n35 bar-facing burpees. \n\nUsed #85LBS",
+      "weight": null,
+      "scores": [
+        {
+          "date": "2021-06-01",
+          "score": "15:30",
+          "scoreType": "For Time:",
+          "pr": false,
+          "rx": false,
+          "notes": null
+        }
+      ],
+      "logged": true
+    },
+    {
+      "id": "wod-paul",
+      "title": "Paul",
+      "type": "For Time",
+      "category": "hero",
+      "description": "5 rounds:\n50 double-unders\n35 knees-to-elbows\n20-yard overhead walk",
+      "weight": "185 lb",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-rahoi",
+      "title": "Rahoi",
+      "type": "AMRAP 12",
+      "category": "hero",
+      "description": "12 box jumps\n6 thrusters\n6 bar-facing burpees",
+      "weight": "24-in box, 95-lb thrusters",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-randy",
+      "title": "Randy",
+      "type": "For Time",
+      "category": "hero",
+      "description": "75 power snatches",
+      "weight": "75 lb",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-rankel",
+      "title": "Rankel",
+      "type": "AMRAP 20",
+      "category": "hero",
+      "description": "6 deadlifts\n7 burpee pull-ups\n10 kettlebell swings\nRun 200 meters",
+      "weight": "225-lb barbell, 70-lb KB",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-ricky",
+      "title": "Ricky",
+      "type": "AMRAP 20",
+      "category": "hero",
+      "description": "10 pull-ups\n5 dumbbell deadlifts\n8 push presses",
+      "weight": "75-lb DBs, 135-lb barbell",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-rj",
+      "title": "RJ",
+      "type": "For Time",
+      "category": "hero",
+      "description": "5 rounds:\nRun 800 meters\n5 rope climbs to 15 feet\n50 push-ups",
+      "weight": null,
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-row-run",
+      "title": "ROW-RUN",
+      "type": "For Time",
+      "category": "benchmark",
+      "description": "21-15-9-15-21\nCals on rower\n200 m sprint between rnds \n\nEXTRA: Rest 2mn. 50 cals on bike",
+      "weight": null,
+      "scores": [
+        {
+          "date": "2022-03-18",
+          "score": "12:13",
+          "scoreType": "For Time:",
+          "pr": false,
+          "rx": false,
+          "notes": null
+        }
+      ],
+      "logged": true
+    },
+    {
+      "id": "wod-roy",
+      "title": "Roy",
+      "type": "For Time",
+      "category": "hero",
+      "description": "5 rounds:\n15 deadlifts\n20 box jumps\n25 pull-ups",
+      "weight": "225-lb deadlifts, 24-inch box",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-ruth",
+      "title": "Ruth",
+      "type": "For Time",
+      "category": "benchmark",
+      "description": "4 Rds\n200 meters\n15 Front squats (95#)\n15 toe to bar \n15 kbs (53#)",
+      "weight": null,
+      "scores": [
+        {
+          "date": "2021-05-25",
+          "score": "17:46",
+          "scoreType": "For Time:",
+          "pr": false,
+          "rx": false,
+          "notes": null
+        }
+      ],
+      "logged": true
+    },
+    {
+      "id": "wod-ryan",
+      "title": "Ryan",
+      "type": "For Time",
+      "category": "hero",
+      "description": "5 rounds:\n7 muscle-ups\n21 burpees",
+      "weight": null,
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-sally-whale",
+      "title": "Sally Whale",
+      "type": "For Time",
+      "category": "benchmark",
+      "description": "30, 20, 10 \nDeadlifts\n10, 20, 30\nToes to bar\n5 strict handstands btw rnds\n\n30, 10, 5\n20, 20, 5\n10, 30, 5",
+      "weight": null,
+      "scores": [
+        {
+          "date": "2023-06-09",
+          "score": "0:00",
+          "scoreType": "For Time:",
+          "pr": false,
+          "rx": false,
+          "notes": null
+        }
+      ],
+      "logged": true
+    },
+    {
+      "id": "wod-santiago",
+      "title": "Santiago",
+      "type": "For Time",
+      "category": "hero",
+      "description": "7 rounds:\n18 dumbbell hang squat cleans\n18 pull-ups\n10 power cleans\n10 handstand push-ups",
+      "weight": "35-lb DBs, 135-lb barbell",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-santora",
+      "title": "Santora",
+      "type": "For Reps",
+      "category": "hero",
+      "description": "3 rounds, 1 minute per station:\nSquat cleans\n20-foot shuttle sprints (20 ft forward + 20 ft back = 1 rep)\nDeadlifts\nBurpees\nJerks",
+      "weight": "155-lb cleans, 245-lb DL, 155-lb jerks",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-severin",
+      "title": "Severin",
+      "type": "For Time",
+      "category": "hero",
+      "description": "50 strict pull-ups\n100 hand-release push-ups\nRun 5K",
+      "weight": "20-lb vest",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-sevy-10",
+      "title": "Sevy 10",
+      "type": "For Time",
+      "category": "benchmark",
+      "description": "10 Rnds\n150 singles\n10 push ups",
+      "weight": null,
+      "scores": [
+        {
+          "date": "2023-06-17",
+          "score": "0:00",
+          "scoreType": "For Time:",
+          "pr": false,
+          "rx": false,
+          "notes": null
+        }
+      ],
+      "logged": true
+    },
+    {
+      "id": "wod-small",
+      "title": "Small",
+      "type": "For Time",
+      "category": "hero",
+      "description": "3 rounds:\nRow 1,000 meters\n50 burpees\n50 box jumps\nRun 800 meters",
+      "weight": "24-inch box",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-stephen",
+      "title": "Stephen",
+      "type": "For Time",
+      "category": "hero",
+      "description": "30-25-20-15-10-5 reps:\nGHD sit-ups\nBack extensions\nKnees-to-elbows\nStiff-legged deadlift",
+      "weight": "95 lb",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-sugar-daddy",
+      "title": "Sugar Daddy",
+      "type": "For Time",
+      "category": "benchmark",
+      "description": "21-15-9\nDeadlifts\n1/4 mile run",
+      "weight": null,
+      "scores": [
+        {
+          "date": "2020-05-19",
+          "score": "10:05",
+          "scoreType": "For Time:",
+          "pr": false,
+          "rx": false,
+          "notes": null
+        }
+      ],
+      "logged": true
+    },
+    {
+      "id": "wod-tabata-sit-ups",
+      "title": "Tabata Sit-ups ",
+      "type": "Tabata Scoring",
+      "category": "benchmark",
+      "description": "Tabata 1 - Round 1: 0 Reps, \nTabata 1 - Round 2: 20 Reps, \nTabata 1 - Round 3: 10 Reps, \nTabata 1 - Round 4: 9 Reps, \nTabata 1 - Round 5: 9 Reps, \nTabata 1 - Round 6: 9 Reps, \nTabata 1 - Round 7: 10 Reps, \nTabata 1 - Round 8: 10 Reps, \nTotal: 77 Reps,",
+      "weight": null,
+      "scores": [
+        {
+          "date": "2021-03-16",
+          "score": "77",
+          "scoreType": "Tabata Scoring:",
+          "pr": false,
+          "rx": false,
+          "notes": null
+        }
+      ],
+      "logged": true
+    },
+    {
+      "id": "wod-the-chief",
+      "title": "The Chief",
+      "type": "For Rounds",
+      "category": "benchmark",
+      "description": "3 min AMRAP:\n3 power cleans @135/95LBS,\n6 push-ups,\n9 squats,\nRest 1 minute.\nRepeat for a total of 5 cycles.",
+      "weight": null,
+      "scores": [
+        {
+          "date": "2024-07-22",
+          "score": "405",
+          "scoreType": "For Rounds:",
+          "pr": false,
+          "rx": false,
+          "notes": "115#"
+        },
+        {
+          "date": "2021-09-30",
+          "score": "19+1",
+          "scoreType": "For Rounds:",
+          "pr": false,
+          "rx": true,
+          "notes": null
+        }
+      ],
+      "logged": true
+    },
+    {
+      "id": "wod-the-seven",
+      "title": "The Seven",
+      "type": "For Time",
+      "category": "hero",
+      "description": "7 rounds:\n7 handstand push-ups\n7 thrusters\n7 knees-to-elbows\n7 deadlifts\n7 burpees\n7 kettlebell swings\n7 pull-ups",
+      "weight": "135-lb thrusters, 245-lb deadlifts, 70-lb KB",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-thompson",
+      "title": "Thompson",
+      "type": "For Time",
+      "category": "hero",
+      "description": "10 rounds:\n1 rope climb to 15 feet (start seated)\n29 back squats\n10-meter barbell farmers carry",
+      "weight": "95-lb back squat, 135-lb carry",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-thursday-fun-run",
+      "title": "Thursday Fun Run",
+      "type": "For Time",
+      "category": "benchmark",
+      "description": "3 laps up stairs\n1000 m row\n50 cal bike",
+      "weight": null,
+      "scores": [
+        {
+          "date": "2022-02-10",
+          "score": "15:35",
+          "scoreType": "For Time:",
+          "pr": false,
+          "rx": false,
+          "notes": null
+        },
+        {
+          "date": "2022-01-20",
+          "score": "15:34",
+          "scoreType": "For Time:",
+          "pr": false,
+          "rx": false,
+          "notes": null
+        },
+        {
+          "date": "2022-01-13",
+          "score": "17:10",
+          "scoreType": "For Time:",
+          "pr": false,
+          "rx": false,
+          "notes": null
+        }
+      ],
+      "logged": true
+    },
+    {
+      "id": "wod-tommy-v",
+      "title": "Tommy V",
+      "type": "For Time",
+      "category": "hero",
+      "description": "21 thrusters\n12 rope climbs\n15 thrusters\n9 rope climbs\n9 thrusters\n6 rope climbs",
+      "weight": "115 lb, 15-foot rope",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-tyler",
+      "title": "Tyler",
+      "type": "For Time",
+      "category": "hero",
+      "description": "5 rounds:\n7 muscle-ups\n21 sumo deadlift high pulls",
+      "weight": "95 lb",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-war-frank",
+      "title": "War Frank",
+      "type": "For Time",
+      "category": "hero",
+      "description": "3 rounds:\n25 muscle-ups\n100 squats\n35 GHD sit-ups",
+      "weight": null,
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-weaver",
+      "title": "Weaver",
+      "type": "For Time",
+      "category": "hero",
+      "description": "4 rounds:\n10 L pull-ups\n15 push-ups\n15 chest-to-bar pull-ups\n15 push-ups\n20 pull-ups\n15 push-ups",
+      "weight": null,
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-white",
+      "title": "White",
+      "type": "For Time",
+      "category": "hero",
+      "description": "5 rounds:\n3 rope climbs to 15 feet\n10 toes-to-bars\n21 overhead walking lunges\nRun 400 meters",
+      "weight": "45-lb plate",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-whitten",
+      "title": "Whitten",
+      "type": "For Time",
+      "category": "hero",
+      "description": "5 rounds:\n22 kettlebell swings\n22 box jumps\nRun 400 meters\n22 burpees\n22 wall-ball shots",
+      "weight": "72-lb KB, 24-in box, 20-lb ball",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-wilmot",
+      "title": "Wilmot",
+      "type": "For Time",
+      "category": "hero",
+      "description": "6 rounds:\n50 squats\n25 ring dips",
+      "weight": null,
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-wittman",
+      "title": "Wittman",
+      "type": "For Time",
+      "category": "hero",
+      "description": "7 rounds:\n15 kettlebell swings\n15 power cleans\n15 box jumps",
+      "weight": "53-lb KB, 95-lb barbell, 24-in box",
+      "scores": [],
+      "logged": false
+    },
+    {
+      "id": "wod-wood",
+      "title": "Wood",
+      "type": "For Time",
+      "category": "hero",
+      "description": "5 rounds:\nRun 400 meters\n10 burpee box jumps\n10 sumo deadlift high pulls\n10 thrusters\nRest 1 minute",
+      "weight": "24-in box, 95-lb barbell",
+      "scores": [],
+      "logged": false
+    }
+  ],
+  "vo2max": [
+    {
+      "date": "2020-11-26",
+      "value": 37.9
+    },
+    {
+      "date": "2021-05-30",
+      "value": 42.7
+    },
+    {
+      "date": "2021-10-13",
+      "value": 35.9
+    },
+    {
+      "date": "2022-04-14",
+      "value": 39.0
+    },
+    {
+      "date": "2022-05-10",
+      "value": 40.6
+    },
+    {
+      "date": "2022-07-22",
+      "value": 41.3
+    },
+    {
+      "date": "2023-04-25",
+      "value": 32.2
+    },
+    {
+      "date": "2023-08-08",
+      "value": 39.7
+    },
+    {
+      "date": "2023-09-01",
+      "value": 38.2
+    },
+    {
+      "date": "2023-09-21",
+      "value": 37.4
+    },
+    {
+      "date": "2023-12-22",
+      "value": 37.4
+    },
+    {
+      "date": "2024-01-26",
+      "value": 37.3
+    },
+    {
+      "date": "2024-03-02",
+      "value": 35.5
+    },
+    {
+      "date": "2024-03-14",
+      "value": 35.5
+    },
+    {
+      "date": "2024-04-13",
+      "value": 34.9
+    },
+    {
+      "date": "2024-07-16",
+      "value": 33.1
+    },
+    {
+      "date": "2024-07-19",
+      "value": 33.0
+    },
+    {
+      "date": "2024-07-30",
+      "value": 33.5
+    },
+    {
+      "date": "2024-08-08",
+      "value": 33.3
+    },
+    {
+      "date": "2024-08-22",
+      "value": 33.5
+    },
+    {
+      "date": "2024-08-31",
+      "value": 33.3
+    },
+    {
+      "date": "2024-09-04",
+      "value": 33.5
+    },
+    {
+      "date": "2024-09-10",
+      "value": 34.8
+    },
+    {
+      "date": "2024-09-19",
+      "value": 34.6
+    },
+    {
+      "date": "2024-09-25",
+      "value": 34.4
+    },
+    {
+      "date": "2024-10-02",
+      "value": 35.1
+    },
+    {
+      "date": "2024-10-05",
+      "value": 34.9
+    },
+    {
+      "date": "2024-10-14",
+      "value": 35.2
+    },
+    {
+      "date": "2024-10-16",
+      "value": 35.2
+    },
+    {
+      "date": "2024-10-22",
+      "value": 35.4
+    },
+    {
+      "date": "2024-10-24",
+      "value": 35.4
+    },
+    {
+      "date": "2024-10-29",
+      "value": 35.1
+    },
+    {
+      "date": "2024-11-15",
+      "value": 35.6
+    },
+    {
+      "date": "2024-11-19",
+      "value": 35.8
+    },
+    {
+      "date": "2024-11-20",
+      "value": 35.8
+    },
+    {
+      "date": "2024-11-24",
+      "value": 35.5
+    },
+    {
+      "date": "2024-11-28",
+      "value": 35.7
+    },
+    {
+      "date": "2025-02-08",
+      "value": 36.1
+    },
+    {
+      "date": "2025-03-03",
+      "value": 36.2
+    },
+    {
+      "date": "2025-04-15",
+      "value": 36.8
+    },
+    {
+      "date": "2025-05-13",
+      "value": 38.4
+    },
+    {
+      "date": "2025-05-29",
+      "value": 38.9
+    },
+    {
+      "date": "2025-06-02",
+      "value": 36.8
+    },
+    {
+      "date": "2025-08-26",
+      "value": 35.4
+    },
+    {
+      "date": "2025-09-04",
+      "value": 35.5
+    },
+    {
+      "date": "2025-09-06",
+      "value": 35.4
+    },
+    {
+      "date": "2025-09-13",
+      "value": 35.3
+    },
+    {
+      "date": "2025-09-15",
+      "value": 35.4
+    },
+    {
+      "date": "2025-09-26",
+      "value": 35.4
+    },
+    {
+      "date": "2025-09-28",
+      "value": 35.6
+    },
+    {
+      "date": "2025-10-01",
+      "value": 35.8
+    },
+    {
+      "date": "2025-10-02",
+      "value": 35.7
+    },
+    {
+      "date": "2025-10-04",
+      "value": 36.0
+    },
+    {
+      "date": "2025-10-09",
+      "value": 36.1
+    },
+    {
+      "date": "2025-10-11",
+      "value": 36.4
+    },
+    {
+      "date": "2025-10-14",
+      "value": 36.4
+    },
+    {
+      "date": "2025-10-17",
+      "value": 36.5
+    },
+    {
+      "date": "2025-10-20",
+      "value": 36.6
+    },
+    {
+      "date": "2025-10-22",
+      "value": 36.8
+    },
+    {
+      "date": "2025-10-24",
+      "value": 37.0
+    },
+    {
+      "date": "2025-10-25",
+      "value": 37.1
+    },
+    {
+      "date": "2025-10-28",
+      "value": 37.5
+    },
+    {
+      "date": "2025-10-30",
+      "value": 37.6
+    },
+    {
+      "date": "2025-11-01",
+      "value": 38.0
+    },
+    {
+      "date": "2025-11-04",
+      "value": 38.8
+    },
+    {
+      "date": "2025-11-06",
+      "value": 39.1
+    },
+    {
+      "date": "2025-11-12",
+      "value": 39.2
+    },
+    {
+      "date": "2025-11-14",
+      "value": 38.9
+    },
+    {
+      "date": "2025-11-17",
+      "value": 39.2
+    },
+    {
+      "date": "2025-11-18",
+      "value": 39.6
+    },
+    {
+      "date": "2025-11-27",
+      "value": 39.9
+    },
+    {
+      "date": "2025-11-30",
+      "value": 40.0
+    },
+    {
+      "date": "2025-12-03",
+      "value": 40.2
+    },
+    {
+      "date": "2025-12-09",
+      "value": 40.3
+    },
+    {
+      "date": "2025-12-11",
+      "value": 40.5
+    },
+    {
+      "date": "2025-12-23",
+      "value": 40.3
+    },
+    {
+      "date": "2026-01-01",
+      "value": 40.5
+    },
+    {
+      "date": "2026-01-04",
+      "value": 40.7
+    },
+    {
+      "date": "2026-01-05",
+      "value": 41.1
+    },
+    {
+      "date": "2026-01-07",
+      "value": 41.2
+    },
+    {
+      "date": "2026-01-13",
+      "value": 41.4
+    },
+    {
+      "date": "2026-01-21",
+      "value": 42.5
+    },
+    {
+      "date": "2026-01-22",
+      "value": 43.5
+    },
+    {
+      "date": "2026-02-09",
+      "value": 43.7
+    },
+    {
+      "date": "2026-02-13",
+      "value": 44.0
+    },
+    {
+      "date": "2026-02-17",
+      "value": 44.5
+    },
+    {
+      "date": "2026-02-19",
+      "value": 44.7
+    },
+    {
+      "date": "2026-02-20",
+      "value": 45.2
+    },
+    {
+      "date": "2026-02-25",
+      "value": 45.5
+    },
+    {
+      "date": "2026-02-27",
+      "value": 45.9
+    },
+    {
+      "date": "2026-03-03",
+      "value": 45.9
+    },
+    {
+      "date": "2026-03-08",
+      "value": 45.3
+    },
+    {
+      "date": "2026-03-12",
+      "value": 44.9
+    },
+    {
+      "date": "2026-03-12",
+      "value": 45.0
+    },
+    {
+      "date": "2026-03-14",
+      "value": 45.2
+    },
+    {
+      "date": "2026-03-18",
+      "value": 45.1
+    },
+    {
+      "date": "2026-03-19",
+      "value": 45.2
+    },
+    {
+      "date": "2026-03-20",
+      "value": 45.2
+    },
+    {
+      "date": "2026-03-22",
+      "value": 45.0
+    },
+    {
+      "date": "2026-03-24",
+      "value": 45.6
+    },
+    {
+      "date": "2026-03-25",
+      "value": 45.6
+    },
+    {
+      "date": "2026-03-28",
+      "value": 45.3
+    },
+    {
+      "date": "2026-03-30",
+      "value": 45.6
+    },
+    {
+      "date": "2026-04-02",
+      "value": 46.1
+    },
+    {
+      "date": "2026-04-03",
+      "value": 46.4
+    },
+    {
+      "date": "2026-04-04",
+      "value": 46.1
+    },
+    {
+      "date": "2026-04-18",
+      "value": 45.7
+    },
+    {
+      "date": "2026-04-21",
+      "value": 45.6
+    },
+    {
+      "date": "2026-04-21",
+      "value": 45.3
+    },
+    {
+      "date": "2026-04-25",
+      "value": 45.0
+    },
+    {
+      "date": "2026-05-04",
+      "value": 44.7
+    },
+    {
+      "date": "2026-05-06",
+      "value": 44.9
+    },
+    {
+      "date": "2026-05-11",
+      "value": 45.2
+    },
+    {
+      "date": "2026-05-14",
+      "value": 44.7
+    },
+    {
+      "date": "2026-05-15",
+      "value": 44.3
+    },
+    {
+      "date": "2026-05-31",
+      "value": 43.6
+    },
+    {
+      "date": "2026-06-11",
+      "value": 44.1
+    }
+  ],
+  "runHighlights": [
+    {
+      "label": "5K",
+      "time": "29:23",
+      "date": "2025-11-27T15:10:09"
+    },
+    {
+      "label": "10K",
+      "time": "1:04:10",
+      "date": "2025-12-11T21:29:04"
+    },
+    {
+      "label": "15K",
+      "time": "1:40:24",
+      "date": "2026-03-28T12:03:21"
+    }
+  ],
+  "prHighlights": [
+    {
+      "label": "FRAN",
+      "value": "04:16",
+      "date": "2025-03-24",
+      "kind": "wod"
+    },
+    {
+      "label": "MURPH",
+      "value": "43:38",
+      "date": "2025-05-24",
+      "kind": "wod"
+    },
+    {
+      "label": "CLEAN & JERK",
+      "value": "245",
+      "date": "2024-02-06",
+      "kind": "lift"
+    },
+    {
+      "label": "DEAD LIFT",
+      "value": "405",
+      "date": "2024-01-10",
+      "kind": "lift"
+    },
+    {
+      "label": "FRONT SQUAT",
+      "value": "335",
+      "date": "2023-04-24",
+      "kind": "lift"
+    }
+  ]
+}
