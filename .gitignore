@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Environment
+.env
+.env.local
+
+# Private data exports
+Data/StravaData/
+Data/data.mywod
+
+# Apple Health export
+export.xml
+apple_health_export/

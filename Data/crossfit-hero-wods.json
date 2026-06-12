@@ -1,0 +1,1104 @@
+{
+  "total": 74,
+  "source": "crossfit.com/heroes",
+  "workouts": [
+    {
+      "name": "Abbate",
+      "type": "For Time",
+      "movements": [
+        "1-mile run",
+        "21 clean and jerks",
+        "800-meter run",
+        "21 clean and jerks",
+        "1-mile run"
+      ],
+      "weight": {
+        "female": "105 lb",
+        "male": "155 lb"
+      },
+      "url": "https://www.crossfit.com/benchmark/abbate"
+    },
+    {
+      "name": "Adambrown",
+      "type": "For Time",
+      "structure": "2 rounds",
+      "movements": [
+        "24 deadlifts",
+        "24 box jumps",
+        "24 wall-ball shots",
+        "24 bench presses",
+        "24 box jumps",
+        "24 wall-ball shots",
+        "24 cleans"
+      ],
+      "weight": {
+        "female": "95-lb DL, 20-in box, 14-lb ball, 135-lb bench, 95-lb clean",
+        "male": "295-lb DL, 24-in box, 20-lb ball, 195-lb bench, 145-lb clean"
+      },
+      "url": "https://www.crossfit.com/benchmark/adambrown"
+    },
+    {
+      "name": "Arnie",
+      "type": "For Time",
+      "note": "With a single kettlebell",
+      "movements": [
+        "21 Turkish get-ups, right arm",
+        "50 kettlebell swings",
+        "21 overhead squats, left arm",
+        "50 kettlebell swings",
+        "21 overhead squats, right arm",
+        "50 kettlebell swings",
+        "21 Turkish get-ups, left arm"
+      ],
+      "weight": {
+        "female": "53 lb",
+        "male": "70 lb"
+      },
+      "url": "https://www.crossfit.com/benchmark/arnie"
+    },
+    {
+      "name": "Badger",
+      "type": "For Time",
+      "structure": "3 rounds",
+      "movements": [
+        "30 squat cleans",
+        "30 pull-ups",
+        "Run 800 meters"
+      ],
+      "weight": {
+        "female": "65 lb",
+        "male": "95 lb"
+      },
+      "url": "https://www.crossfit.com/benchmark/badger"
+    },
+    {
+      "name": "Blake",
+      "type": "For Time",
+      "structure": "4 rounds",
+      "movements": [
+        "100-foot overhead walking lunge",
+        "30 box jumps",
+        "20 wall-ball shots",
+        "10 handstand push-ups"
+      ],
+      "weight": {
+        "female": "25-lb plate, 20-in box, 14-lb med ball",
+        "male": "45-lb plate, 24-in box, 20-lb med ball"
+      },
+      "url": "https://www.crossfit.com/benchmark/blake"
+    },
+    {
+      "name": "Bradley",
+      "type": "For Time",
+      "structure": "10 rounds",
+      "movements": [
+        "Sprint 100 meters",
+        "10 pull-ups",
+        "Sprint 100 meters",
+        "10 burpees",
+        "Rest 30 seconds"
+      ],
+      "url": "https://www.crossfit.com/benchmark/bradley"
+    },
+    {
+      "name": "Bradshaw",
+      "type": "For Time",
+      "structure": "10 rounds",
+      "movements": [
+        "3 handstand push-ups",
+        "6 deadlifts",
+        "12 pull-ups",
+        "24 double-unders"
+      ],
+      "weight": {
+        "female": "155 lb",
+        "male": "225 lb"
+      },
+      "url": "https://www.crossfit.com/benchmark/bradshaw"
+    },
+    {
+      "name": "Brenton",
+      "type": "For Time",
+      "structure": "5 rounds",
+      "movements": [
+        "100-foot bear crawl",
+        "100-foot standing broad jump"
+      ],
+      "note": "Do 3 burpees after every 5 broad jumps. Wear a 20-lb vest or body armor if available.",
+      "url": "https://www.crossfit.com/benchmark/brenton"
+    },
+    {
+      "name": "Bulger",
+      "type": "For Time",
+      "structure": "10 rounds",
+      "movements": [
+        "150-meter run",
+        "7 chest-to-bar pull-ups",
+        "7 front squats",
+        "7 handstand push-ups"
+      ],
+      "weight": {
+        "female": "95 lb",
+        "male": "135 lb"
+      },
+      "url": "https://www.crossfit.com/benchmark/bulger"
+    },
+    {
+      "name": "Bull",
+      "type": "For Time",
+      "structure": "2 rounds",
+      "movements": [
+        "200 double-unders",
+        "50 overhead squats",
+        "50 pull-ups",
+        "1-mile run"
+      ],
+      "weight": {
+        "female": "95 lb",
+        "male": "135 lb"
+      },
+      "url": "https://www.crossfit.com/benchmark/bull"
+    },
+    {
+      "name": "Carse",
+      "type": "For Time",
+      "structure": "21-18-15-12-9-6-3 reps",
+      "movements": [
+        "Squat cleans",
+        "Double-unders",
+        "Deadlifts",
+        "Box jumps"
+      ],
+      "note": "Begin each round with a 50-meter bear crawl.",
+      "weight": {
+        "female": "95-lb squat clean, 125-lb DL, 20-in box",
+        "male": "135-lb squat clean, 185-lb DL, 24-in box"
+      },
+      "url": "https://www.crossfit.com/benchmark/carse"
+    },
+    {
+      "name": "Coe",
+      "type": "For Time",
+      "structure": "10 rounds",
+      "movements": [
+        "10 thrusters",
+        "10 ring push-ups"
+      ],
+      "weight": {
+        "female": "65 lb",
+        "male": "95 lb"
+      },
+      "url": "https://www.crossfit.com/benchmark/coe"
+    },
+    {
+      "name": "Collin",
+      "type": "For Time",
+      "structure": "6 rounds",
+      "movements": [
+        "400-meter sandbag carry",
+        "12 push presses",
+        "12 box jumps",
+        "12 sumo deadlift high pulls"
+      ],
+      "weight": {
+        "female": "35-lb sandbag, 75-lb PP, 20-in box, 65-lb SDHP",
+        "male": "50-lb sandbag, 115-lb PP, 24-in box, 95-lb SDHP"
+      },
+      "url": "https://www.crossfit.com/benchmark/collin"
+    },
+    {
+      "name": "Dae Han",
+      "type": "For Time",
+      "structure": "3 rounds",
+      "movements": [
+        "Run 800 meters with an empty barbell",
+        "3 rope climbs",
+        "12 thrusters"
+      ],
+      "weight": {
+        "female": "15-foot rope, 95-lb thrusters",
+        "male": "15-foot rope, 135-lb thrusters"
+      },
+      "url": "https://www.crossfit.com/benchmark/dae-han"
+    },
+    {
+      "name": "Daniel",
+      "type": "For Time",
+      "movements": [
+        "50 pull-ups",
+        "400-meter run",
+        "21 thrusters",
+        "800-meter run",
+        "21 thrusters",
+        "400-meter run",
+        "50 pull-ups"
+      ],
+      "weight": {
+        "female": "65 lb",
+        "male": "95 lb"
+      },
+      "url": "https://www.crossfit.com/benchmark/daniel"
+    },
+    {
+      "name": "Danny",
+      "type": "AMRAP 20",
+      "movements": [
+        "30 box jumps",
+        "20 push presses",
+        "30 pull-ups"
+      ],
+      "weight": {
+        "female": "75-lb barbell, 20-inch box",
+        "male": "115-lb barbell, 24-inch box"
+      },
+      "url": "https://www.crossfit.com/benchmark/danny"
+    },
+    {
+      "name": "Desforges",
+      "type": "For Time",
+      "structure": "5 rounds",
+      "movements": [
+        "12 deadlifts",
+        "20 pull-ups",
+        "12 clean and jerks",
+        "20 knees-to-elbows"
+      ],
+      "weight": {
+        "female": "155-lb DL, 95-lb C&J",
+        "male": "225-lb DL, 135-lb C&J"
+      },
+      "url": "https://www.crossfit.com/benchmark/desforges"
+    },
+    {
+      "name": "DT",
+      "type": "For Time",
+      "structure": "5 rounds",
+      "movements": [
+        "12 deadlifts",
+        "9 hang power cleans",
+        "6 push jerks"
+      ],
+      "weight": {
+        "female": "105 lb",
+        "male": "155 lb"
+      },
+      "url": "https://www.crossfit.com/benchmark/dt-new"
+    },
+    {
+      "name": "Erin",
+      "type": "For Time",
+      "structure": "5 rounds",
+      "movements": [
+        "15 dumbbell split cleans",
+        "21 pull-ups"
+      ],
+      "weight": {
+        "female": "30 lb",
+        "male": "40 lb"
+      },
+      "url": "https://www.crossfit.com/benchmark/erin"
+    },
+    {
+      "name": "Forrest",
+      "type": "For Time",
+      "structure": "3 rounds",
+      "movements": [
+        "20 L pull-ups",
+        "30 toes-to-bars",
+        "40 burpees",
+        "Run 800 meters"
+      ],
+      "url": "https://www.crossfit.com/benchmark/forrest"
+    },
+    {
+      "name": "Garrett",
+      "type": "For Time",
+      "structure": "3 rounds",
+      "movements": [
+        "75 squats",
+        "25 ring handstand push-ups",
+        "25 L pull-ups"
+      ],
+      "url": "https://www.crossfit.com/benchmark/garrett"
+    },
+    {
+      "name": "Gator",
+      "type": "For Time",
+      "structure": "8 rounds",
+      "movements": [
+        "5 front squats",
+        "26 ring push-ups"
+      ],
+      "weight": {
+        "female": "125 lb",
+        "male": "185 lb"
+      },
+      "url": "https://www.crossfit.com/benchmark/gator"
+    },
+    {
+      "name": "Griff",
+      "type": "For Time",
+      "movements": [
+        "Run 800 meters",
+        "Run 400 meters backwards",
+        "Run 800 meters",
+        "Run 400 meters backwards"
+      ],
+      "url": "https://www.crossfit.com/benchmark/griff"
+    },
+    {
+      "name": "Hammer",
+      "type": "For Time",
+      "structure": "5 rounds, each for time",
+      "movements": [
+        "5 power cleans",
+        "10 front squats",
+        "5 jerks",
+        "20 pull-ups"
+      ],
+      "note": "Rest 90 seconds between rounds.",
+      "weight": {
+        "female": "95 lb",
+        "male": "135 lb"
+      },
+      "url": "https://www.crossfit.com/benchmark/hammer"
+    },
+    {
+      "name": "Hansen",
+      "type": "For Time",
+      "structure": "5 rounds",
+      "movements": [
+        "30 kettlebell swings",
+        "30 burpees",
+        "30 GHD sit-ups"
+      ],
+      "weight": {
+        "female": "53 lb",
+        "male": "70 lb"
+      },
+      "url": "https://www.crossfit.com/benchmark/hansen"
+    },
+    {
+      "name": "Helton",
+      "type": "For Time",
+      "structure": "3 rounds",
+      "movements": [
+        "Run 800 meters",
+        "30 dumbbell squat cleans",
+        "30 burpees"
+      ],
+      "weight": {
+        "female": "35-lb DBs",
+        "male": "50-lb DBs"
+      },
+      "url": "https://www.crossfit.com/benchmark/helton"
+    },
+    {
+      "name": "Hidalgo",
+      "type": "For Time",
+      "movements": [
+        "Run 2 miles",
+        "Rest 2 minutes",
+        "20 squat cleans",
+        "20 box jumps",
+        "20 overhead walking lunges",
+        "20 box jumps",
+        "20 squat cleans",
+        "Rest 2 minutes",
+        "Run 2 miles"
+      ],
+      "note": "Wear a vest if available.",
+      "weight": {
+        "female": "95-lb barbell, 20-in box, 25-lb plate",
+        "male": "135-lb barbell, 24-in box, 45-lb plate"
+      },
+      "url": "https://www.crossfit.com/benchmark/hidalgo"
+    },
+    {
+      "name": "Holbrook",
+      "type": "For Time",
+      "structure": "10 rounds, each for time",
+      "movements": [
+        "5 thrusters",
+        "10 pull-ups",
+        "100-meter sprint"
+      ],
+      "note": "Rest 1 minute between rounds.",
+      "weight": {
+        "female": "75 lb",
+        "male": "115 lb"
+      },
+      "url": "https://www.crossfit.com/benchmark/holbrook"
+    },
+    {
+      "name": "Jack",
+      "type": "AMRAP 20",
+      "movements": [
+        "10 push presses",
+        "10 kettlebell swings",
+        "10 box jumps"
+      ],
+      "weight": {
+        "female": "75-lb barbell, 35-lb KB, 20-inch box",
+        "male": "115-lb barbell, 53-lb KB, 24-inch box"
+      },
+      "url": "https://www.crossfit.com/benchmark/jack"
+    },
+    {
+      "name": "Jason",
+      "type": "For Time",
+      "movements": [
+        "100 squats",
+        "5 muscle-ups",
+        "75 squats",
+        "10 muscle-ups",
+        "50 squats",
+        "15 muscle-ups",
+        "25 squats",
+        "20 muscle-ups"
+      ],
+      "url": "https://www.crossfit.com/benchmark/jason"
+    },
+    {
+      "name": "Jerry",
+      "type": "For Time",
+      "movements": [
+        "Run 1 mile",
+        "Row 2K",
+        "Run 1 mile"
+      ],
+      "url": "https://www.crossfit.com/benchmark/jerry"
+    },
+    {
+      "name": "Johnson",
+      "type": "AMRAP 20",
+      "movements": [
+        "9 deadlifts",
+        "8 muscle-ups",
+        "9 squat cleans"
+      ],
+      "weight": {
+        "female": "165-lb DL, 105-lb squat cleans",
+        "male": "245-lb DL, 155-lb squat cleans"
+      },
+      "url": "https://www.crossfit.com/benchmark/johnson"
+    },
+    {
+      "name": "Josh",
+      "type": "For Time",
+      "movements": [
+        "21 overhead squats",
+        "42 pull-ups",
+        "15 overhead squats",
+        "30 pull-ups",
+        "9 overhead squats",
+        "18 pull-ups"
+      ],
+      "weight": {
+        "female": "65 lb",
+        "male": "95 lb"
+      },
+      "url": "https://www.crossfit.com/benchmark/josh"
+    },
+    {
+      "name": "Joshie",
+      "type": "For Time",
+      "structure": "3 rounds",
+      "movements": [
+        "21 dumbbell snatches, right arm",
+        "21 L pull-ups",
+        "21 dumbbell snatches, left arm",
+        "21 L pull-ups"
+      ],
+      "weight": {
+        "female": "25 lb",
+        "male": "40 lb"
+      },
+      "url": "https://www.crossfit.com/benchmark/joshie"
+    },
+    {
+      "name": "JT",
+      "type": "For Time",
+      "structure": "21-15-9 reps",
+      "movements": [
+        "Handstand push-ups",
+        "Ring dips",
+        "Push-ups"
+      ],
+      "url": "https://www.crossfit.com/benchmark/jt"
+    },
+    {
+      "name": "Ledesma",
+      "type": "AMRAP 20",
+      "movements": [
+        "5 parallette handstand push-ups",
+        "10 toes-to-rings",
+        "15 medicine-ball cleans"
+      ],
+      "weight": {
+        "female": "14-lb ball",
+        "male": "20-lb ball"
+      },
+      "url": "https://www.crossfit.com/benchmark/ledesma"
+    },
+    {
+      "name": "Luce",
+      "type": "For Time",
+      "structure": "3 rounds",
+      "note": "Wearing a weight vest.",
+      "movements": [
+        "1K run",
+        "10 muscle-ups",
+        "100 squats"
+      ],
+      "weight": {
+        "female": "14-lb vest",
+        "male": "20-lb vest"
+      },
+      "url": "https://www.crossfit.com/benchmark/luce"
+    },
+    {
+      "name": "Lumberjack 20",
+      "type": "For Time",
+      "movements": [
+        "20 deadlifts",
+        "Run 400 meters",
+        "20 kettlebell swings",
+        "Run 400 meters",
+        "20 overhead squats",
+        "Run 400 meters",
+        "20 burpees",
+        "Run 400 meters",
+        "20 chest-to-bar pull-ups",
+        "Run 400 meters",
+        "20 box jumps",
+        "Run 400 meters",
+        "20 dumbbell squat cleans",
+        "Run 400 meters"
+      ],
+      "weight": {
+        "female": "185-lb DL, 53-lb KB, 75-lb OHS, 20-in box, 30-lb DBs",
+        "male": "275-lb DL, 70-lb KB, 115-lb OHS, 24-in box, 45-lb DBs"
+      },
+      "url": "https://www.crossfit.com/benchmark/lumberjack-20"
+    },
+    {
+      "name": "Manion",
+      "type": "For Time",
+      "structure": "7 rounds",
+      "movements": [
+        "Run 400 meters",
+        "29 back squats"
+      ],
+      "weight": {
+        "female": "95 lb",
+        "male": "135 lb"
+      },
+      "url": "https://www.crossfit.com/benchmark/manion"
+    },
+    {
+      "name": "McCluskey",
+      "type": "For Time",
+      "structure": "3 rounds",
+      "movements": [
+        "9 muscle-ups",
+        "15 burpee pull-ups",
+        "21 pull-ups",
+        "Run 800 meters"
+      ],
+      "note": "Wear a 20-lb vest or body armor if available.",
+      "url": "https://www.crossfit.com/benchmark/mccluskey"
+    },
+    {
+      "name": "McGhee",
+      "type": "AMRAP 30",
+      "movements": [
+        "5 deadlifts",
+        "13 push-ups",
+        "9 box jumps"
+      ],
+      "weight": {
+        "female": "185-lb barbell, 20-inch box",
+        "male": "275-lb barbell, 24-inch box"
+      },
+      "url": "https://www.crossfit.com/benchmark/mcghee"
+    },
+    {
+      "name": "Meadows",
+      "type": "For Time",
+      "movements": [
+        "20 muscle-ups",
+        "25 lowers from an inverted hang on rings (slow, straight body and arms)",
+        "30 ring handstand push-ups",
+        "35 ring rows",
+        "40 ring push-ups"
+      ],
+      "url": "https://www.crossfit.com/benchmark/meadows"
+    },
+    {
+      "name": "Michael",
+      "type": "For Time",
+      "structure": "3 rounds",
+      "movements": [
+        "Run 800 meters",
+        "50 back extensions",
+        "50 sit-ups"
+      ],
+      "url": "https://www.crossfit.com/benchmark/michael"
+    },
+    {
+      "name": "Moon",
+      "type": "For Time",
+      "structure": "7 rounds",
+      "movements": [
+        "10 dumbbell hang split snatches, right arm",
+        "1 rope climb to 15 feet",
+        "10 dumbbell hang split snatches, left arm",
+        "1 rope climb to 15 feet"
+      ],
+      "note": "Alternate feet on the split snatches.",
+      "weight": {
+        "female": "30-lb DB",
+        "male": "40-lb DB"
+      },
+      "url": "https://www.crossfit.com/benchmark/moon"
+    },
+    {
+      "name": "Moore",
+      "type": "AMRAP 20",
+      "movements": [
+        "1 rope climb to 15 feet",
+        "Run 400 meters",
+        "Max-rep handstand push-ups"
+      ],
+      "url": "https://www.crossfit.com/benchmark/moore"
+    },
+    {
+      "name": "Morrison",
+      "type": "For Time",
+      "structure": "50-40-30-20-10 reps",
+      "movements": [
+        "Wall-ball shots",
+        "Box jumps",
+        "Kettlebell swings"
+      ],
+      "weight": {
+        "female": "14-lb ball, 20-in box, 35-lb KB",
+        "male": "20-lb ball, 24-in box, 53-lb KB"
+      },
+      "url": "https://www.crossfit.com/benchmark/morrison"
+    },
+    {
+      "name": "Mr. Joshua",
+      "type": "For Time",
+      "structure": "5 rounds",
+      "movements": [
+        "Run 400 meters",
+        "30 GHD sit-ups",
+        "15 deadlifts"
+      ],
+      "weight": {
+        "female": "175 lb",
+        "male": "250 lb"
+      },
+      "url": "https://www.crossfit.com/benchmark/mr-joshua"
+    },
+    {
+      "name": "Murph",
+      "type": "For Time",
+      "movements": [
+        "1-mile run",
+        "100 pull-ups",
+        "200 push-ups",
+        "300 squats",
+        "1-mile run"
+      ],
+      "note": "Partition the pull-ups, push-ups, and squats as needed. Wear a 20-lb vest or body armor if available.",
+      "url": "https://www.crossfit.com/benchmark/murph"
+    },
+    {
+      "name": "Nate",
+      "type": "AMRAP 20",
+      "movements": [
+        "2 muscle-ups",
+        "4 handstand push-ups",
+        "8 kettlebell swings"
+      ],
+      "weight": {
+        "female": "53 lb",
+        "male": "70 lb"
+      },
+      "url": "https://www.crossfit.com/benchmark/nate"
+    },
+    {
+      "name": "Nutts",
+      "type": "For Time",
+      "movements": [
+        "10 handstand push-ups",
+        "15 deadlifts",
+        "25 box jumps",
+        "50 pull-ups",
+        "100 wall-ball shots",
+        "200 double-unders",
+        "Run 400 meters with a plate"
+      ],
+      "weight": {
+        "female": "175-lb DL, 24-in box, 14-lb ball to 9 ft, 25-lb plate",
+        "male": "250-lb DL, 30-in box, 20-lb ball to 10 ft, 45-lb plate"
+      },
+      "url": "https://www.crossfit.com/benchmark/nutts"
+    },
+    {
+      "name": "Paul",
+      "type": "For Time",
+      "structure": "5 rounds",
+      "movements": [
+        "50 double-unders",
+        "35 knees-to-elbows",
+        "20-yard overhead walk"
+      ],
+      "weight": {
+        "female": "125 lb",
+        "male": "185 lb"
+      },
+      "url": "https://www.crossfit.com/benchmark/paul"
+    },
+    {
+      "name": "Rahoi",
+      "type": "AMRAP 12",
+      "movements": [
+        "12 box jumps",
+        "6 thrusters",
+        "6 bar-facing burpees"
+      ],
+      "weight": {
+        "female": "20-in box, 65-lb thrusters",
+        "male": "24-in box, 95-lb thrusters"
+      },
+      "url": "https://www.crossfit.com/benchmark/rahoi"
+    },
+    {
+      "name": "Randy",
+      "type": "For Time",
+      "movements": [
+        "75 power snatches"
+      ],
+      "weight": {
+        "female": "55 lb",
+        "male": "75 lb"
+      },
+      "url": "https://www.crossfit.com/benchmark/randy"
+    },
+    {
+      "name": "Rankel",
+      "type": "AMRAP 20",
+      "movements": [
+        "6 deadlifts",
+        "7 burpee pull-ups",
+        "10 kettlebell swings",
+        "Run 200 meters"
+      ],
+      "weight": {
+        "female": "155-lb barbell, 53-lb KB",
+        "male": "225-lb barbell, 70-lb KB"
+      },
+      "url": "https://www.crossfit.com/benchmark/rankel"
+    },
+    {
+      "name": "Ricky",
+      "type": "AMRAP 20",
+      "movements": [
+        "10 pull-ups",
+        "5 dumbbell deadlifts",
+        "8 push presses"
+      ],
+      "weight": {
+        "female": "50-lb DBs, 95-lb barbell",
+        "male": "75-lb DBs, 135-lb barbell"
+      },
+      "url": "https://www.crossfit.com/benchmark/ricky"
+    },
+    {
+      "name": "RJ",
+      "type": "For Time",
+      "structure": "5 rounds",
+      "movements": [
+        "Run 800 meters",
+        "5 rope climbs to 15 feet",
+        "50 push-ups"
+      ],
+      "url": "https://www.crossfit.com/benchmark/rj"
+    },
+    {
+      "name": "Roy",
+      "type": "For Time",
+      "structure": "5 rounds",
+      "movements": [
+        "15 deadlifts",
+        "20 box jumps",
+        "25 pull-ups"
+      ],
+      "weight": {
+        "female": "155-lb deadlifts, 20-inch box",
+        "male": "225-lb deadlifts, 24-inch box"
+      },
+      "url": "https://www.crossfit.com/benchmark/roy"
+    },
+    {
+      "name": "Ryan",
+      "type": "For Time",
+      "structure": "5 rounds",
+      "movements": [
+        "7 muscle-ups",
+        "21 burpees"
+      ],
+      "url": "https://www.crossfit.com/benchmark/ryan"
+    },
+    {
+      "name": "Santiago",
+      "type": "For Time",
+      "structure": "7 rounds",
+      "movements": [
+        "18 dumbbell hang squat cleans",
+        "18 pull-ups",
+        "10 power cleans",
+        "10 handstand push-ups"
+      ],
+      "weight": {
+        "female": "20-lb DBs, 95-lb barbell",
+        "male": "35-lb DBs, 135-lb barbell"
+      },
+      "url": "https://www.crossfit.com/benchmark/santiago"
+    },
+    {
+      "name": "Santora",
+      "type": "For Reps",
+      "structure": "3 rounds, 1 minute per station",
+      "movements": [
+        "Squat cleans",
+        "20-foot shuttle sprints (20 ft forward + 20 ft back = 1 rep)",
+        "Deadlifts",
+        "Burpees",
+        "Jerks"
+      ],
+      "note": "Rest 1 minute between rounds.",
+      "weight": {
+        "female": "105-lb cleans, 165-lb DL, 105-lb jerks",
+        "male": "155-lb cleans, 245-lb DL, 155-lb jerks"
+      },
+      "url": "https://www.crossfit.com/benchmark/santora"
+    },
+    {
+      "name": "Severin",
+      "type": "For Time",
+      "movements": [
+        "50 strict pull-ups",
+        "100 hand-release push-ups",
+        "Run 5K"
+      ],
+      "note": "Wear a weight vest or body armor.",
+      "weight": {
+        "female": "14-lb vest",
+        "male": "20-lb vest"
+      },
+      "url": "https://www.crossfit.com/benchmark/severin"
+    },
+    {
+      "name": "Small",
+      "type": "For Time",
+      "structure": "3 rounds",
+      "movements": [
+        "Row 1,000 meters",
+        "50 burpees",
+        "50 box jumps",
+        "Run 800 meters"
+      ],
+      "weight": {
+        "female": "20-inch box",
+        "male": "24-inch box"
+      },
+      "url": "https://www.crossfit.com/benchmark/small"
+    },
+    {
+      "name": "Stephen",
+      "type": "For Time",
+      "structure": "30-25-20-15-10-5 reps",
+      "movements": [
+        "GHD sit-ups",
+        "Back extensions",
+        "Knees-to-elbows",
+        "Stiff-legged deadlift"
+      ],
+      "weight": {
+        "female": "65 lb",
+        "male": "95 lb"
+      },
+      "url": "https://www.crossfit.com/benchmark/stephen"
+    },
+    {
+      "name": "The Seven",
+      "type": "For Time",
+      "structure": "7 rounds",
+      "movements": [
+        "7 handstand push-ups",
+        "7 thrusters",
+        "7 knees-to-elbows",
+        "7 deadlifts",
+        "7 burpees",
+        "7 kettlebell swings",
+        "7 pull-ups"
+      ],
+      "weight": {
+        "female": "95-lb thrusters, 165-lb deadlifts, 53-lb KB",
+        "male": "135-lb thrusters, 245-lb deadlifts, 70-lb KB"
+      },
+      "url": "https://www.crossfit.com/benchmark/the-seven"
+    },
+    {
+      "name": "Thompson",
+      "type": "For Time",
+      "structure": "10 rounds",
+      "movements": [
+        "1 rope climb to 15 feet (start seated)",
+        "29 back squats",
+        "10-meter barbell farmers carry"
+      ],
+      "weight": {
+        "female": "65-lb back squat, 95-lb carry",
+        "male": "95-lb back squat, 135-lb carry"
+      },
+      "url": "https://www.crossfit.com/benchmark/thompson"
+    },
+    {
+      "name": "Tommy V",
+      "type": "For Time",
+      "movements": [
+        "21 thrusters",
+        "12 rope climbs",
+        "15 thrusters",
+        "9 rope climbs",
+        "9 thrusters",
+        "6 rope climbs"
+      ],
+      "weight": {
+        "female": "75 lb, 15-foot rope",
+        "male": "115 lb, 15-foot rope"
+      },
+      "url": "https://www.crossfit.com/benchmark/tommy-v"
+    },
+    {
+      "name": "Tyler",
+      "type": "For Time",
+      "structure": "5 rounds",
+      "movements": [
+        "7 muscle-ups",
+        "21 sumo deadlift high pulls"
+      ],
+      "weight": {
+        "female": "65 lb",
+        "male": "95 lb"
+      },
+      "url": "https://www.crossfit.com/benchmark/tyler"
+    },
+    {
+      "name": "War Frank",
+      "type": "For Time",
+      "structure": "3 rounds",
+      "movements": [
+        "25 muscle-ups",
+        "100 squats",
+        "35 GHD sit-ups"
+      ],
+      "url": "https://www.crossfit.com/benchmark/war-frank"
+    },
+    {
+      "name": "Weaver",
+      "type": "For Time",
+      "structure": "4 rounds",
+      "movements": [
+        "10 L pull-ups",
+        "15 push-ups",
+        "15 chest-to-bar pull-ups",
+        "15 push-ups",
+        "20 pull-ups",
+        "15 push-ups"
+      ],
+      "url": "https://www.crossfit.com/benchmark/weaver"
+    },
+    {
+      "name": "White",
+      "type": "For Time",
+      "structure": "5 rounds",
+      "movements": [
+        "3 rope climbs to 15 feet",
+        "10 toes-to-bars",
+        "21 overhead walking lunges",
+        "Run 400 meters"
+      ],
+      "weight": {
+        "female": "25-lb plate",
+        "male": "45-lb plate"
+      },
+      "url": "https://www.crossfit.com/benchmark/white"
+    },
+    {
+      "name": "Whitten",
+      "type": "For Time",
+      "structure": "5 rounds",
+      "movements": [
+        "22 kettlebell swings",
+        "22 box jumps",
+        "Run 400 meters",
+        "22 burpees",
+        "22 wall-ball shots"
+      ],
+      "weight": {
+        "female": "53-lb KB, 20-in box, 14-lb ball",
+        "male": "72-lb KB, 24-in box, 20-lb ball"
+      },
+      "url": "https://www.crossfit.com/benchmark/whitten"
+    },
+    {
+      "name": "Wilmot",
+      "type": "For Time",
+      "structure": "6 rounds",
+      "movements": [
+        "50 squats",
+        "25 ring dips"
+      ],
+      "url": "https://www.crossfit.com/benchmark/wilmot"
+    },
+    {
+      "name": "Wittman",
+      "type": "For Time",
+      "structure": "7 rounds",
+      "movements": [
+        "15 kettlebell swings",
+        "15 power cleans",
+        "15 box jumps"
+      ],
+      "weight": {
+        "female": "35-lb KB, 65-lb barbell, 20-in box",
+        "male": "53-lb KB, 95-lb barbell, 24-in box"
+      },
+      "url": "https://www.crossfit.com/benchmark/wittman"
+    },
+    {
+      "name": "Wood",
+      "type": "For Time",
+      "structure": "5 rounds",
+      "movements": [
+        "Run 400 meters",
+        "10 burpee box jumps",
+        "10 sumo deadlift high pulls",
+        "10 thrusters",
+        "Rest 1 minute"
+      ],
+      "weight": {
+        "female": "20-in box, 65-lb barbell",
+        "male": "24-in box, 95-lb barbell"
+      },
+      "url": "https://www.crossfit.com/benchmark/wood"
+    }
+  ]
+}
