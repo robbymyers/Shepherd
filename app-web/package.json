@@ -10,6 +10,7 @@
     "extract": "python3 ../scripts/extract.py"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.108.2",
     "leaflet": "^1.9.4",
     "next": "^15.5.19",
     "react": "19.0.0",

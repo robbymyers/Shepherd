@@ -17,3 +17,4 @@ Data/data.mywod
 export.xml
 apple_health_export/
 .vercel
+.env*

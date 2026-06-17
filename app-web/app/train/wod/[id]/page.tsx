@@ -13,7 +13,7 @@ import styles from "./wod.module.css";
 
 export default function WodPage() {
   const { id } = useParams<{ id: string }>();
-  const { ready, wods, addScore } = useStore();
+  const { ready, wods, addScore, signedIn } = useStore();
   const wod = wods.find((w) => w.id === id);
   const [recording, setRecording] = useState(false);
 
@@ -70,9 +70,11 @@ export default function WodPage() {
         </p>
       )}
 
-      <button className={`btn btn-primary ${styles.record}`} onClick={() => setRecording(true)}>
-        <StopwatchIcon width={20} height={20} /> Record Score
-      </button>
+      {signedIn && (
+        <button className={`btn btn-primary ${styles.record}`} onClick={() => setRecording(true)}>
+          <StopwatchIcon width={20} height={20} /> Record Score
+        </button>
+      )}
 
       <Modal open={recording} onClose={() => setRecording(false)}>
         <RecordScore

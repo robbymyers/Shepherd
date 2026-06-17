@@ -28,8 +28,9 @@ export default function EventForm({
   initial?: SportEvent;
   onDone: () => void;
 }) {
-  const { addEvent, updateEvent, deleteEvent } = useStore();
+  const { addEvent, updateEvent, deleteEvent, signedIn } = useStore();
   const editing = !!initial;
+  const readOnly = !signedIn;
 
   const [kind, setKind] = useState<EventKind>(initial?.kind ?? "workout");
   const [name, setName] = useState(initial?.name ?? "");
@@ -77,23 +78,25 @@ export default function EventForm({
         <button className={styles.back} onClick={onDone} aria-label="Back">
           <Back width={11} height={19} />
         </button>
-        <div className={styles.menuWrap}>
-          <button
-            className={styles.dots}
-            onClick={() => editing && setMenuOpen((v) => !v)}
-            aria-label="More options"
-            aria-expanded={menuOpen}
-          >
-            <Dots width={22} height={22} />
-          </button>
-          {menuOpen && editing && (
-            <div className={styles.menu}>
-              <button className={styles.menuDelete} onClick={remove}>
-                Delete Event
-              </button>
-            </div>
-          )}
-        </div>
+        {editing && !readOnly && (
+          <div className={styles.menuWrap}>
+            <button
+              className={styles.dots}
+              onClick={() => setMenuOpen((v) => !v)}
+              aria-label="More options"
+              aria-expanded={menuOpen}
+            >
+              <Dots width={22} height={22} />
+            </button>
+            {menuOpen && (
+              <div className={styles.menu}>
+                <button className={styles.menuDelete} onClick={remove}>
+                  Delete Event
+                </button>
+              </div>
+            )}
+          </div>
+        )}
       </div>
 
       {/* ---- add mode: kind toggles + PR/Rx chips ---- */}
@@ -154,6 +157,7 @@ export default function EventForm({
         placeholder={isRun ? "TRAIL RUN" : "CROSSFIT"}
         value={name}
         onChange={(e) => setName(e.target.value)}
+        disabled={readOnly}
       />
 
       {/* ---- date (add mode): plain text, taps open the native picker ---- */}
@@ -177,6 +181,7 @@ export default function EventForm({
             placeholder={isRun ? "CRAIGHEAD FOREST PARK" : "CROSSFIT RIDGE CITY"}
             value={location}
             onChange={(e) => setLocation(e.target.value)}
+            disabled={readOnly}
           />
           <LocationArrow className={styles.locIcon} width={18} height={18} />
         </div>
@@ -213,6 +218,7 @@ export default function EventForm({
         placeholder={isRun ? "How'd it go today?" : "Enter WOD Description"}
         value={description}
         onChange={(e) => setDescription(e.target.value)}
+        disabled={readOnly}
       />
 
       {/* ---- run edit: route + splits ---- */}
@@ -225,7 +231,11 @@ export default function EventForm({
 
       {/* ---- footer ---- */}
       <div className={styles.footer}>
-        {editing ? (
+        {readOnly ? (
+          <p className={styles.readOnlyNote}>
+            Sign in on the Account tab to edit.
+          </p>
+        ) : editing ? (
           <button className={`btn btn-primary ${styles.update}`} onClick={save}>
             Update Event
           </button>

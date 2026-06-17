@@ -197,8 +197,16 @@
   grid-template-columns: 1fr 1fr;
   gap: 12px;
 }
-.footer:has(.update) {
+.footer:has(.update),
+.footer:has(.readOnlyNote) {
   grid-template-columns: 1fr;
+}
+.readOnlyNote {
+  text-align: center;
+  font-size: 13px;
+  color: var(--color-white-700);
+  margin: 0;
+  padding: 14px;
 }
 .update,
 .saveBtn {

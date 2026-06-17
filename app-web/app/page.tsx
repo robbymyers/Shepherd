@@ -12,7 +12,7 @@ import type { SportEvent } from "@/lib/types";
 import styles from "./events.module.css";
 
 export default function EventsPage() {
-  const { ready, events } = useStore();
+  const { ready, events, signedIn } = useStore();
   // Inactive by default: no filter selected means the full feed shows.
   const [showCross, setShowCross] = useState(false);
   const [showRun, setShowRun] = useState(false);
@@ -58,9 +58,11 @@ export default function EventsPage() {
         ))
       )}
 
-      <button className={styles.fab} onClick={() => setAdding(true)}>
-        Log Event
-      </button>
+      {signedIn && (
+        <button className={styles.fab} onClick={() => setAdding(true)}>
+          Log Event
+        </button>
+      )}
 
       <Modal full open={adding} onClose={() => setAdding(false)}>
         <EventForm onDone={() => setAdding(false)} />

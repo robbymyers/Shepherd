@@ -95,3 +95,23 @@
   font-weight: 700;
   font-size: 0.9rem;
 }
+
+/* sign-in block */
+.authBlock {
+  padding: 16px 2px;
+  border-bottom: 1px solid var(--hairline);
+}
+.authForm {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 12px;
+}
+.authForm .btn {
+  width: 100%;
+}
+.authMsg {
+  font-size: 12px;
+  color: var(--color-green);
+  margin: 10px 0 0;
+}

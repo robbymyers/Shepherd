@@ -21,7 +21,7 @@ function pctRows(weight: number) {
 
 export default function MovementPage() {
   const { id } = useParams<{ id: string }>();
-  const { ready, movements, addSession } = useStore();
+  const { ready, movements, addSession, signedIn } = useStore();
   const movement = movements.find((m) => m.id === id);
   const [pctFor, setPctFor] = useState<number | null>(null);
   const [adding, setAdding] = useState(false);
@@ -46,9 +46,11 @@ export default function MovementPage() {
     <Screen>
       <DetailBar
         right={
-          <button className={styles.add} onClick={() => setAdding(true)} aria-label="Add session">
-            <Plus width={22} height={22} />
-          </button>
+          signedIn ? (
+            <button className={styles.add} onClick={() => setAdding(true)} aria-label="Add session">
+              <Plus width={22} height={22} />
+            </button>
+          ) : undefined
         }
       />
 
