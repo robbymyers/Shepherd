@@ -216,27 +216,11 @@ a {
   overflow-y: auto;
   overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
-  padding: 0 16px 120px;
+  padding: max(16px, env(safe-area-inset-top)) 16px 120px;
 }
 
 .scroll::-webkit-scrollbar {
   display: none;
-}
-
-.statusbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 14px 22px 4px;
-  font-size: 15px;
-  font-weight: 600;
-  letter-spacing: 0.02em;
-  flex-shrink: 0;
-}
-.statusbar .glyphs {
-  display: flex;
-  gap: 6px;
-  align-items: center;
 }
 
 /* ---- shared surfaces ---- */

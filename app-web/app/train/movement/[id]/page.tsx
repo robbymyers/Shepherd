@@ -60,18 +60,22 @@ export default function MovementPage() {
         >
           % Percentages <Chevron width={14} height={14} />
         </button>
-        <h1 className={`display ${styles.heroName}`}>{movement.name}</h1>
-        {movement.best ? (
-          <>
-            <span className={`display ${styles.heroNum}`}>{movement.best}</span>
-            <span className={styles.heroUnit}>1RM</span>
-            {movement.bestDate && (
+        <div className={styles.heroRow}>
+          <div className={styles.heroLeft}>
+            <h1 className={`display ${styles.heroName}`}>{movement.name}</h1>
+            {movement.best && movement.bestDate ? (
               <p className={styles.heroDate}>{longDate(movement.bestDate)}</p>
+            ) : (
+              <p className={styles.heroDate}>No sessions logged yet.</p>
             )}
-          </>
-        ) : (
-          <p className={styles.heroDate}>No sessions logged yet.</p>
-        )}
+          </div>
+          {movement.best && (
+            <div className={styles.heroRight}>
+              <span className={`display ${styles.heroNum}`}>{movement.best}</span>
+              <span className={styles.heroUnit}>1RM</span>
+            </div>
+          )}
+        </div>
       </div>
 
       <div className={styles.sessions}>
@@ -108,9 +112,15 @@ export default function MovementPage() {
         {pctFor != null && (
           <div>
             <div className={`${styles.hero} ${styles.heroPct}`}>
-              <h1 className={`display ${styles.heroName}`}>{movement.name}</h1>
-              <span className={`display ${styles.heroNum}`}>{pctFor}</span>
-              <span className={styles.heroUnit}>LBS</span>
+              <div className={styles.heroRow}>
+                <div className={styles.heroLeft}>
+                  <h1 className={`display ${styles.heroName}`}>{movement.name}</h1>
+                </div>
+                <div className={styles.heroRight}>
+                  <span className={`display ${styles.heroNum}`}>{pctFor}</span>
+                  <span className={styles.heroUnit}>LBS</span>
+                </div>
+              </div>
             </div>
             <div className={styles.pctTable}>
               {pctRows(pctFor).map((r) => (

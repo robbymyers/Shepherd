@@ -17,18 +17,20 @@
   border: 1px solid var(--hairline);
   border-left: 3px solid var(--color-pink);
   border-radius: 16px;
-  padding: 20px;
+  padding: 18px;
   margin-bottom: 16px;
-  min-height: 116px;
 }
 .heroPct {
   margin-top: 6px;
 }
-.pctLink,
-.pctLinkSm {
+.pctLink {
   position: absolute;
   top: 16px;
   right: 16px;
+  z-index: 2;
+}
+.pctLink,
+.pctLinkSm {
   display: inline-flex;
   align-items: center;
   gap: 2px;
@@ -36,33 +38,50 @@
   color: var(--color-white-700);
 }
 .pctLink:disabled { opacity: 0.3; }
+
+/* title (left) + big number (right) share a row without overlapping */
+.heroRow {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 14px;
+  margin-top: 24px; /* clears the % Percentages link */
+}
+.heroPct .heroRow {
+  margin-top: 0;
+}
+.heroLeft {
+  flex: 1;
+  min-width: 0;
+}
 .heroName {
-  font-size: 1.9rem;
-  line-height: 1;
+  font-size: 1.7rem;
+  line-height: 0.95;
   margin: 0;
   color: var(--color-white);
   text-transform: uppercase;
-  max-width: 60%;
+  overflow-wrap: anywhere;
+}
+.heroRight {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 .heroNum {
-  position: absolute;
-  right: 18px;
-  bottom: 30px;
-  font-size: 4.6rem;
-  line-height: 0.8;
+  font-size: 3.6rem;
+  line-height: 0.78;
   color: var(--color-offwhite);
 }
 .heroUnit {
-  position: absolute;
-  right: 20px;
-  bottom: 14px;
   font-size: 12px;
   color: var(--color-white-700);
+  margin-top: 4px;
 }
 .heroDate {
   font-size: 12px;
   color: var(--color-white-700);
-  margin: 14px 0 0;
+  margin: 10px 0 0;
 }
 
 .sessions {
@@ -110,8 +129,11 @@
   color: var(--color-white-700);
 }
 .colVal {
-  font-size: 1.1rem;
+  font-family: var(--display);
   font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 1;
+  color: var(--color-white);
 }
 .sessionWeight {
   flex: 1.2;
@@ -146,8 +168,8 @@
 .pctPct {
   text-align: center;
   padding: 16px;
-  font-size: 1.1rem;
-  font-weight: 600;
+  font-family: var(--display);
+  font-size: 1.4rem;
   color: var(--color-white-600);
 }
 .pctRow::after {
