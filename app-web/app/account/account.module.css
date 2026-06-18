@@ -45,6 +45,13 @@
   padding: 16px 2px;
   border-bottom: 1px solid var(--hairline);
 }
+.navRow {
+  width: 100%;
+  text-align: left;
+  background: none;
+}
+.navRow:active { opacity: 0.7; }
+
 .rowTitle {
   font-size: 1rem;
   font-weight: 700;

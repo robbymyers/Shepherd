@@ -1,0 +1,208 @@
+.wrap {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+.back {
+  width: 34px;
+  height: 34px;
+  margin-left: -8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-white);
+}
+.topTitle {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: var(--color-white);
+}
+.topSpacer { width: 34px; }
+
+/* ---- mode menu ---- */
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 8px;
+}
+.option {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 3px;
+  text-align: left;
+  padding: 18px;
+  border-radius: 4px;
+  background: var(--color-black-600);
+  border: 1px solid var(--hairline);
+  transition: transform 0.12s, border-color 0.18s;
+}
+.option:active { transform: scale(0.99); border-color: var(--color-green-600); }
+.optLabel {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  color: var(--color-white);
+}
+.optDesc {
+  font-size: 12px;
+  color: var(--color-white-700);
+}
+
+/* ---- running stage ---- */
+.stage {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  padding: 12px 0 24px;
+}
+.clock {
+  font-size: 5rem;
+  line-height: 0.85;
+  color: var(--color-offwhite);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.01em;
+}
+.done { color: var(--color-green); }
+.restClock { color: var(--color-blue); }
+
+.controls {
+  display: flex;
+  gap: 12px;
+  width: 100%;
+  max-width: 360px;
+}
+.ctrl {
+  flex: 1;
+  padding: 16px;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  transition: transform 0.12s, filter 0.18s;
+}
+.ctrl:active { transform: scale(0.97); }
+.ctrl:disabled { opacity: 0.4; }
+.start {
+  background: var(--color-green-800);
+  border: 1px solid var(--color-green-600);
+  color: var(--color-white);
+}
+.stop {
+  background: var(--color-pink-800);
+  border: 1px solid var(--color-pink-600);
+  color: var(--color-white);
+}
+.ghost {
+  background: var(--color-black-600);
+  border: 1px solid var(--hairline);
+  color: var(--color-white-700);
+}
+
+/* ---- countdown setters ---- */
+.setRow, .cfg {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.setBtn {
+  padding: 10px 16px;
+  border-radius: 4px;
+  background: var(--color-black-600);
+  border: 1px solid var(--hairline);
+  color: var(--color-white);
+  font-weight: 700;
+  font-size: 14px;
+}
+
+/* ---- interval/tabata config ---- */
+.cfg {
+  flex-direction: column;
+  width: 100%;
+  max-width: 320px;
+  gap: 12px;
+}
+.cfgRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cfgLabel {
+  font-size: 13px;
+  color: var(--color-white-700);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.stepper {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.stepper button {
+  width: 38px;
+  height: 38px;
+  border-radius: 4px;
+  background: var(--color-black-600);
+  border: 1px solid var(--hairline);
+  color: var(--color-white);
+  font-size: 20px;
+  line-height: 1;
+}
+.stepper span {
+  min-width: 64px;
+  text-align: center;
+  font-size: 1.3rem;
+  color: var(--color-white);
+}
+
+/* ---- round meta ---- */
+.roundMeta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+.roundNum {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: var(--color-white);
+}
+.phase {
+  font-family: var(--display);
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  padding: 4px 14px;
+  border-radius: 4px;
+}
+.work { background: var(--color-green-800); color: var(--color-green); border: 1px solid var(--color-green-600); }
+.rest { background: var(--color-blue-800); color: var(--color-blue); border: 1px solid var(--color-blue-600); }
+
+/* ---- laps ---- */
+.laps {
+  width: 100%;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  max-height: 30vh;
+  overflow-y: auto;
+}
+.lapRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 4px;
+  border-top: 1px solid var(--hairline);
+  font-size: 14px;
+  color: var(--color-white);
+}
+.lapRow span:last-child { font-size: 1.05rem; color: var(--color-offwhite); }

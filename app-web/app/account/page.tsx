@@ -3,7 +3,10 @@
 import { useState } from "react";
 import Screen from "@/components/Screen";
 import ProfileHeader from "@/components/ProfileHeader";
+import Modal from "@/components/Modal";
+import Timers from "@/components/Timers";
 import { useStore } from "@/lib/store";
+import { Chevron } from "@/components/Icons";
 import styles from "./account.module.css";
 
 export default function AccountPage() {
@@ -20,6 +23,8 @@ export default function AccountPage() {
       ]
     : [];
 
+  const [timersOpen, setTimersOpen] = useState(false);
+
   return (
     <Screen>
       <ProfileHeader />
@@ -34,6 +39,16 @@ export default function AccountPage() {
           ))}
         </div>
       )}
+
+      <h2 className={styles.sectionTitle}>Timers</h2>
+      <div className={styles.divider} />
+      <button className={`${styles.row} ${styles.navRow}`} onClick={() => setTimersOpen(true)}>
+        <div>
+          <p className={styles.rowTitle}>Workout Timers</p>
+          <p className={styles.rowSub}>Standard · Countdown · Interval · Tabata · Lap</p>
+        </div>
+        <Chevron width={20} height={20} style={{ color: "var(--color-white-700)" }} />
+      </button>
 
       <h2 className={styles.sectionTitle}>Settings</h2>
       <div className={styles.divider} />
@@ -61,6 +76,10 @@ export default function AccountPage() {
         changePassword={changePassword}
         signOut={signOut}
       />
+
+      <Modal full open={timersOpen} onClose={() => setTimersOpen(false)}>
+        <Timers onClose={() => setTimersOpen(false)} />
+      </Modal>
     </Screen>
   );
 }
