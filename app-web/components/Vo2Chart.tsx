@@ -129,7 +129,7 @@ export default function Vo2Chart() {
 
       {latest && (
         <div className={styles.readout}>
-          <span className={`display ${styles.readNum}`}>{latest.value}</span>
+          <span className={`display num ${styles.readNum}`}>{latest.value}</span>
           <span className={styles.readUnit}>ml/kg/min</span>
         </div>
       )}

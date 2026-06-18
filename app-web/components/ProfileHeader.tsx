@@ -28,7 +28,7 @@ export default function ProfileHeader({ compact = false }: { compact?: boolean }
         )}
       </div>
       <div className={styles.count}>
-        <span className={`display ${styles.countNum}`}>{count}</span>
+        <span className={`display num ${styles.countNum}`}>{count}</span>
         <span className={styles.countLabel}>Logged Events</span>
       </div>
     </header>

@@ -33,7 +33,7 @@ export default function AccountPage() {
         <div className={styles.stats}>
           {stats.map((s) => (
             <div key={s.label} className={styles.stat}>
-              <span className={`display ${styles.statNum}`}>{s.value}</span>
+              <span className={`display num ${styles.statNum}`}>{s.value}</span>
               <span className={styles.statLabel}>{s.label}</span>
             </div>
           ))}

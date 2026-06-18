@@ -73,7 +73,7 @@ export default function MovementPage() {
           </div>
           {movement.best && (
             <div className={styles.heroRight}>
-              <span className={`display ${styles.heroNum}`}>{movement.best}</span>
+              <span className={`display num ${styles.heroNum}`}>{movement.best}</span>
               <span className={styles.heroUnit}>1RM</span>
             </div>
           )}
@@ -100,7 +100,7 @@ export default function MovementPage() {
                 <span className={styles.colLabel}>Reps</span>
                 <span className={styles.colVal}>{s.reps ?? "—"}</span>
               </div>
-              <span className={`display ${styles.sessionWeight}`}>
+              <span className={`display num ${styles.sessionWeight}`}>
                 {s.weight ?? "—"}
               </span>
             </div>
@@ -119,7 +119,7 @@ export default function MovementPage() {
                   <h1 className={`display ${styles.heroName}`}>{movement.name}</h1>
                 </div>
                 <div className={styles.heroRight}>
-                  <span className={`display ${styles.heroNum}`}>{pctFor}</span>
+                  <span className={`display num ${styles.heroNum}`}>{pctFor}</span>
                   <span className={styles.heroUnit}>LBS</span>
                 </div>
               </div>
@@ -128,7 +128,7 @@ export default function MovementPage() {
               {pctRows(pctFor).map((r) => (
                 <div key={r.pct} className={styles.pctRow}>
                   <span className={styles.pctPct}>{r.pct}%</span>
-                  <span className={`display ${styles.pctVal}`}>{r.value}</span>
+                  <span className={`display num ${styles.pctVal}`}>{r.value}</span>
                 </div>
               ))}
             </div>

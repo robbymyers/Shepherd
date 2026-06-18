@@ -123,7 +123,7 @@ function Stopwatch({ laps = false }: { laps?: boolean }) {
 
   return (
     <div className={styles.stage}>
-      <div className={`display ${styles.clock}`}>{fmt(elapsed, true)}</div>
+      <div className={`display num ${styles.clock}`}>{fmt(elapsed, true)}</div>
       <div className={styles.controls}>
         <button className={`${styles.ctrl} ${styles.ghost}`} onClick={resetAll}>Reset</button>
         <button
@@ -175,7 +175,7 @@ function Countdown() {
 
   return (
     <div className={styles.stage}>
-      <div className={`display ${styles.clock} ${remaining === 0 ? styles.done : ""}`}>
+      <div className={`display num ${styles.clock} ${remaining === 0 ? styles.done : ""}`}>
         {fmt(remaining)}
       </div>
       {!running && elapsed === 0 && (
@@ -242,7 +242,7 @@ function Rounds({
   return (
     <div className={styles.stage}>
       <div className={styles.roundMeta}>
-        <span className={`display ${styles.roundNum}`}>
+        <span className={`display num ${styles.roundNum}`}>
           {done ? "DONE" : `${round} / ${cfg.rounds}`}
         </span>
         {!done && (
@@ -251,7 +251,7 @@ function Rounds({
           </span>
         )}
       </div>
-      <div className={`display ${styles.clock} ${phase === "rest" ? styles.restClock : ""}`}>
+      <div className={`display num ${styles.clock} ${phase === "rest" ? styles.restClock : ""}`}>
         {fmt(phaseRemaining)}
       </div>
 

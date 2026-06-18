@@ -129,8 +129,8 @@
   color: var(--color-white-700);
 }
 .colVal {
-  font-family: var(--display);
-  font-weight: 700;
+  font-family: var(--font-num), var(--display);
+  font-weight: 400;
   font-size: 1.5rem;
   line-height: 1;
   color: var(--color-white);
@@ -168,7 +168,7 @@
 .pctPct {
   text-align: center;
   padding: 16px;
-  font-family: var(--display);
+  font-family: var(--font-num), var(--display);
   font-size: 1.4rem;
   color: var(--color-white-600);
 }

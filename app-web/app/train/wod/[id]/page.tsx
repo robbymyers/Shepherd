@@ -53,7 +53,7 @@ export default function WodPage() {
             {s.notes && <p className={styles.scoreNotes}>{s.notes}</p>}
           </div>
           <div className={styles.scoreRight}>
-            <span className={`display ${styles.scoreNum}`}>{s.score}</span>
+            <span className={`display num ${styles.scoreNum}`}>{s.score}</span>
             <div className={styles.badges}>
               {s.rx && <span className={`${styles.bdg} ${styles.bdgRx}`}>Rx</span>}
               <span className={`${styles.bdg} ${s.pr ? styles.bdgPr : styles.bdgOff}`}>

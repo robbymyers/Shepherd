@@ -70,7 +70,7 @@ export default function EventCard({
 
         {(isRun || isWalk) && event.distance != null && (
           <div className={styles.distance}>
-            <span className={`display ${styles.distanceNum}`}>{event.distance}</span>
+            <span className={`display num ${styles.distanceNum}`}>{event.distance}</span>
             <span className={styles.distanceUnit}>miles</span>
           </div>
         )}

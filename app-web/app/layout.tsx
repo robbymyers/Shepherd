@@ -1,11 +1,23 @@
 import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
+import { Anton } from "next/font/google";
 import "./globals.css";
 import { StoreProvider } from "@/lib/store";
 
 const futura = localFont({
   src: "../public/fonts/FuturaCondensedBold.otf",
   variable: "--font-futura",
+  display: "swap",
+});
+
+// Numerals only (cassette-futurism / athletic look). The repo's Futura
+// Condensed Bold has wide geometric digits; Anton gives the bold, condensed
+// poster numeral we want. Letters/titles stay Futura. Anton ships a single
+// weight (400) — number styles request 400 to avoid faux-bolding.
+const numFont = Anton({
+  subsets: ["latin"],
+  weight: "400",
+  variable: "--font-num",
   display: "swap",
 });
 
@@ -33,7 +45,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={futura.variable} suppressHydrationWarning>
+    <html lang="en" className={`${futura.variable} ${numFont.variable}`} suppressHydrationWarning>
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeInit }} />
       </head>

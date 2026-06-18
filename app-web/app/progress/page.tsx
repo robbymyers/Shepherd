@@ -32,7 +32,7 @@ export default function ProgressPage() {
                   <span className={`display ${styles.rowLabel}`}>{h.label}</span>
                   <span className={styles.rowDate}>{longDate(h.date)}</span>
                 </div>
-                <span className={`display ${styles.rowVal}`}>{h.value}</span>
+                <span className={`display num ${styles.rowVal}`}>{h.value}</span>
               </div>
             ))}
           </div>
@@ -49,7 +49,7 @@ export default function ProgressPage() {
                 <span className={`display ${styles.rowLabel}`}>{h.label}</span>
                 <span className={styles.rowDate}>{longDate(h.date)}</span>
               </div>
-              <span className={`display ${styles.rowVal}`}>{h.time}</span>
+              <span className={`display num ${styles.rowVal}`}>{h.time}</span>
             </div>
           ))}
         </div>
