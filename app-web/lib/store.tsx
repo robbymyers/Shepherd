@@ -23,8 +23,8 @@ interface StoreValue extends SeedData {
   // auth (public read, owner-only write)
   signedIn: boolean;
   authEmail: string | null;
-  sendCode: (email: string) => Promise<string | null>;
-  verifyCode: (email: string, token: string) => Promise<string | null>;
+  signIn: (email: string, password: string) => Promise<string | null>;
+  changePassword: (password: string) => Promise<string | null>;
   signOut: () => Promise<void>;
   // events
   addEvent: (e: Omit<SportEvent, "id" | "source">) => void;
@@ -244,17 +244,14 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
   }, []);
 
   // ---- auth ----
-  const sendCode = useCallback(async (email: string) => {
-    const { error } = await supabase.auth.signInWithOtp({
-      email: email.trim(),
-      options: { shouldCreateUser: true },
+  const signIn = useCallback(async (email: string, password: string) => {
+    const { error } = await supabase.auth.signInWithPassword({
+      email: email.trim(), password,
     });
     return error?.message ?? null;
   }, []);
-  const verifyCode = useCallback(async (email: string, token: string) => {
-    const { error } = await supabase.auth.verifyOtp({
-      email: email.trim(), token: token.trim(), type: "email",
-    });
+  const changePassword = useCallback(async (password: string) => {
+    const { error } = await supabase.auth.updateUser({ password });
     return error?.message ?? null;
   }, []);
   const signOut = useCallback(async () => { await supabase.auth.signOut(); }, []);
@@ -315,13 +312,13 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
   const value = useMemo<StoreValue>(() => ({
     athlete, events, movements, wods, vo2max, runHighlights, prHighlights,
     ready, theme, toggleTheme, progressOrder, setProgressOrder,
-    signedIn, authEmail, sendCode, verifyCode, signOut,
+    signedIn, authEmail, signIn, changePassword, signOut,
     addEvent, updateEvent, deleteEvent,
     getEvent: (id) => events.find((e) => e.id === id),
     addSession, addScore,
   }), [athlete, events, movements, wods, vo2max, runHighlights, prHighlights,
     ready, theme, toggleTheme, progressOrder, setProgressOrder,
-    signedIn, authEmail, sendCode, verifyCode, signOut,
+    signedIn, authEmail, signIn, changePassword, signOut,
     addEvent, updateEvent, deleteEvent, addSession, addScore]);
 
   return <Ctx.Provider value={value}>{children}</Ctx.Provider>;
@@ -333,7 +330,7 @@ const EMPTY: StoreValue = {
   ready: false, theme: "dark", toggleTheme: () => {},
   progressOrder: DEFAULT_ORDER, setProgressOrder: () => {},
   signedIn: false, authEmail: null,
-  sendCode: async () => null, verifyCode: async () => null, signOut: async () => {},
+  signIn: async () => null, changePassword: async () => null, signOut: async () => {},
   addEvent: () => {}, updateEvent: () => {}, deleteEvent: () => {},
   getEvent: () => undefined, addSession: () => {}, addScore: () => {},
 };

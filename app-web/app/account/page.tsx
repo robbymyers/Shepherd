@@ -9,7 +9,7 @@ import styles from "./account.module.css";
 export default function AccountPage() {
   const {
     ready, theme, toggleTheme, events, movements, wods,
-    signedIn, authEmail, sendCode, verifyCode, signOut,
+    signedIn, authEmail, signIn, changePassword, signOut,
   } = useStore();
 
   const stats = ready
@@ -54,56 +54,79 @@ export default function AccountPage() {
         </button>
       </div>
 
-      <SignInRow
+      <AuthRow
         signedIn={signedIn}
         authEmail={authEmail}
-        sendCode={sendCode}
-        verifyCode={verifyCode}
+        signIn={signIn}
+        changePassword={changePassword}
         signOut={signOut}
       />
     </Screen>
   );
 }
 
-function SignInRow({
-  signedIn, authEmail, sendCode, verifyCode, signOut,
+function AuthRow({
+  signedIn, authEmail, signIn, changePassword, signOut,
 }: {
   signedIn: boolean;
   authEmail: string | null;
-  sendCode: (email: string) => Promise<string | null>;
-  verifyCode: (email: string, token: string) => Promise<string | null>;
+  signIn: (email: string, password: string) => Promise<string | null>;
+  changePassword: (password: string) => Promise<string | null>;
   signOut: () => Promise<void>;
 }) {
   const [email, setEmail] = useState("");
-  const [code, setCode] = useState("");
-  const [sent, setSent] = useState(false);
+  const [password, setPassword] = useState("");
   const [busy, setBusy] = useState(false);
   const [msg, setMsg] = useState<string | null>(null);
+  const [changing, setChanging] = useState(false);
+  const [newPw, setNewPw] = useState("");
 
   if (signedIn) {
+    async function applyChange() {
+      if (newPw.length < 6) { setMsg("Password must be at least 6 characters."); return; }
+      setBusy(true); setMsg(null);
+      const err = await changePassword(newPw);
+      setBusy(false);
+      if (err) setMsg(err);
+      else { setMsg("Password updated."); setNewPw(""); setChanging(false); }
+    }
     return (
-      <div className={styles.row}>
-        <div>
-          <p className={styles.rowTitle}>Editing enabled</p>
-          <p className={styles.rowSub}>Signed in as {authEmail}</p>
+      <div className={styles.authBlock}>
+        <div className={styles.authHead}>
+          <div>
+            <p className={styles.rowTitle}>Editing enabled</p>
+            <p className={styles.rowSub}>Signed in as {authEmail}</p>
+          </div>
+          <button className={styles.reset} onClick={() => signOut()}>Sign Out</button>
         </div>
-        <button className={styles.reset} onClick={() => signOut()}>Sign Out</button>
+        {changing ? (
+          <div className={styles.authForm}>
+            <input
+              className="input"
+              type="password"
+              autoComplete="new-password"
+              placeholder="New password (min 6 chars)"
+              value={newPw}
+              onChange={(e) => setNewPw(e.target.value)}
+            />
+            <button className="btn btn-primary" onClick={applyChange} disabled={busy}>
+              {busy ? "Saving…" : "Save New Password"}
+            </button>
+          </div>
+        ) : (
+          <button className={styles.linkBtn} onClick={() => { setChanging(true); setMsg(null); }}>
+            Change password
+          </button>
+        )}
+        {msg && <p className={styles.authMsg}>{msg}</p>}
       </div>
     );
   }
 
-  async function send() {
-    if (!email.trim()) return;
+  async function submit() {
+    if (!email.trim() || !password) return;
     setBusy(true); setMsg(null);
-    const err = await sendCode(email);
-    setBusy(false);
-    if (err) setMsg(err);
-    else { setSent(true); setMsg("Code sent — check your email."); }
-  }
-  async function verify() {
-    if (!code.trim()) return;
-    setBusy(true); setMsg(null);
-    const err = await verifyCode(email, code);
+    const err = await signIn(email, password);
     setBusy(false);
     if (err) setMsg(err);
   }
@@ -112,7 +135,7 @@ function SignInRow({
     <div className={styles.authBlock}>
       <p className={styles.rowTitle}>Sign in to edit</p>
       <p className={styles.rowSub}>
-        Viewing is open to everyone. Enter your email to get a one-time code and unlock logging.
+        Viewing is open to everyone. Sign in to log workouts, runs, lifts and scores.
       </p>
       <div className={styles.authForm}>
         <input
@@ -123,27 +146,19 @@ function SignInRow({
           placeholder="you@email.com"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          disabled={sent}
         />
-        {sent && (
-          <input
-            className="input"
-            inputMode="numeric"
-            autoComplete="one-time-code"
-            placeholder="6-digit code"
-            value={code}
-            onChange={(e) => setCode(e.target.value)}
-          />
-        )}
-        {!sent ? (
-          <button className="btn btn-primary" onClick={send} disabled={busy}>
-            {busy ? "Sending…" : "Send Code"}
-          </button>
-        ) : (
-          <button className="btn btn-primary" onClick={verify} disabled={busy}>
-            {busy ? "Verifying…" : "Verify & Sign In"}
-          </button>
-        )}
+        <input
+          className="input"
+          type="password"
+          autoComplete="current-password"
+          placeholder="Password"
+          value={password}
+          onChange={(e) => setPassword(e.target.value)}
+          onKeyDown={(e) => e.key === "Enter" && submit()}
+        />
+        <button className="btn btn-primary" onClick={submit} disabled={busy}>
+          {busy ? "Signing in…" : "Sign In"}
+        </button>
       </div>
       {msg && <p className={styles.authMsg}>{msg}</p>}
     </div>
