@@ -12,6 +12,8 @@ const futura = localFont({
 export const metadata: Metadata = {
   title: "Shepherd",
   description: "CrossFit + running performance tracker for Rob Myers.",
+  // Standalone home-screen launch opens the Events feed (see app/manifest.ts).
+  appleWebApp: { capable: true, statusBarStyle: "black-translucent", title: "Shepherd" },
 };
 
 export const viewport: Viewport = {

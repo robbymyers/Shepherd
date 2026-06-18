@@ -15,6 +15,8 @@ export const supabase = createClient(url, anon, {
   auth: {
     persistSession: true,
     autoRefreshToken: true,
-    detectSessionInUrl: false,
+    // Establish a session if the user lands on the app via a magic link
+    // (fallback for when the email sends a link instead of a code).
+    detectSessionInUrl: true,
   },
 });
