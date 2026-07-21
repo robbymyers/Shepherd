@@ -113,6 +113,15 @@ export default function MovementPage() {
       <Modal open={pctFor != null} onClose={() => setPctFor(null)}>
         {pctFor != null && (
           <div>
+            <div className={styles.pctTop}>
+              <button
+                className={styles.pctClose}
+                onClick={() => setPctFor(null)}
+                aria-label="Close percentages"
+              >
+                ✕
+              </button>
+            </div>
             <div className={`${styles.hero} ${styles.heroPct}`}>
               <div className={styles.heroRow}>
                 <div className={styles.heroLeft}>

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import { useStore } from "@/lib/store";
 import { localDate, MONTHS, YYYYMMDD } from "@/lib/format";
 import { Back, Chevron, ShoeIcon, StopwatchIcon } from "./Icons";
@@ -24,23 +24,12 @@ export default function Calendar() {
     return m;
   }, [ready, events]);
 
-  // default to the most recent event's month so markers are visible at once
-  const initial = useMemo(() => {
-    if (events.length) {
-      const latest = events.reduce((a, b) => (a.date > b.date ? a : b));
-      const d = localDate(latest.date);
-      return { y: d.getFullYear(), mo: d.getMonth() };
-    }
+  // always open on the current month (not the latest logged event's month);
+  // month arrows still let you browse freely from there
+  const [view, setView] = useState(() => {
     const now = new Date();
     return { y: now.getFullYear(), mo: now.getMonth() };
-  }, [events]);
-
-  const [view, setView] = useState(initial);
-  // jump to the most-recent-event month once the data loads
-  useEffect(() => {
-    if (ready) setView(initial);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [ready]);
+  });
 
   const { y, mo } = view;
   const first = new Date(y, mo, 1).getDay();
